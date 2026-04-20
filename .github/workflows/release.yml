@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - ofdb-colors.json
+      - filament_colors.json
 
 jobs:
   release:
@@ -17,12 +18,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Get version from ofdb-colors.json
+      - name: Get current timestamp
         id: version
         run: |
-          GENERATED_AT=$(jq -r '.generatedAt' ofdb-colors.json)
-          # Convert ISO timestamp to a tag-friendly format: YYYY.MM.DD.HHmmss
-          TAG=$(echo "$GENERATED_AT" | sed 's/[-:]//g' | sed 's/T/./g' | sed 's/Z//')
+          GENERATED_AT=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          TAG=$(date -u +"%Y.%m.%d.%H%M%S")
           echo "tag=v${TAG}" >> "$GITHUB_OUTPUT"
           echo "generated_at=$GENERATED_AT" >> "$GITHUB_OUTPUT"
 
@@ -32,7 +32,7 @@ jobs:
           tag_name: ${{ steps.version.outputs.tag }}
           name: Release ${{ steps.version.outputs.tag }}
           body: |
-            Updated `ofdb-colors.json`
+            Updated `ofdb-colors.json` and `filament_colors.json`
 
             **Generated at:** ${{ steps.version.outputs.generated_at }}
           files: |
