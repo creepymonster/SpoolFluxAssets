@@ -45,7 +45,7 @@ def map_swatch(s: dict) -> dict:
     ft     = s.get("filament_type") or {}
     parent = ft.get("parent_type") or {}
     return {
-        "brand":        s.get("manufacturer"),
+        "brand":        (s.get("manufacturer") or {}).get("name"),
         "filamentName": ft.get("name"),
         "variantName":  s.get("color_name"),
         "colorHex":     s.get("hex_color"),
