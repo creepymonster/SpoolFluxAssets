@@ -1,0 +1,41 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ofdb-colors.json
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get version from ofdb-colors.json
+        id: version
+        run: |
+          GENERATED_AT=$(jq -r '.generatedAt' ofdb-colors.json)
+          # Convert ISO timestamp to a tag-friendly format: YYYY.MM.DD.HHmmss
+          TAG=$(echo "$GENERATED_AT" | sed 's/[-:]//g' | sed 's/T/./g' | sed 's/Z//')
+          echo "tag=v${TAG}" >> "$GITHUB_OUTPUT"
+          echo "generated_at=$GENERATED_AT" >> "$GITHUB_OUTPUT"
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: Release ${{ steps.version.outputs.tag }}
+          body: |
+            Updated `ofdb-colors.json`
+
+            **Generated at:** ${{ steps.version.outputs.generated_at }}
+          files: |
+            ofdb-colors.json
+            filament_colors.json
+          make_latest: true
