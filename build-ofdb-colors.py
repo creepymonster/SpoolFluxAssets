@@ -222,7 +222,7 @@ def crawl(repo_root: Path) -> dict:
     return {
         "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "source":      "https://github.com/OpenFilamentCollective/open-filament-database",
-        "license":     "MIT – © OpenFilamentCollective Contributors",
+        "license":     "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/LICENSE",
         "brands":    brands,
         "materials": materials,
         "filaments": filaments,
