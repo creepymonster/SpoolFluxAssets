@@ -81,7 +81,7 @@ def _norm_hex(value: str | list | None) -> str | list[str] | None:
 
 def crawl(repo_root: Path) -> dict:
     """
-    Walk <repo_root>/data/ and build the all.json-compatible dictionary.
+    Walk repo_root/data/ and build the all.json-compatible dictionary.
 
     Returns
     -------
