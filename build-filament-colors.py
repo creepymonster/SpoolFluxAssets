@@ -78,7 +78,7 @@ def main() -> None:
     output = {
         "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "source":      SOURCE,
-        "license":     "https://creativecommons.org/licenses/by/4.0/",
+        "license":     "CC BY 4.0 https://creativecommons.org/licenses/by/4.0/",
         "swatches":    [map_swatch(s) for s in raw],
     }
 
