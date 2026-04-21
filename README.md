@@ -107,6 +107,6 @@ Field mapping from the API:
 
 ## License note
 
-The Open Filament Database is [MIT-licensed](https://github.com/OpenFilamentCollective/open-filament-database/blob/main/LICENSE). When distributing the generated `ofdb-colors.json`, include its copyright notice.
+Data published by [Open Filament Database](https://api.openfilamentdatabase.org) is [MIT-licensed](https://github.com/OpenFilamentCollective/open-filament-database/blob/main/LICENSE). When distributing the generated `ofdb-colors.json`, include its copyright notice.
 
 Data published by [filamentcolors.xyz](https://filamentcolors.xyz) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). When distributing the generated `filament_colors.json`, include attribution.
