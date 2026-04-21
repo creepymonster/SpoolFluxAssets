@@ -103,10 +103,10 @@ Field mapping from the API:
 | `td` | `td` |
 | `filament_type.parent_type.name` | `type` |
 
-Data is published by filamentcolors.xyz under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-
 ---
 
 ## License note
 
 The Open Filament Database is [MIT-licensed](https://github.com/OpenFilamentCollective/open-filament-database/blob/main/LICENSE). When distributing the generated `ofdb-colors.json`, include its copyright notice.
+
+Data published by [filamentcolors.xyz](https://filamentcolors.xyz) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). When distributing the generated `filament_colors.json`, include attribution.
