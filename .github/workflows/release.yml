@@ -1,0 +1,68 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ofdb-colors.json
+      - filament_colors.json
+  workflow_dispatch:
+    inputs:
+      release_note:
+        description: 'Optionale Notiz für dieses Release'
+        required: false
+        type: string
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get current timestamp
+        id: version
+        run: |
+          GENERATED_AT=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          TAG=$(date -u +"%Y.%m%d.%H%M%S")
+          RELEASE_NAME=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          echo "tag=v${TAG}" >> "$GITHUB_OUTPUT"
+          echo "generated_at=$GENERATED_AT" >> "$GITHUB_OUTPUT"
+          echo "release_name=$RELEASE_NAME" >> "$GITHUB_OUTPUT"
+
+      - name: Build release body
+        id: body
+        env:
+          RELEASE_NOTE: ${{ inputs.release_note }}
+          GENERATED_AT: ${{ steps.version.outputs.generated_at }}
+          TRIGGER: ${{ github.event_name }}
+        run: |
+          BODY="Updated \`ofdb-colors.json\` and \`filament_colors.json\`
+
+          **Generated at:** ${GENERATED_AT}
+          **Trigger:** ${TRIGGER}"
+
+          if [ -n "$RELEASE_NOTE" ]; then
+            BODY="${BODY}
+
+          **Note:** ${RELEASE_NOTE}"
+          fi
+
+          echo "content<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$BODY" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: Release ${{ steps.version.outputs.release_name }}
+          body: ${{ steps.body.outputs.content }}
+          files: |
+            ofdb-colors.json
+            filament_colors.json
+          make_latest: true
