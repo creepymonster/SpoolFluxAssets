@@ -1,8 +1,272 @@
 {
-  "generatedAt": "2026-04-24T18:16:04Z",
+  "generatedAt": "2026-04-30T15:16:57Z",
   "source": "https://filamentcolors.xyz/api/swatch/",
   "license": "CC BY 4.0 https://creativecommons.org/licenses/by/4.0/",
   "swatches": [
+    {
+      "brand": "Creality",
+      "filamentName": "PLA",
+      "variantName": "Black",
+      "colorHex": "313130",
+      "td": 0.2,
+      "type": "PLA"
+    },
+    {
+      "brand": "Redline Filament",
+      "filamentName": "PLA",
+      "variantName": "Schwarz",
+      "colorHex": "242424",
+      "td": 0.7,
+      "type": "PLA"
+    },
+    {
+      "brand": "Kingroon",
+      "filamentName": "PLA Matte",
+      "variantName": "Orange",
+      "colorHex": "E07F48",
+      "td": 4.9,
+      "type": "PLA"
+    },
+    {
+      "brand": "Sunlu",
+      "filamentName": "High Speed PLA",
+      "variantName": "Forest Green Marble",
+      "colorHex": "CCD5D3",
+      "td": 0.9,
+      "type": "PLA"
+    },
+    {
+      "brand": "Redline Filament",
+      "filamentName": "PLA",
+      "variantName": "Dankelblau",
+      "colorHex": "294894",
+      "td": 3.3,
+      "type": "PLA"
+    },
+    {
+      "brand": "Redline Filament",
+      "filamentName": "PLA",
+      "variantName": "Weiß",
+      "colorHex": "F2F2EB",
+      "td": 2.7,
+      "type": "PLA"
+    },
+    {
+      "brand": "Polymaker",
+      "filamentName": "PolyLite PLA",
+      "variantName": "Azure Blue",
+      "colorHex": "005C9C",
+      "td": 2.8,
+      "type": "PLA"
+    },
+    {
+      "brand": "Ziro",
+      "filamentName": "PLA",
+      "variantName": "Silky Violet",
+      "colorHex": "A1AED4",
+      "td": 1.0,
+      "type": "PLA"
+    },
+    {
+      "brand": "eSUN",
+      "filamentName": "PETG",
+      "variantName": "Semi-Transparent Magenta",
+      "colorHex": "B8364A",
+      "td": 32.3,
+      "type": "PETG"
+    },
+    {
+      "brand": "Redline Filament",
+      "filamentName": "PLA",
+      "variantName": "Silky Blau Lila",
+      "colorHex": "00589D",
+      "td": 0.7,
+      "type": "PLA"
+    },
+    {
+      "brand": "Redline Filament",
+      "filamentName": "PLA",
+      "variantName": "Rot",
+      "colorHex": "CA3231",
+      "td": 3.2,
+      "type": "PLA"
+    },
+    {
+      "brand": "Polymaker",
+      "filamentName": "PolyLite PLA",
+      "variantName": "Lemon Yellow",
+      "colorHex": "F1E049",
+      "td": 5.3,
+      "type": "PLA"
+    },
+    {
+      "brand": "Redline Filament",
+      "filamentName": "PLA",
+      "variantName": "Blattgrün",
+      "colorHex": "537D49",
+      "td": 1.1,
+      "type": "PLA"
+    },
+    {
+      "brand": "Prusament",
+      "filamentName": "PVB",
+      "variantName": "Natural Transparent",
+      "colorHex": "D0C8B6",
+      "td": 100.0,
+      "type": "Exotics"
+    },
+    {
+      "brand": "Sunlu",
+      "filamentName": "High Speed PLA",
+      "variantName": "Oreo Marble",
+      "colorHex": "D8DCDD",
+      "td": 1.5,
+      "type": "PLA"
+    },
+    {
+      "brand": "Polymaker",
+      "filamentName": "PolyLite PLA",
+      "variantName": "Metallic Chrome",
+      "colorHex": "5D6570",
+      "td": 0.1,
+      "type": "PLA"
+    },
+    {
+      "brand": "Kingroon",
+      "filamentName": "Matte PLA",
+      "variantName": "Yellow",
+      "colorHex": "F1CB57",
+      "td": 4.3,
+      "type": "PLA"
+    },
+    {
+      "brand": "Tecbears",
+      "filamentName": "PLA",
+      "variantName": "White",
+      "colorHex": "E0E1DB",
+      "td": 8.2,
+      "type": "PLA"
+    },
+    {
+      "brand": "Prusament",
+      "filamentName": "PVB",
+      "variantName": "Smoky Black Transparent",
+      "colorHex": "74716C",
+      "td": 42.5,
+      "type": "Exotics"
+    },
+    {
+      "brand": "Prusament",
+      "filamentName": "PETG",
+      "variantName": "Orange for PPE",
+      "colorHex": "FF7635",
+      "td": 7.2,
+      "type": "PETG"
+    },
+    {
+      "brand": "Redline Filament",
+      "filamentName": "PLA",
+      "variantName": "Eisengrau",
+      "colorHex": "464A4D",
+      "td": 0.1,
+      "type": "PLA"
+    },
+    {
+      "brand": "Prusament",
+      "filamentName": "PVB",
+      "variantName": "Bright Green Transparent",
+      "colorHex": "B4CA5D",
+      "td": 73.2,
+      "type": "Exotics"
+    },
+    {
+      "brand": "Tinmorry",
+      "filamentName": "PLA",
+      "variantName": "Sky Blue",
+      "colorHex": "2A96BC",
+      "td": 1.5,
+      "type": "PLA"
+    },
+    {
+      "brand": "Redline Filament",
+      "filamentName": "PLA",
+      "variantName": "Braun",
+      "colorHex": "62403C",
+      "td": 1.4,
+      "type": "PLA"
+    },
+    {
+      "brand": "Prusament",
+      "filamentName": "PC Blend",
+      "variantName": "Carbon Fiber Black",
+      "colorHex": "393A3B",
+      "td": 0.3,
+      "type": "Exotics"
+    },
+    {
+      "brand": "Kexcelled",
+      "filamentName": "PLA",
+      "variantName": "Silk Copper",
+      "colorHex": "B3837C",
+      "td": 1.0,
+      "type": "PLA"
+    },
+    {
+      "brand": "Polymaker",
+      "filamentName": "PolyLite PLA",
+      "variantName": "Natural",
+      "colorHex": "C9C5B7",
+      "td": 29.2,
+      "type": "PLA"
+    },
+    {
+      "brand": "Geeetech",
+      "filamentName": "PLA",
+      "variantName": "Purple",
+      "colorHex": "7E509C",
+      "td": 3.3,
+      "type": "PLA"
+    },
+    {
+      "brand": "ColorFabb",
+      "filamentName": "High Speed PLA",
+      "variantName": "Traffic White",
+      "colorHex": "F4F4ED",
+      "td": 2.9,
+      "type": "PLA"
+    },
+    {
+      "brand": "Sunlu",
+      "filamentName": "High Speed PLA",
+      "variantName": "Chestnut Brown Marble",
+      "colorHex": "DED7D0",
+      "td": 2.1,
+      "type": "PLA"
+    },
+    {
+      "brand": "Ziro",
+      "filamentName": "PLA",
+      "variantName": "Silky Red",
+      "colorHex": "C74446",
+      "td": 1.1,
+      "type": "PLA"
+    },
+    {
+      "brand": "Prusament",
+      "filamentName": "PVB",
+      "variantName": "Light Yellow Transparent",
+      "colorHex": "E6BE1E",
+      "td": 100.0,
+      "type": "Exotics"
+    },
+    {
+      "brand": "Polymaker",
+      "filamentName": "PolyLite PLA",
+      "variantName": "Silk Orange",
+      "colorHex": "F66A3E",
+      "td": 3.3,
+      "type": "PLA"
+    },
     {
       "brand": "Sunlu",
       "filamentName": "High Speed PLA",
@@ -3780,14 +4044,6 @@
       "type": "PLA"
     },
     {
-      "brand": "Stratasys",
-      "filamentName": "ABS-P430",
-      "variantName": "Yellow",
-      "colorHex": "FFF800",
-      "td": 3.2,
-      "type": "ABS / ASA"
-    },
-    {
       "brand": "3DQF",
       "filamentName": "PLA",
       "variantName": "Signal Red",
@@ -6824,7 +7080,7 @@
       "filamentName": "PC Blend",
       "variantName": "Natural",
       "colorHex": "DFDFD1",
-      "td": null,
+      "td": 8.7,
       "type": "Exotics"
     },
     {
@@ -10372,14 +10628,6 @@
       "type": "PLA"
     },
     {
-      "brand": "Prusament",
-      "filamentName": "PLA",
-      "variantName": "Galaxy Green",
-      "colorHex": "426639",
-      "td": null,
-      "type": "PLA"
-    },
-    {
       "brand": "Cookiecad",
       "filamentName": "PLA",
       "variantName": "Pale Pink Elixir",
@@ -13146,14 +13394,6 @@
       "colorHex": "AB291B",
       "td": null,
       "type": "PETG"
-    },
-    {
-      "brand": "TTYT3D",
-      "filamentName": "PLA",
-      "variantName": "Silk Yellow",
-      "colorHex": "F0E77D",
-      "td": null,
-      "type": "PLA"
     },
     {
       "brand": "Overture",
@@ -16824,14 +17064,6 @@
       "filamentName": "PLA",
       "variantName": "Red",
       "colorHex": "BF3845",
-      "td": null,
-      "type": "PLA"
-    },
-    {
-      "brand": "AIO Robotics",
-      "filamentName": "PLA",
-      "variantName": "Pink",
-      "colorHex": "DCA9C4",
       "td": null,
       "type": "PLA"
     },
