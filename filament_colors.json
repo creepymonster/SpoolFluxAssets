@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T15:16:57Z",
+  "generatedAt": "2026-05-09T09:10:16Z",
   "source": "https://filamentcolors.xyz/api/swatch/",
   "license": "CC BY 4.0 https://creativecommons.org/licenses/by/4.0/",
   "swatches": [
@@ -9239,7 +9239,7 @@
       "brand": "Protopasta",
       "filamentName": "HTPLA",
       "variantName": "Heartthrob Red Metallic",
-      "colorHex": "7E3030",
+      "colorHex": "783B3D",
       "td": null,
       "type": "PLA"
     },

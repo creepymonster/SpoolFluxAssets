@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T15:17:35Z",
+  "generatedAt": "2026-05-09T09:11:57Z",
   "source": "https://github.com/OpenFilamentCollective/open-filament-database",
   "license": "MIT https://github.com/OpenFilamentCollective/open-filament-database/blob/main/LICENSE",
   "brands": [
@@ -46,6 +46,15 @@
       "website": "https://3dprintingcanada.com/",
       "logo_name": "logo.png",
       "origin": "CA",
+      "source": null
+    },
+    {
+      "id": "17c833a0-9366-541f-b264-0a089a6769cd",
+      "slug": "3deksperten",
+      "name": "3DE",
+      "website": "https://3deksperten.dk/",
+      "logo_name": "logo.jpg",
+      "origin": "DK",
       "source": null
     },
     {
@@ -1290,6 +1299,13 @@
     {
       "id": "d5dd1512-c207-5374-8082-e27e2809fd54",
       "brand_id": "ed32e17c-ae86-5a6c-a0c0-096ffd08af8f",
+      "slug": "pla",
+      "material": "PLA",
+      "material_class": "FFF"
+    },
+    {
+      "id": "35c29b5f-d0b1-55d1-949f-0d6b9fbf75ab",
+      "brand_id": "17c833a0-9366-541f-b264-0a089a6769cd",
       "slug": "pla",
       "material": "PLA",
       "material_class": "FFF"
@@ -5166,6 +5182,13 @@
       "material_class": "FFF"
     },
     {
+      "id": "a4d3ea76-a3cb-5724-822c-f5d0de4575bb",
+      "brand_id": "e2a651e7-82ce-5135-9753-1d8aeb3a211f",
+      "slug": "asa",
+      "material": "ASA",
+      "material_class": "FFF"
+    },
+    {
       "id": "d2585cee-b0b9-5627-b664-89e6c60142a9",
       "brand_id": "e2a651e7-82ce-5135-9753-1d8aeb3a211f",
       "slug": "pa12",
@@ -6077,6 +6100,23 @@
       "discontinued": false,
       "slicer_settings": null,
       "data_sheet_url": null,
+      "safety_sheet_url": null
+    },
+    {
+      "id": "2e474990-2afc-5b96-883c-1a582ba0ffc7",
+      "brand_id": "17c833a0-9366-541f-b264-0a089a6769cd",
+      "material_id": "35c29b5f-d0b1-55d1-949f-0d6b9fbf75ab",
+      "slug": "premium_silk",
+      "name": "Premium Silk",
+      "density": 1.23,
+      "diameter_tolerance": 0.02,
+      "min_print_temperature": 200,
+      "max_print_temperature": 220,
+      "min_bed_temperature": 35,
+      "max_bed_temperature": 60,
+      "discontinued": false,
+      "slicer_settings": null,
+      "data_sheet_url": "https://3deksperten-my.sharepoint.com/personal/ems_3deksperten_dk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fems%5F3deksperten%5Fdk%2FDocuments%2F3D%20Printer%20Manualer%202025&ga=1",
       "safety_sheet_url": null
     },
     {
@@ -11033,7 +11073,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFB99",
-          "id": "GFB00",
+          "id": "OGFB00",
           "profile_name": "Bambu ABS"
         },
         "elegooslicer": {
@@ -11066,7 +11106,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFB99",
-          "id": "GFB50",
+          "id": "OGFB50",
           "profile_name": "Bambu ABS-GF"
         },
         "elegooslicer": {
@@ -11132,7 +11172,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFB98",
-          "id": "GFB01",
+          "id": "OGFB01",
           "profile_name": "Bambu ASA"
         },
         "elegooslicer": {
@@ -11165,7 +11205,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFB98",
-          "id": "GFB51",
+          "id": "OGFB51",
           "profile_name": "Bambu ASA-CF"
         },
         "elegooslicer": {
@@ -11230,7 +11270,7 @@
           "profile_name": "Bambu PA6-CF"
         },
         "orcaslicer": {
-          "id": "GFN05",
+          "id": "OGFN05",
           "profile_name": "Bambu PA6-CF"
         },
         "elegooslicer": {
@@ -11260,7 +11300,7 @@
           "profile_name": "Bambu PA6-GF"
         },
         "orcaslicer": {
-          "id": "GFN08",
+          "id": "OGFN08",
           "profile_name": "Bambu PA6-GF"
         },
         "elegooslicer": {
@@ -11290,7 +11330,7 @@
           "profile_name": "Bambu PAHT-CF"
         },
         "orcaslicer": {
-          "id": "GFN04",
+          "id": "OGFN04",
           "profile_name": "Bambu PAHT-CF"
         },
         "elegooslicer": {
@@ -11322,7 +11362,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFC99",
-          "id": "GFC00",
+          "id": "OGFC00",
           "profile_name": "Bambu PC"
         },
         "elegooslicer": {
@@ -11355,7 +11395,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFC99",
-          "id": "GFC01",
+          "id": "OGFC01",
           "profile_name": "Bambu PC FR"
         },
         "elegooslicer": {
@@ -11386,7 +11426,7 @@
           "profile_name": "Bambu PET-CF"
         },
         "orcaslicer": {
-          "id": "GFT01",
+          "id": "OGFT01",
           "profile_name": "Bambu PET-CF"
         },
         "elegooslicer": {
@@ -11418,7 +11458,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "GFG02",
+          "id": "OGFG02",
           "profile_name": "Bambu PETG HF"
         },
         "elegooslicer": {
@@ -11451,7 +11491,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "GFG00",
+          "id": "OGFG00",
           "profile_name": "Bambu PETG Basic"
         },
         "elegooslicer": {
@@ -11484,7 +11524,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "GFG50",
+          "id": "OGFG50",
           "profile_name": "Bambu PETG-CF"
         },
         "elegooslicer": {
@@ -11517,7 +11557,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "GFG01",
+          "id": "OGFG01",
           "profile_name": "Bambu PETG Translucent"
         },
         "elegooslicer": {
@@ -11550,7 +11590,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFA11",
+          "id": "OGFA11",
           "profile_name": "Bambu PLA Aero"
         },
         "elegooslicer": {
@@ -11583,7 +11623,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFA00",
+          "id": "OGFA00",
           "profile_name": "Bambu PLA Basic"
         },
         "elegooslicer": {
@@ -11633,7 +11673,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFA15",
+          "id": "OGFA15",
           "profile_name": "Bambu PLA Galaxy"
         },
         "elegooslicer": {
@@ -11666,7 +11706,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFA12",
+          "id": "OGFA12",
           "profile_name": "Bambu PLA Glow"
         },
         "elegooslicer": {
@@ -11699,7 +11739,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFA07",
+          "id": "OGFA07",
           "profile_name": "Bambu PLA Marble"
         },
         "elegooslicer": {
@@ -11732,7 +11772,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFA01",
+          "id": "OGFA01",
           "profile_name": "Bambu PLA Matte"
         },
         "elegooslicer": {
@@ -11765,7 +11805,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFA02",
+          "id": "OGFA02",
           "profile_name": "Bambu PLA Metal"
         },
         "elegooslicer": {
@@ -11826,7 +11866,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFA50",
+          "id": "OGFA50",
           "profile_name": "Bambu PLA-CF"
         },
         "elegooslicer": {
@@ -11887,7 +11927,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL96",
-          "id": "GFA06",
+          "id": "OGFA06",
           "profile_name": "Bambu PLA Silk+"
         },
         "elegooslicer": {
@@ -11961,7 +12001,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFA08",
+          "id": "OGFA08",
           "profile_name": "Bambu PLA Sparkle"
         },
         "elegooslicer": {
@@ -12050,7 +12090,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFA16",
+          "id": "OGFA16",
           "profile_name": "Bambu PLA Wood"
         },
         "elegooslicer": {
@@ -12081,7 +12121,7 @@
           "profile_name": "Bambu PPA-CF"
         },
         "orcaslicer": {
-          "id": "GFN06",
+          "id": "OGFN06",
           "profile_name": "Bambu PPA-CF"
         },
         "elegooslicer": {
@@ -12129,7 +12169,7 @@
       "brand_id": "ccff300f-245e-5d63-ab8a-6c987ab846cb",
       "material_id": "386febea-0f1d-5085-bb2a-2df5478c3547",
       "slug": "for_abs",
-      "name": "PVA for ABS",
+      "name": "Support for ABS",
       "density": 1.16,
       "diameter_tolerance": 0.05,
       "min_print_temperature": null,
@@ -12145,7 +12185,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFS99",
-          "id": "GFS06",
+          "id": "OGFS06",
           "profile_name": "Bambu Support for ABS"
         },
         "elegooslicer": {
@@ -12162,7 +12202,7 @@
       "brand_id": "ccff300f-245e-5d63-ab8a-6c987ab846cb",
       "material_id": "386febea-0f1d-5085-bb2a-2df5478c3547",
       "slug": "for_pa_pet",
-      "name": "PVA for PA/PET",
+      "name": "Support for PA/PET",
       "density": 1.17,
       "diameter_tolerance": 0.03,
       "min_print_temperature": null,
@@ -12178,7 +12218,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFS99",
-          "id": "GFS03",
+          "id": "OGFS03",
           "profile_name": "Bambu Support For PA/PET"
         },
         "elegooslicer": {
@@ -12195,7 +12235,7 @@
       "brand_id": "ccff300f-245e-5d63-ab8a-6c987ab846cb",
       "material_id": "386febea-0f1d-5085-bb2a-2df5478c3547",
       "slug": "for_pla",
-      "name": "PVA for PLA",
+      "name": "Support for PLA",
       "density": 1.33,
       "diameter_tolerance": 0.05,
       "min_print_temperature": null,
@@ -12211,7 +12251,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFS99",
-          "id": "GFS02",
+          "id": "OGFS02",
           "profile_name": "Bambu Support For PLA"
         },
         "elegooslicer": {
@@ -12228,7 +12268,7 @@
       "brand_id": "ccff300f-245e-5d63-ab8a-6c987ab846cb",
       "material_id": "386febea-0f1d-5085-bb2a-2df5478c3547",
       "slug": "for_pla_petg",
-      "name": "PVA for PLA/PETG",
+      "name": "Support for PLA/PETG",
       "density": 1.28,
       "diameter_tolerance": 0.05,
       "min_print_temperature": null,
@@ -12244,7 +12284,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFS99",
-          "id": "GFS05",
+          "id": "OGFS05",
           "profile_name": "Bambu Support For PLA/PETG"
         },
         "elegooslicer": {
@@ -12277,7 +12317,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFS99",
-          "id": "GFS04",
+          "id": "OGFS04",
           "profile_name": "Bambu PVA"
         },
         "elegooslicer": {
@@ -12310,7 +12350,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFU99",
-          "id": "GFU00",
+          "id": "OGFU00",
           "profile_name": "Bambu TPU 95A HF"
         },
         "elegooslicer": {
@@ -15055,6 +15095,11 @@
       "max_bed_temperature": 110,
       "discontinued": false,
       "slicer_settings": {
+        "orcaslicer": {
+          "generic_id": "GFB99",
+          "id": "GFSEP017",
+          "profile_name": "Eolas Prints ABS"
+        },
         "elegooslicer": {
           "generic_id": "GFB99",
           "id": "GFSEP017",
@@ -15078,6 +15123,11 @@
       "max_bed_temperature": 110,
       "discontinued": false,
       "slicer_settings": {
+        "orcaslicer": {
+          "generic_id": "GFB98",
+          "id": "GFSEP018",
+          "profile_name": "Eolas Prints ASA"
+        },
         "elegooslicer": {
           "generic_id": "GFB98",
           "id": "GFSEP018",
@@ -15102,6 +15152,11 @@
       "discontinued": false,
       "slicer_settings": {
         "prusaslicer": {
+          "profile_name": "Eolas Prints PETG"
+        },
+        "orcaslicer": {
+          "generic_id": "GFG99",
+          "id": "GFSEP010",
           "profile_name": "Eolas Prints PETG"
         },
         "elegooslicer": {
@@ -16621,6 +16676,11 @@
         "prusaslicer": {
           "profile_name": "Esun PETG"
         },
+        "orcaslicer": {
+          "generic_id": "GFG99",
+          "id": "ESN03",
+          "profile_name": "eSUN PETG"
+        },
         "superslicer": {
           "profile_name": "Esun PETG"
         },
@@ -16739,7 +16799,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFL03",
+          "id": "OGFL03",
           "profile_name": "eSUN PLA+"
         },
         "elegooslicer": {
@@ -16782,6 +16842,11 @@
       "max_bed_temperature": 70,
       "discontinued": false,
       "slicer_settings": {
+        "orcaslicer": {
+          "generic_id": "GFL99",
+          "id": "OGFL04",
+          "profile_name": "eSUN PLA-Basic"
+        },
         "elegooslicer": {
           "generic_id": "GFL99",
           "id": "OGFL04",
@@ -16924,6 +16989,11 @@
       "max_bed_temperature": null,
       "discontinued": false,
       "slicer_settings": {
+        "orcaslicer": {
+          "generic_id": "GFL99",
+          "id": "OGFL06",
+          "profile_name": "eSUN PLA-Marble"
+        },
         "elegooslicer": {
           "generic_id": "GFL99",
           "id": "OGFL06",
@@ -16947,6 +17017,11 @@
       "max_bed_temperature": 70,
       "discontinued": false,
       "slicer_settings": {
+        "orcaslicer": {
+          "generic_id": "GFL99",
+          "id": "OGFL05",
+          "profile_name": "eSUN PLA-Matte"
+        },
         "elegooslicer": {
           "generic_id": "GFL99",
           "id": "OGFL05",
@@ -19053,7 +19128,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "GFL06",
+          "id": "OGFL06",
           "profile_name": "Fiberon PETG-ESD"
         },
         "elegooslicer": {
@@ -21571,17 +21646,17 @@
       "brand_id": "e5d8e27e-7964-517d-b32b-c1c00f899537",
       "material_id": "074f5559-db58-5a4a-9d23-0d1481a5bc07",
       "slug": "pekk",
-      "name": "PEKK",
-      "density": 1.3,
+      "name": "LUVOCOM 3F PEKK 50082",
+      "density": 1.27,
       "diameter_tolerance": 0.02,
-      "min_print_temperature": 350,
-      "max_print_temperature": 400,
+      "min_print_temperature": 320,
+      "max_print_temperature": 360,
       "min_bed_temperature": 120,
       "max_bed_temperature": 160,
       "discontinued": false,
       "slicer_settings": null,
       "data_sheet_url": null,
-      "safety_sheet_url": null
+      "safety_sheet_url": "https://www.formfutura.com/web/content/256583?download=true"
     },
     {
       "id": "a4fa78ab-d66c-5f8b-9a1a-d447ee2393f4",
@@ -21595,7 +21670,7 @@
       "max_print_temperature": 250,
       "min_bed_temperature": 70,
       "max_bed_temperature": 90,
-      "discontinued": false,
+      "discontinued": true,
       "slicer_settings": null,
       "data_sheet_url": null,
       "safety_sheet_url": null
@@ -21612,7 +21687,7 @@
       "max_print_temperature": 250,
       "min_bed_temperature": 70,
       "max_bed_temperature": 90,
-      "discontinued": false,
+      "discontinued": true,
       "slicer_settings": null,
       "data_sheet_url": null,
       "safety_sheet_url": null
@@ -21622,17 +21697,17 @@
       "brand_id": "e5d8e27e-7964-517d-b32b-c1c00f899537",
       "material_id": "d7bff1cf-4ec1-50e8-a575-92835c831fa0",
       "slug": "reform_r_pet",
-      "name": "ReForm r PET",
-      "density": 1.38,
+      "name": "ReForm - rPET",
+      "density": 1.23,
       "diameter_tolerance": 0.02,
-      "min_print_temperature": 220,
-      "max_print_temperature": 250,
-      "min_bed_temperature": 70,
-      "max_bed_temperature": 90,
+      "min_print_temperature": 230,
+      "max_print_temperature": 255,
+      "min_bed_temperature": 60,
+      "max_bed_temperature": 80,
       "discontinued": false,
       "slicer_settings": null,
-      "data_sheet_url": null,
-      "safety_sheet_url": null
+      "data_sheet_url": "https://www.formfutura.com/web/content/256630?download=true",
+      "safety_sheet_url": "https://www.formfutura.com/web/content/256629?download=true"
     },
     {
       "id": "7814ca51-8459-5441-86ce-06789653d8d8",
@@ -21650,6 +21725,23 @@
       "slicer_settings": null,
       "data_sheet_url": "https://www.formfutura.com/web/content/273965?download=true",
       "safety_sheet_url": null
+    },
+    {
+      "id": "26735542-3104-537b-a60b-93a6269d1a51",
+      "brand_id": "e5d8e27e-7964-517d-b32b-c1c00f899537",
+      "material_id": "0c58df60-2962-5a78-bf20-feff8bb0b6e5",
+      "slug": "carbonfil_cf03",
+      "name": "CarbonFil CF03",
+      "density": 1.29,
+      "diameter_tolerance": 0.02,
+      "min_print_temperature": null,
+      "max_print_temperature": null,
+      "min_bed_temperature": null,
+      "max_bed_temperature": null,
+      "discontinued": false,
+      "slicer_settings": null,
+      "data_sheet_url": "https://www.formfutura.com/web/content/256494?download=true",
+      "safety_sheet_url": "https://www.formfutura.com/web/content/256495?download=true"
     },
     {
       "id": "33a6c0cf-0af7-56de-ba0d-952830b42a94",
@@ -21710,6 +21802,81 @@
       "safety_sheet_url": "https://www.formfutura.com/web/content/256562?download=true"
     },
     {
+      "id": "6215b65c-139c-53b7-ad03-fb8a7afd0481",
+      "brand_id": "e5d8e27e-7964-517d-b32b-c1c00f899537",
+      "material_id": "0c58df60-2962-5a78-bf20-feff8bb0b6e5",
+      "slug": "petg_carbonfil",
+      "name": "CarbonFil",
+      "density": 1.32,
+      "diameter_tolerance": 0.02,
+      "min_print_temperature": 230,
+      "max_print_temperature": 275,
+      "min_bed_temperature": 70,
+      "max_bed_temperature": 90,
+      "discontinued": false,
+      "slicer_settings": null,
+      "data_sheet_url": "https://www.formfutura.com/web/content/256493?download=true",
+      "safety_sheet_url": "https://www.formfutura.com/web/content/256492?download=true"
+    },
+    {
+      "id": "4b5ea260-dfb0-555d-a65c-ac5c68640e15",
+      "brand_id": "e5d8e27e-7964-517d-b32b-c1c00f899537",
+      "material_id": "0c58df60-2962-5a78-bf20-feff8bb0b6e5",
+      "slug": "petg_hdglass",
+      "name": "Hdglass",
+      "density": 1.27,
+      "diameter_tolerance": 0.02,
+      "min_print_temperature": 235,
+      "max_print_temperature": 260,
+      "min_bed_temperature": 80,
+      "max_bed_temperature": 90,
+      "discontinued": false,
+      "slicer_settings": {
+        "prusaslicer": {
+          "profile_name": "FormFutura HDglass"
+        },
+        "superslicer": {
+          "profile_name": "FormFutura HDglass"
+        }
+      },
+      "data_sheet_url": "https://www.formfutura.com/web/content/256561?download=true",
+      "safety_sheet_url": "https://www.formfutura.com/web/content/256562?download=true"
+    },
+    {
+      "id": "b5c39312-723f-5361-b983-dd312ba5da8a",
+      "brand_id": "e5d8e27e-7964-517d-b32b-c1c00f899537",
+      "material_id": "0c58df60-2962-5a78-bf20-feff8bb0b6e5",
+      "slug": "premium_petg_flame_retardant",
+      "name": "Premium PETG Flame Retardant",
+      "density": 1.26,
+      "diameter_tolerance": 0.02,
+      "min_print_temperature": 225,
+      "max_print_temperature": 270,
+      "min_bed_temperature": 60,
+      "max_bed_temperature": 80,
+      "discontinued": false,
+      "slicer_settings": null,
+      "data_sheet_url": "https://www.formfutura.com/web/content/263077?download=true",
+      "safety_sheet_url": "https://www.formfutura.com/web/content/263073?download=true"
+    },
+    {
+      "id": "a0ecbba3-ce1f-5473-81ce-98a19b4ba17e",
+      "brand_id": "e5d8e27e-7964-517d-b32b-c1c00f899537",
+      "material_id": "0c58df60-2962-5a78-bf20-feff8bb0b6e5",
+      "slug": "refill_petg",
+      "name": "ReFill PETG",
+      "density": 1.29,
+      "diameter_tolerance": 0.02,
+      "min_print_temperature": 220,
+      "max_print_temperature": 250,
+      "min_bed_temperature": 75,
+      "max_bed_temperature": 80,
+      "discontinued": false,
+      "slicer_settings": null,
+      "data_sheet_url": "https://www.formfutura.com/web/content/256624?download=true",
+      "safety_sheet_url": "https://www.formfutura.com/web/content/256623?download=true"
+    },
+    {
       "id": "682d2642-7966-50dd-ae20-b5db26ca7753",
       "brand_id": "e5d8e27e-7964-517d-b32b-c1c00f899537",
       "material_id": "1a788d25-d088-5880-88e3-b5fa563c22d6",
@@ -21738,7 +21905,7 @@
       "max_print_temperature": 230,
       "min_bed_temperature": 50,
       "max_bed_temperature": 70,
-      "discontinued": false,
+      "discontinued": true,
       "slicer_settings": null,
       "data_sheet_url": null,
       "safety_sheet_url": null
@@ -21748,17 +21915,17 @@
       "brand_id": "e5d8e27e-7964-517d-b32b-c1c00f899537",
       "material_id": "1a788d25-d088-5880-88e3-b5fa563c22d6",
       "slug": "easyfil_e_pla",
-      "name": "EasyFil e PLA",
+      "name": "EasyFil ePLA",
       "density": 1.24,
       "diameter_tolerance": 0.02,
-      "min_print_temperature": 190,
-      "max_print_temperature": 230,
+      "min_print_temperature": 200,
+      "max_print_temperature": 275,
       "min_bed_temperature": 50,
-      "max_bed_temperature": 70,
+      "max_bed_temperature": 60,
       "discontinued": false,
       "slicer_settings": null,
-      "data_sheet_url": null,
-      "safety_sheet_url": null
+      "data_sheet_url": "https://www.formfutura.com/web/content/256521?download=true",
+      "safety_sheet_url": "https://www.formfutura.com/web/content/256520?download=true"
     },
     {
       "id": "878c22e1-3546-57a7-9a99-47673aadd92c",
@@ -21772,7 +21939,7 @@
       "max_print_temperature": 230,
       "min_bed_temperature": 50,
       "max_bed_temperature": 70,
-      "discontinued": false,
+      "discontinued": true,
       "slicer_settings": {
         "prusaslicer": {
           "profile_name": "FormFutura EasyFil PLA"
@@ -21785,11 +21952,11 @@
       "safety_sheet_url": null
     },
     {
-      "id": "cbce5300-5aac-58dc-be93-6e963b6369c2",
+      "id": "4c31e3a3-d24a-59c3-a10a-1802a7284c3f",
       "brand_id": "e5d8e27e-7964-517d-b32b-c1c00f899537",
       "material_id": "1a788d25-d088-5880-88e3-b5fa563c22d6",
-      "slug": "easywood_pla",
-      "name": "EasyWood PLA",
+      "slug": "easyfil_pla_glow_in_the_dark",
+      "name": "EasyFil PLA - Glow in the Dark",
       "density": 1.24,
       "diameter_tolerance": 0.02,
       "min_print_temperature": 190,
@@ -21802,6 +21969,23 @@
       "safety_sheet_url": null
     },
     {
+      "id": "cbce5300-5aac-58dc-be93-6e963b6369c2",
+      "brand_id": "e5d8e27e-7964-517d-b32b-c1c00f899537",
+      "material_id": "1a788d25-d088-5880-88e3-b5fa563c22d6",
+      "slug": "easywood_pla",
+      "name": "EasyWood",
+      "density": 1.15,
+      "diameter_tolerance": 0.02,
+      "min_print_temperature": 190,
+      "max_print_temperature": 240,
+      "min_bed_temperature": 50,
+      "max_bed_temperature": 60,
+      "discontinued": false,
+      "slicer_settings": null,
+      "data_sheet_url": "https://www.formfutura.com/web/content/256523?download=true",
+      "safety_sheet_url": "https://www.formfutura.com/web/content/256522?download=true"
+    },
+    {
       "id": "f0a8bbec-4095-58f0-b362-6118cc0ff9f0",
       "brand_id": "e5d8e27e-7964-517d-b32b-c1c00f899537",
       "material_id": "1a788d25-d088-5880-88e3-b5fa563c22d6",
@@ -21809,14 +21993,14 @@
       "name": "Galaxy PLA",
       "density": 1.24,
       "diameter_tolerance": 0.02,
-      "min_print_temperature": 190,
-      "max_print_temperature": 230,
+      "min_print_temperature": 185,
+      "max_print_temperature": 215,
       "min_bed_temperature": 50,
-      "max_bed_temperature": 70,
+      "max_bed_temperature": 60,
       "discontinued": false,
       "slicer_settings": null,
-      "data_sheet_url": null,
-      "safety_sheet_url": null
+      "data_sheet_url": "https://www.formfutura.com/web/content/256560?download=true",
+      "safety_sheet_url": "https://www.formfutura.com/web/content/256559?download=true"
     },
     {
       "id": "34e42015-f306-59c7-8172-3096ffc5b9ae",
@@ -26268,7 +26452,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFNMK00",
+          "id": "OGFNMK00",
           "profile_name": "Numakers PLA+"
         },
         "elegooslicer": {
@@ -26377,6 +26561,11 @@
       "max_bed_temperature": null,
       "discontinued": false,
       "slicer_settings": {
+        "orcaslicer": {
+          "generic_id": "GFB99",
+          "id": "OVTABS08",
+          "profile_name": "Overture ABS Basic"
+        },
         "elegooslicer": {
           "generic_id": "GFB99",
           "id": "OVTABS08",
@@ -26635,7 +26824,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFL05",
+          "id": "OGFL05",
           "profile_name": "Overture Matte PLA"
         },
         "elegooslicer": {
@@ -26671,7 +26860,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFL04",
+          "id": "OGFL04",
           "profile_name": "Overture PLA"
         },
         "superslicer": {
@@ -27219,7 +27408,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFL96",
-          "id": "GFPM004",
+          "id": "OGFPM004",
           "profile_name": "Panchroma PLA Silk"
         },
         "elegooslicer": {
@@ -27722,7 +27911,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFB99",
-          "id": "GFB60",
+          "id": "OGFB60",
           "profile_name": "PolyLite ABS"
         },
         "elegooslicer": {
@@ -27806,7 +27995,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFB98",
-          "id": "GFB61",
+          "id": "OGFB61",
           "profile_name": "PolyLite ASA"
         },
         "elegooslicer": {
@@ -27873,7 +28062,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "GFG60",
+          "id": "OGFG60",
           "profile_name": "PolyLite PETG"
         },
         "elegooslicer": {
@@ -27994,7 +28183,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFL00",
+          "id": "OGFL00",
           "profile_name": "PolyLite PLA"
         },
         "elegooslicer": {
@@ -28039,7 +28228,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFPM019",
+          "id": "OGFPM019",
           "profile_name": "PolyLite PLA Pro"
         },
         "elegooslicer": {
@@ -28643,7 +28832,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFPM017",
+          "id": "OGFPM017",
           "profile_name": "Polymaker HT-PLA"
         },
         "elegooslicer": {
@@ -28671,7 +28860,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFPM018",
+          "id": "OGFPM018",
           "profile_name": "Polymaker HT-PLA-GF"
         },
         "elegooslicer": {
@@ -36512,6 +36701,23 @@
       "safety_sheet_url": null
     },
     {
+      "id": "d28f172b-b430-514b-a7cb-ca0b019839cf",
+      "brand_id": "e2a651e7-82ce-5135-9753-1d8aeb3a211f",
+      "material_id": "a4d3ea76-a3cb-5724-822c-f5d0de4575bb",
+      "slug": "asa",
+      "name": "ASA",
+      "density": 1.24,
+      "diameter_tolerance": 0.03,
+      "min_print_temperature": 270,
+      "max_print_temperature": 290,
+      "min_bed_temperature": 90,
+      "max_bed_temperature": 110,
+      "discontinued": false,
+      "slicer_settings": null,
+      "data_sheet_url": null,
+      "safety_sheet_url": null
+    },
+    {
       "id": "a45dd7f2-0fca-58f9-b89c-c477d2a0e584",
       "brand_id": "e2a651e7-82ce-5135-9753-1d8aeb3a211f",
       "material_id": "d2585cee-b0b9-5627-b664-89e6c60142a9",
@@ -38827,7 +39033,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "GFSNL08",
+          "id": "OGFSNL08",
           "profile_name": "SUNLU PETG"
         },
         "elegooslicer": {
@@ -39068,7 +39274,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFSNL03",
+          "id": "OGFSNL03",
           "profile_name": "SUNLU PLA+"
         },
         "elegooslicer": {
@@ -39104,7 +39310,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFSNL04",
+          "id": "OGFSNL04",
           "profile_name": "SUNLU PLA+ 2.0"
         },
         "elegooslicer": {
@@ -39205,7 +39411,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFSNL02",
+          "id": "OGFSNL02",
           "profile_name": "SUNLU PLA Matte"
         },
         "elegooslicer": {
@@ -39357,7 +39563,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL96",
-          "id": "GFSNL05",
+          "id": "OGFSNL05",
           "profile_name": "SUNLU Silk PLA+"
         },
         "elegooslicer": {
@@ -44230,6 +44436,45 @@
       "color_hex": "#336633",
       "hex_variants": null,
       "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "bf4a1703-33e5-5479-8cc7-5d651919d74d",
+      "filament_id": "2e474990-2afc-5b96-883c-1a582ba0ffc7",
+      "slug": "mix_red_sapphire_blue",
+      "name": "Mix Red-Sapphire Blue",
+      "color_hex": [
+        "#7a2f2c",
+        "#2c4275"
+      ],
+      "hex_variants": null,
+      "traits": {
+        "industrially_compostable": true,
+        "silk": true
+      },
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "a0396b1d-436b-545e-9763-1c9d2dc222eb",
+      "filament_id": "2e474990-2afc-5b96-883c-1a582ba0ffc7",
+      "slug": "tricolor_gold_green_pinkish",
+      "name": "Tricolor Gold Green Pinkish",
+      "color_hex": [
+        "#e1e07d",
+        "#3a8a3f",
+        "#ff71c7"
+      ],
+      "hex_variants": null,
+      "traits": {
+        "industrially_compostable": true,
+        "silk": true
+      },
       "discontinued": false,
       "ral": null,
       "ncs": null,
@@ -132660,8 +132905,8 @@
       "id": "80a4a349-1a85-53b3-aab1-89a9087ac93e",
       "filament_id": "81162056-3177-570e-9b60-0a73c483fd1a",
       "slug": "luvocom_3f_50082_natural",
-      "name": "LUVOCOM 3F 50082 Natural",
-      "color_hex": "#EADAC2",
+      "name": "Natural",
+      "color_hex": "#5D4A2D",
       "hex_variants": null,
       "traits": {
         "low_outgassing": true,
@@ -133153,6 +133398,22 @@
       "color_hex": "#FFF700",
       "hex_variants": null,
       "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "766bb28d-7ba4-5b19-a0d4-ab667cd51de1",
+      "filament_id": "26735542-3104-537b-a60b-93a6269d1a51",
+      "slug": "black",
+      "name": "Black",
+      "color_hex": "#2B2B2B",
+      "hex_variants": null,
+      "traits": {
+        "abrasive": true,
+        "contains_carbon_fiber": true
+      },
       "discontinued": false,
       "ral": null,
       "ncs": null,
@@ -133850,6 +134111,179 @@
       "pantone": null
     },
     {
+      "id": "dfa4bb79-ae22-5c5e-a0ef-03caa7f9eee7",
+      "filament_id": "b5c39312-723f-5361-b983-dd312ba5da8a",
+      "slug": "traffic_black",
+      "name": "Traffic Black",
+      "color_hex": "#000000",
+      "hex_variants": null,
+      "traits": {
+        "self_extinguishing": true
+      },
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "dc7f9cf7-6e39-50bf-b320-676df0a9d87b",
+      "filament_id": "b5c39312-723f-5361-b983-dd312ba5da8a",
+      "slug": "traffic_white",
+      "name": "Traffic White",
+      "color_hex": "#FFFFFF",
+      "hex_variants": null,
+      "traits": {
+        "self_extinguishing": true
+      },
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "9040a673-9721-5798-a2ba-dec465932db1",
+      "filament_id": "a0ecbba3-ce1f-5473-81ce-98a19b4ba17e",
+      "slug": "clear",
+      "name": "Clear",
+      "color_hex": "#D5D3D3",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "59e1d01f-95a9-5989-b69c-d2cc249ad695",
+      "filament_id": "a0ecbba3-ce1f-5473-81ce-98a19b4ba17e",
+      "slug": "iron_grey",
+      "name": "Iron Grey",
+      "color_hex": "#616161",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "2dd922c7-5964-5dac-a715-764d66e065a5",
+      "filament_id": "a0ecbba3-ce1f-5473-81ce-98a19b4ba17e",
+      "slug": "light_blue",
+      "name": "Light Blue",
+      "color_hex": "#009DFF",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "29777be2-4bb4-5b4e-9d49-63f492ef8f0c",
+      "filament_id": "a0ecbba3-ce1f-5473-81ce-98a19b4ba17e",
+      "slug": "light_grey",
+      "name": "Light Grey",
+      "color_hex": "#A1A1A1",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "e1da6569-aed5-58df-ad06-40a0c466bc9a",
+      "filament_id": "a0ecbba3-ce1f-5473-81ce-98a19b4ba17e",
+      "slug": "signal_blue",
+      "name": "Signal Blue",
+      "color_hex": "#0049A8",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "ffd747ec-bc75-5a03-bf72-ffaf157a6a6e",
+      "filament_id": "a0ecbba3-ce1f-5473-81ce-98a19b4ba17e",
+      "slug": "signal_white",
+      "name": "Signal White",
+      "color_hex": "#FFFFFF",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "b42192bd-526d-56ee-82cd-f471d875ad73",
+      "filament_id": "a0ecbba3-ce1f-5473-81ce-98a19b4ba17e",
+      "slug": "traffic_black",
+      "name": "Traffic Black",
+      "color_hex": "#000000",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "62d97b8c-9b13-5a34-82fc-00fd9514f4a0",
+      "filament_id": "a0ecbba3-ce1f-5473-81ce-98a19b4ba17e",
+      "slug": "traffic_green",
+      "name": "Traffic Green",
+      "color_hex": "#70E177",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "83aed22f-8058-56ea-8a28-65872a543d1a",
+      "filament_id": "a0ecbba3-ce1f-5473-81ce-98a19b4ba17e",
+      "slug": "traffic_red",
+      "name": "Traffic Red",
+      "color_hex": "#FF0000",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "fef19e48-edd0-5f34-90fb-c47f1a20cf7e",
+      "filament_id": "a0ecbba3-ce1f-5473-81ce-98a19b4ba17e",
+      "slug": "yellow_green",
+      "name": "Yellow Green",
+      "color_hex": "#A6FF00",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "63a70ae9-86ec-50da-b622-06f7261f40e4",
+      "filament_id": "a0ecbba3-ce1f-5473-81ce-98a19b4ba17e",
+      "slug": "zinc_yellow",
+      "name": "Zinc Yellow",
+      "color_hex": "#FFF700",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
       "id": "edd11c29-2c20-58d5-9527-2360b16e8fbf",
       "filament_id": "682d2642-7966-50dd-ae20-b5db26ca7753",
       "slug": "black",
@@ -134350,6 +134784,182 @@
       "color_hex": "#FBF942",
       "hex_variants": null,
       "traits": {
+        "industrially_compostable": true
+      },
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "b5633cbe-c4fa-5236-9af8-c7170a698526",
+      "filament_id": "e32dd0f6-5dda-5868-ad87-3025ea12a547",
+      "slug": "matt_apricot",
+      "name": "Matt Apricot",
+      "color_hex": "#FFB8B8",
+      "hex_variants": null,
+      "traits": {
+        "matte": true,
+        "industrially_compostable": true
+      },
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "e4439368-8aad-56a4-9b1b-57a615d01587",
+      "filament_id": "e32dd0f6-5dda-5868-ad87-3025ea12a547",
+      "slug": "matt_black",
+      "name": "Matt Black",
+      "color_hex": "#000000",
+      "hex_variants": null,
+      "traits": {
+        "matte": true,
+        "industrially_compostable": true
+      },
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "95562711-c520-5c46-b1d7-b64ec68e974b",
+      "filament_id": "e32dd0f6-5dda-5868-ad87-3025ea12a547",
+      "slug": "matt_lemon_cream",
+      "name": "Matt Lemon Cream",
+      "color_hex": "#FFEB8A",
+      "hex_variants": null,
+      "traits": {
+        "matte": true,
+        "industrially_compostable": true
+      },
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "c734442c-d630-5b58-9770-7cc641efb653",
+      "filament_id": "e32dd0f6-5dda-5868-ad87-3025ea12a547",
+      "slug": "matt_light_grey",
+      "name": "Matt Light Grey",
+      "color_hex": "#B5B5B5",
+      "hex_variants": null,
+      "traits": {
+        "matte": true,
+        "industrially_compostable": true
+      },
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "792e80a2-2efb-55b9-af60-84a89211361f",
+      "filament_id": "e32dd0f6-5dda-5868-ad87-3025ea12a547",
+      "slug": "matt_mauve",
+      "name": "Matt Mauve",
+      "color_hex": "#FEBEF2",
+      "hex_variants": null,
+      "traits": {
+        "matte": true,
+        "industrially_compostable": true
+      },
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "78a4e340-a269-5718-97af-de1d8a83fc30",
+      "filament_id": "e32dd0f6-5dda-5868-ad87-3025ea12a547",
+      "slug": "matt_mint_green",
+      "name": "Matt Mint Green",
+      "color_hex": "#B8FFC3",
+      "hex_variants": null,
+      "traits": {
+        "matte": true,
+        "industrially_compostable": true
+      },
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "7cc78dc0-bae4-5668-84ae-a4e9a575e046",
+      "filament_id": "e32dd0f6-5dda-5868-ad87-3025ea12a547",
+      "slug": "matt_polar_blue",
+      "name": "Matt Polar Blue",
+      "color_hex": "#B8FAFF",
+      "hex_variants": null,
+      "traits": {
+        "matte": true,
+        "industrially_compostable": true
+      },
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "1d431800-09a3-5a94-aa76-7685e8a7a067",
+      "filament_id": "e32dd0f6-5dda-5868-ad87-3025ea12a547",
+      "slug": "matt_soft_blue",
+      "name": "Matt Soft Blue",
+      "color_hex": "#BCB8FF",
+      "hex_variants": null,
+      "traits": {
+        "matte": true,
+        "industrially_compostable": true
+      },
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "5bf0ec05-d7fe-5c98-8f34-427ad18d8d7b",
+      "filament_id": "e32dd0f6-5dda-5868-ad87-3025ea12a547",
+      "slug": "matt_vanilla_white",
+      "name": "Matt Vanilla White",
+      "color_hex": "#FFFCEB",
+      "hex_variants": null,
+      "traits": {
+        "matte": true,
+        "industrially_compostable": true
+      },
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "db35c8cd-a10e-5ef7-a636-d0c650556328",
+      "filament_id": "e32dd0f6-5dda-5868-ad87-3025ea12a547",
+      "slug": "matt_water_blue",
+      "name": "Matt Water Blue",
+      "color_hex": "#BCB8FF",
+      "hex_variants": null,
+      "traits": {
+        "matte": true,
+        "industrially_compostable": true
+      },
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "ff972a31-61b5-53c9-b3c8-9712a7d6d263",
+      "filament_id": "e32dd0f6-5dda-5868-ad87-3025ea12a547",
+      "slug": "matt_white",
+      "name": "Matt White",
+      "color_hex": "#FFFFFF",
+      "hex_variants": null,
+      "traits": {
+        "matte": true,
         "industrially_compostable": true
       },
       "discontinued": false,
@@ -134968,6 +135578,23 @@
       "hex_variants": null,
       "traits": {
         "industrially_compostable": true
+      },
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "82d9b395-3b5c-5ddc-8f61-175e85c73dc3",
+      "filament_id": "4c31e3a3-d24a-59c3-a10a-1802a7284c3f",
+      "slug": "easyfil_glow_in_the_dark",
+      "name": "Green",
+      "color_hex": "#00C26B",
+      "hex_variants": null,
+      "traits": {
+        "glow": true,
+        "industrially_compostable": true,
+        "abrasive": true
       },
       "discontinued": false,
       "ral": null,
@@ -251050,6 +251677,30 @@
       "discontinued": false
     },
     {
+      "id": "bf2e5db8-2e6a-509c-8f62-23bbd33e2d3a",
+      "variant_id": "bf4a1703-33e5-5479-8cc7-5d651919d74d",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": null,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": null,
+      "discontinued": false
+    },
+    {
+      "id": "9c6fd1ca-e888-5b21-9658-c1e5023679b1",
+      "variant_id": "a0396b1d-436b-545e-9763-1c9d2dc222eb",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": null,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": null,
+      "discontinued": false
+    },
+    {
       "id": "f28f8482-410d-58a0-8558-8d7f712612d0",
       "variant_id": "c5321f87-fc7f-5ebb-a4fe-d040357e6793",
       "filament_weight": 1000,
@@ -330612,13 +331263,25 @@
     {
       "id": "fc099d86-0741-554b-a862-10e6ff02a8f3",
       "variant_id": "80a4a349-1a85-53b3-aab1-89a9087ac93e",
-      "filament_weight": 1000,
+      "filament_weight": 200,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 100,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PEKK-175NTRL-00200",
+      "discontinued": false
+    },
+    {
+      "id": "8ce50ff5-6e9d-56e3-b34f-e5302edd2d14",
+      "variant_id": "80a4a349-1a85-53b3-aab1-89a9087ac93e",
+      "filament_weight": 500,
+      "diameter": 1.75,
+      "empty_spool_weight": 140,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PEKK-175NTRL-00500",
       "discontinued": false
     },
     {
@@ -330770,11 +331433,95 @@
       "variant_id": "50e0abd4-62ca-5bab-9af1-e66b452ffe8a",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "RPET-175BLCK-01000",
+      "discontinued": false
+    },
+    {
+      "id": "0c2b122c-c508-5bf4-97fe-160f225da9f7",
+      "variant_id": "50e0abd4-62ca-5bab-9af1-e66b452ffe8a",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175BLCK-02300",
+      "discontinued": false
+    },
+    {
+      "id": "e7f7944e-e5c3-5823-89e7-7ef24f7da4e2",
+      "variant_id": "50e0abd4-62ca-5bab-9af1-e66b452ffe8a",
+      "filament_weight": 3500,
+      "diameter": 1.75,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175BLCK-03500",
+      "discontinued": false
+    },
+    {
+      "id": "8ec13ff4-878d-563d-a94d-cbc81474e649",
+      "variant_id": "50e0abd4-62ca-5bab-9af1-e66b452ffe8a",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175BLCK-04500",
+      "discontinued": false
+    },
+    {
+      "id": "be98af5b-114f-5174-b70a-6d0d6cf84c33",
+      "variant_id": "50e0abd4-62ca-5bab-9af1-e66b452ffe8a",
+      "filament_weight": 750,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285BLCK-00750",
+      "discontinued": false
+    },
+    {
+      "id": "3af402af-1b03-543d-8813-c18214d79a0d",
+      "variant_id": "50e0abd4-62ca-5bab-9af1-e66b452ffe8a",
+      "filament_weight": 1000,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285BLCK-01000",
+      "discontinued": false
+    },
+    {
+      "id": "95db1a73-de49-5895-b924-c560eeb0e96b",
+      "variant_id": "50e0abd4-62ca-5bab-9af1-e66b452ffe8a",
+      "filament_weight": 3500,
+      "diameter": 2.85,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285BLCK-03500",
+      "discontinued": false
+    },
+    {
+      "id": "b0fff33d-ad75-51a7-a1bf-c9bd995850ae",
+      "variant_id": "50e0abd4-62ca-5bab-9af1-e66b452ffe8a",
+      "filament_weight": 4500,
+      "diameter": 2.85,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285BLCK-04500",
       "discontinued": false
     },
     {
@@ -330782,11 +331529,71 @@
       "variant_id": "38f31dec-5b90-5461-ab85-fe7141def51e",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 140,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "RPET-175CLEA-01000",
+      "discontinued": false
+    },
+    {
+      "id": "8863ab5d-85ec-5eca-acb0-66bc659c9070",
+      "variant_id": "38f31dec-5b90-5461-ab85-fe7141def51e",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175CLEA-02300",
+      "discontinued": false
+    },
+    {
+      "id": "c426f9ba-fdc5-5305-8618-b196cc41fdbf",
+      "variant_id": "38f31dec-5b90-5461-ab85-fe7141def51e",
+      "filament_weight": 3500,
+      "diameter": 1.75,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175CLEA-03500",
+      "discontinued": false
+    },
+    {
+      "id": "6c70fe34-464c-5f0b-9e25-3a635d32ed62",
+      "variant_id": "38f31dec-5b90-5461-ab85-fe7141def51e",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175CLEA-04500",
+      "discontinued": false
+    },
+    {
+      "id": "0cd99d8b-d324-523c-9ff4-ea18af4e55a0",
+      "variant_id": "38f31dec-5b90-5461-ab85-fe7141def51e",
+      "filament_weight": 1000,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285CLEA-01000",
+      "discontinued": false
+    },
+    {
+      "id": "ab8c26a4-2fb9-5e18-9d5f-4cfcb179525f",
+      "variant_id": "38f31dec-5b90-5461-ab85-fe7141def51e",
+      "filament_weight": 4500,
+      "diameter": 2.85,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285CLEA-04500",
       "discontinued": false
     },
     {
@@ -330794,23 +331601,179 @@
       "variant_id": "a3ecd76b-14ea-55f4-857a-d7a984c49645",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "RPET-175CWHT-01000",
+      "discontinued": false
+    },
+    {
+      "id": "61b840ac-822f-5a17-8126-c7adbb4e24d9",
+      "variant_id": "a3ecd76b-14ea-55f4-857a-d7a984c49645",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175CWHT-02300",
+      "discontinued": false
+    },
+    {
+      "id": "69b45531-48ae-592f-a70c-907342c8ad4d",
+      "variant_id": "a3ecd76b-14ea-55f4-857a-d7a984c49645",
+      "filament_weight": 750,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285CWHT-00750",
+      "discontinued": false
+    },
+    {
+      "id": "77358ed9-b249-5f81-aba3-79fa9a8e7d86",
+      "variant_id": "a3ecd76b-14ea-55f4-857a-d7a984c49645",
+      "filament_weight": 1000,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285CWHT-01000",
+      "discontinued": false
+    },
+    {
+      "id": "abb4d378-0edd-53db-a9e8-9b9445d7254c",
+      "variant_id": "a3ecd76b-14ea-55f4-857a-d7a984c49645",
+      "filament_weight": 2300,
+      "diameter": 2.85,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285CWHT-02300",
       "discontinued": false
     },
     {
       "id": "70392594-a25a-5074-878b-a14b69dbd374",
       "variant_id": "eae7a589-5ffa-5767-a5a4-4332b9e450d9",
-      "filament_weight": 1000,
+      "filament_weight": 750,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "RPET-175DBLU-00750",
+      "discontinued": false
+    },
+    {
+      "id": "4b546b25-cf31-5b5f-a7c0-1eef2cba327f",
+      "variant_id": "eae7a589-5ffa-5767-a5a4-4332b9e450d9",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175DBLU-01000",
+      "discontinued": false
+    },
+    {
+      "id": "7b02472a-f529-55dc-b680-0cd54c082a60",
+      "variant_id": "eae7a589-5ffa-5767-a5a4-4332b9e450d9",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175DBLU-02300",
+      "discontinued": false
+    },
+    {
+      "id": "105498c8-54b0-53fc-acd4-0c80e11e4bd7",
+      "variant_id": "eae7a589-5ffa-5767-a5a4-4332b9e450d9",
+      "filament_weight": 3500,
+      "diameter": 1.75,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175DBLU-03500",
+      "discontinued": false
+    },
+    {
+      "id": "ff5f3c81-697f-5328-a945-67e4b346e52b",
+      "variant_id": "eae7a589-5ffa-5767-a5a4-4332b9e450d9",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175DBLU-04500",
+      "discontinued": false
+    },
+    {
+      "id": "c9d3e600-9131-55b2-a9b9-b10e884215d7",
+      "variant_id": "eae7a589-5ffa-5767-a5a4-4332b9e450d9",
+      "filament_weight": 750,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285DBLU-00750",
+      "discontinued": false
+    },
+    {
+      "id": "e92c872f-41c0-5b3f-a718-dca7cbf2358d",
+      "variant_id": "eae7a589-5ffa-5767-a5a4-4332b9e450d9",
+      "filament_weight": 1000,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285DBLU-01000",
+      "discontinued": false
+    },
+    {
+      "id": "f0881660-a856-53b2-9aca-6e1f4cf98f7b",
+      "variant_id": "eae7a589-5ffa-5767-a5a4-4332b9e450d9",
+      "filament_weight": 2300,
+      "diameter": 2.85,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285DBLU-02300",
+      "discontinued": false
+    },
+    {
+      "id": "652f0bbb-25a7-5686-84aa-0a2747c43966",
+      "variant_id": "eae7a589-5ffa-5767-a5a4-4332b9e450d9",
+      "filament_weight": 3500,
+      "diameter": 2.85,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285DBLU-03500",
+      "discontinued": false
+    },
+    {
+      "id": "19d0e8a3-2210-5f0f-8527-efeeaa9f3820",
+      "variant_id": "eae7a589-5ffa-5767-a5a4-4332b9e450d9",
+      "filament_weight": 4500,
+      "diameter": 2.85,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285DBLU-04500",
       "discontinued": false
     },
     {
@@ -330818,23 +331781,227 @@
       "variant_id": "228f269a-3c3f-54b4-a65b-0e5032d16729",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "RPET-175GREY-01000",
+      "discontinued": false
+    },
+    {
+      "id": "2fce6576-d6f8-5e06-8740-fae3b35dca6c",
+      "variant_id": "228f269a-3c3f-54b4-a65b-0e5032d16729",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175GREY-02300",
+      "discontinued": false
+    },
+    {
+      "id": "97bb5860-66a2-51e6-9270-eaf7b75bc333",
+      "variant_id": "228f269a-3c3f-54b4-a65b-0e5032d16729",
+      "filament_weight": 3500,
+      "diameter": 1.75,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175GREY-03500",
+      "discontinued": false
+    },
+    {
+      "id": "91ea58c5-a363-5485-93d5-42189278988f",
+      "variant_id": "228f269a-3c3f-54b4-a65b-0e5032d16729",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175GREY-04500",
+      "discontinued": false
+    },
+    {
+      "id": "48db181d-0208-5c81-98d3-09a409a4121c",
+      "variant_id": "228f269a-3c3f-54b4-a65b-0e5032d16729",
+      "filament_weight": 750,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285GREY-00750",
+      "discontinued": false
+    },
+    {
+      "id": "0e767cfd-626c-51d7-9c58-f9c8ac0e051e",
+      "variant_id": "228f269a-3c3f-54b4-a65b-0e5032d16729",
+      "filament_weight": 1000,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285GREY-01000",
+      "discontinued": false
+    },
+    {
+      "id": "c20d8a16-c891-533e-bf0c-d083d7577ea3",
+      "variant_id": "228f269a-3c3f-54b4-a65b-0e5032d16729",
+      "filament_weight": 2300,
+      "diameter": 2.85,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285GREY-02300",
+      "discontinued": false
+    },
+    {
+      "id": "40184e11-95e6-543c-af9c-87333cdf6952",
+      "variant_id": "228f269a-3c3f-54b4-a65b-0e5032d16729",
+      "filament_weight": 3500,
+      "diameter": 2.85,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285GREY-03500",
+      "discontinued": false
+    },
+    {
+      "id": "9b2cdb20-e3ae-54de-8944-eb768fe0dc9d",
+      "variant_id": "228f269a-3c3f-54b4-a65b-0e5032d16729",
+      "filament_weight": 4500,
+      "diameter": 2.85,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285GREY-04500",
       "discontinued": false
     },
     {
       "id": "bec5f111-dfd5-5c19-a294-1ab26847ea60",
       "variant_id": "049667cb-defe-5d53-9d3a-30fa00af9049",
-      "filament_weight": 1000,
+      "filament_weight": 750,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "RPET-175LBLU-00750",
+      "discontinued": false
+    },
+    {
+      "id": "b80322b9-9219-5c24-a51f-277693eca9da",
+      "variant_id": "049667cb-defe-5d53-9d3a-30fa00af9049",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175LBLU-01000",
+      "discontinued": false
+    },
+    {
+      "id": "ffadcbf3-7a2d-5caf-945f-e63023d5105c",
+      "variant_id": "049667cb-defe-5d53-9d3a-30fa00af9049",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175LBLU-02300",
+      "discontinued": false
+    },
+    {
+      "id": "2fc345ea-f472-58da-add1-96b6dedc658e",
+      "variant_id": "049667cb-defe-5d53-9d3a-30fa00af9049",
+      "filament_weight": 3500,
+      "diameter": 1.75,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175LBLU-03500",
+      "discontinued": false
+    },
+    {
+      "id": "19ec85c5-7bcd-57f9-b07c-40904bbd5e86",
+      "variant_id": "049667cb-defe-5d53-9d3a-30fa00af9049",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175LBLU-04500",
+      "discontinued": false
+    },
+    {
+      "id": "f47704d3-0b04-563b-8c31-7a372a8a95c2",
+      "variant_id": "049667cb-defe-5d53-9d3a-30fa00af9049",
+      "filament_weight": 750,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285LBLU-00750",
+      "discontinued": false
+    },
+    {
+      "id": "e91a4da3-caac-514c-974e-09956f82f00f",
+      "variant_id": "049667cb-defe-5d53-9d3a-30fa00af9049",
+      "filament_weight": 1000,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285LBLU-01000",
+      "discontinued": false
+    },
+    {
+      "id": "08851ae9-5872-57aa-aa60-ff43ea540fd5",
+      "variant_id": "049667cb-defe-5d53-9d3a-30fa00af9049",
+      "filament_weight": 2300,
+      "diameter": 2.85,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285LBLU-02300",
+      "discontinued": false
+    },
+    {
+      "id": "d68025a2-c985-55ed-83e6-9d7c4e21f6e3",
+      "variant_id": "049667cb-defe-5d53-9d3a-30fa00af9049",
+      "filament_weight": 3500,
+      "diameter": 2.85,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285LBLU-03500",
+      "discontinued": false
+    },
+    {
+      "id": "1fd4772c-7e32-58d6-be5e-0b5d8db8ccb1",
+      "variant_id": "049667cb-defe-5d53-9d3a-30fa00af9049",
+      "filament_weight": 4500,
+      "diameter": 2.85,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285LBLU-04500",
       "discontinued": false
     },
     {
@@ -330842,11 +332009,83 @@
       "variant_id": "f8aee77b-2129-5a1d-a9c5-17a4152d8fd5",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "RPET-175LGRN-01000",
+      "discontinued": false
+    },
+    {
+      "id": "b1d197f9-ad0f-56d0-933e-cdace92a8796",
+      "variant_id": "f8aee77b-2129-5a1d-a9c5-17a4152d8fd5",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175LGRN-02300",
+      "discontinued": false
+    },
+    {
+      "id": "fdbfa5b7-f454-5c52-ba0c-209b4b8b97c9",
+      "variant_id": "f8aee77b-2129-5a1d-a9c5-17a4152d8fd5",
+      "filament_weight": 3500,
+      "diameter": 1.75,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175LGRN-03500",
+      "discontinued": false
+    },
+    {
+      "id": "da2e0930-2a58-526f-a834-35578d2bcd73",
+      "variant_id": "f8aee77b-2129-5a1d-a9c5-17a4152d8fd5",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175LGRN-04500",
+      "discontinued": false
+    },
+    {
+      "id": "fb9ba2c3-cde5-5916-83b4-3a05438d875c",
+      "variant_id": "f8aee77b-2129-5a1d-a9c5-17a4152d8fd5",
+      "filament_weight": 1000,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285LGRN-01000",
+      "discontinued": false
+    },
+    {
+      "id": "15b22559-fea9-5405-a671-ee2f5232d4aa",
+      "variant_id": "f8aee77b-2129-5a1d-a9c5-17a4152d8fd5",
+      "filament_weight": 2300,
+      "diameter": 2.85,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285LGRN-02300",
+      "discontinued": false
+    },
+    {
+      "id": "9acb917c-9358-5409-ba02-bef30d0e4e6a",
+      "variant_id": "f8aee77b-2129-5a1d-a9c5-17a4152d8fd5",
+      "filament_weight": 3500,
+      "diameter": 2.85,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285LGRN-03500",
       "discontinued": false
     },
     {
@@ -330854,11 +332093,107 @@
       "variant_id": "8430bd05-8667-5f64-8b0f-b5d6375efce8",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "RPET-175ORAN-01000",
+      "discontinued": false
+    },
+    {
+      "id": "051de9f2-4ac9-5e7d-a553-76d053c40d78",
+      "variant_id": "8430bd05-8667-5f64-8b0f-b5d6375efce8",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175ORAN-02300",
+      "discontinued": false
+    },
+    {
+      "id": "a78bdab6-80da-5ea2-b752-84bf8d81f684",
+      "variant_id": "8430bd05-8667-5f64-8b0f-b5d6375efce8",
+      "filament_weight": 3500,
+      "diameter": 1.75,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175ORAN-03500",
+      "discontinued": false
+    },
+    {
+      "id": "42bf1fb7-1a63-59c7-bbb1-87273adfb7e9",
+      "variant_id": "8430bd05-8667-5f64-8b0f-b5d6375efce8",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175ORAN-04500",
+      "discontinued": false
+    },
+    {
+      "id": "74894396-89b3-5f69-95b5-8de877b58611",
+      "variant_id": "8430bd05-8667-5f64-8b0f-b5d6375efce8",
+      "filament_weight": 750,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285ORAN-00750",
+      "discontinued": false
+    },
+    {
+      "id": "f95c2218-a059-5230-98b4-e2ceea532412",
+      "variant_id": "8430bd05-8667-5f64-8b0f-b5d6375efce8",
+      "filament_weight": 1000,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285ORAN-01000",
+      "discontinued": false
+    },
+    {
+      "id": "a03d5807-9003-5880-a39b-0cdb3be49afc",
+      "variant_id": "8430bd05-8667-5f64-8b0f-b5d6375efce8",
+      "filament_weight": 2300,
+      "diameter": 2.85,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285ORAN-02300",
+      "discontinued": false
+    },
+    {
+      "id": "94245b46-7914-5444-8c35-cc63d9123d76",
+      "variant_id": "8430bd05-8667-5f64-8b0f-b5d6375efce8",
+      "filament_weight": 3500,
+      "diameter": 2.85,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285ORAN-03500",
+      "discontinued": false
+    },
+    {
+      "id": "5d1fc090-0f24-5d4b-b218-c1e83bb69c3b",
+      "variant_id": "8430bd05-8667-5f64-8b0f-b5d6375efce8",
+      "filament_weight": 4500,
+      "diameter": 2.85,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285ORAN-04500",
       "discontinued": false
     },
     {
@@ -330866,23 +332201,215 @@
       "variant_id": "673fee59-69f5-5322-9159-5cb8785fcda0",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "RPET-175REDC-01000",
+      "discontinued": false
+    },
+    {
+      "id": "c9a7a6a6-ce81-572b-8680-4c1ced93fa6a",
+      "variant_id": "673fee59-69f5-5322-9159-5cb8785fcda0",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175REDC-02300",
+      "discontinued": false
+    },
+    {
+      "id": "950127cc-41c4-5cf8-93f4-8ed98926a74e",
+      "variant_id": "673fee59-69f5-5322-9159-5cb8785fcda0",
+      "filament_weight": 3500,
+      "diameter": 1.75,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175REDC-03500",
+      "discontinued": false
+    },
+    {
+      "id": "4ee5d0fa-97a2-57ed-9c60-bafe449b429f",
+      "variant_id": "673fee59-69f5-5322-9159-5cb8785fcda0",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175REDC-04500",
+      "discontinued": false
+    },
+    {
+      "id": "0b2bde71-c6ef-59bd-8774-6b3923f6980e",
+      "variant_id": "673fee59-69f5-5322-9159-5cb8785fcda0",
+      "filament_weight": 750,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285REDC-00750",
+      "discontinued": false
+    },
+    {
+      "id": "b37cec46-21b7-50e3-8b8f-28acc8513aa0",
+      "variant_id": "673fee59-69f5-5322-9159-5cb8785fcda0",
+      "filament_weight": 1000,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285REDC-01000",
+      "discontinued": false
+    },
+    {
+      "id": "a4d21e92-b04e-5b54-8cb3-b22aedd85adb",
+      "variant_id": "673fee59-69f5-5322-9159-5cb8785fcda0",
+      "filament_weight": 2300,
+      "diameter": 2.85,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285REDC-02300",
+      "discontinued": false
+    },
+    {
+      "id": "00f8214f-dfb7-53fe-beda-11e64254af67",
+      "variant_id": "673fee59-69f5-5322-9159-5cb8785fcda0",
+      "filament_weight": 3500,
+      "diameter": 2.85,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285REDC-03500",
+      "discontinued": false
+    },
+    {
+      "id": "64296e7b-995e-55fe-9fb2-e059af2de9ee",
+      "variant_id": "673fee59-69f5-5322-9159-5cb8785fcda0",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285REDC-04500",
       "discontinued": false
     },
     {
       "id": "5279a287-bc60-53c4-b005-552d76e05328",
       "variant_id": "0a95a1a1-65cc-5642-b020-028a3f184f1b",
-      "filament_weight": 1000,
+      "filament_weight": 750,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "RPET-175SLVR-00750",
+      "discontinued": false
+    },
+    {
+      "id": "23f5829e-d127-5e39-b1bd-c23a28654af3",
+      "variant_id": "0a95a1a1-65cc-5642-b020-028a3f184f1b",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175SLVR-01000",
+      "discontinued": false
+    },
+    {
+      "id": "aa9fa511-a7fa-5904-a15e-d9a4c01733d2",
+      "variant_id": "0a95a1a1-65cc-5642-b020-028a3f184f1b",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175SLVR-02300",
+      "discontinued": false
+    },
+    {
+      "id": "20aca227-e856-5459-8326-df6f62c7d9cc",
+      "variant_id": "0a95a1a1-65cc-5642-b020-028a3f184f1b",
+      "filament_weight": 3500,
+      "diameter": 1.75,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175SLVR-03500",
+      "discontinued": false
+    },
+    {
+      "id": "d8196b04-787f-55a7-a382-dfb1ebdb0712",
+      "variant_id": "0a95a1a1-65cc-5642-b020-028a3f184f1b",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175SLVR-04500",
+      "discontinued": false
+    },
+    {
+      "id": "23e21705-6b1d-5381-a2b5-4046b8de4b5c",
+      "variant_id": "0a95a1a1-65cc-5642-b020-028a3f184f1b",
+      "filament_weight": 750,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285SLVR-00750",
+      "discontinued": false
+    },
+    {
+      "id": "16ef475f-ec4d-5f3d-b299-8fdf60b8a115",
+      "variant_id": "0a95a1a1-65cc-5642-b020-028a3f184f1b",
+      "filament_weight": 1000,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285SLVR-01000",
+      "discontinued": false
+    },
+    {
+      "id": "edf37d32-8687-517a-9ae9-350867193cf6",
+      "variant_id": "0a95a1a1-65cc-5642-b020-028a3f184f1b",
+      "filament_weight": 2300,
+      "diameter": 2.85,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285SLVR-02300",
+      "discontinued": false
+    },
+    {
+      "id": "c8297ed3-2606-59b2-99cf-0612e5439abc",
+      "variant_id": "0a95a1a1-65cc-5642-b020-028a3f184f1b",
+      "filament_weight": 3500,
+      "diameter": 2.85,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285SLVR-03500",
       "discontinued": false
     },
     {
@@ -330890,11 +332417,95 @@
       "variant_id": "1efb8fea-dfd5-5bee-a2d4-53cffa4a6a38",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "RPET-175VIOL-01000",
+      "discontinued": false
+    },
+    {
+      "id": "6883e019-e360-52b0-ace3-6bcbcb5f7ebf",
+      "variant_id": "1efb8fea-dfd5-5bee-a2d4-53cffa4a6a38",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175VIOL-02300",
+      "discontinued": false
+    },
+    {
+      "id": "99c4264c-9805-535c-b0e2-1683870ca1b1",
+      "variant_id": "1efb8fea-dfd5-5bee-a2d4-53cffa4a6a38",
+      "filament_weight": 3500,
+      "diameter": 1.75,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175VIOL-03500",
+      "discontinued": false
+    },
+    {
+      "id": "6e77d2e4-3f3e-53a1-a1d1-25f17482680a",
+      "variant_id": "1efb8fea-dfd5-5bee-a2d4-53cffa4a6a38",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175VIOL-04500",
+      "discontinued": false
+    },
+    {
+      "id": "99a5301c-995f-5db3-bfaf-42da0a90c7ff",
+      "variant_id": "1efb8fea-dfd5-5bee-a2d4-53cffa4a6a38",
+      "filament_weight": 750,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285VIOL-00750",
+      "discontinued": false
+    },
+    {
+      "id": "17148eef-d68d-5466-b9df-bbf9c87f7ad3",
+      "variant_id": "1efb8fea-dfd5-5bee-a2d4-53cffa4a6a38",
+      "filament_weight": 1000,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285VIOL-01000",
+      "discontinued": false
+    },
+    {
+      "id": "d2a7507f-5aec-5751-8d96-3dea51b0efb6",
+      "variant_id": "1efb8fea-dfd5-5bee-a2d4-53cffa4a6a38",
+      "filament_weight": 2300,
+      "diameter": 2.85,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285VIOL-02300",
+      "discontinued": false
+    },
+    {
+      "id": "6ce8c2b4-74c6-55d8-bf69-36d1508b26f0",
+      "variant_id": "1efb8fea-dfd5-5bee-a2d4-53cffa4a6a38",
+      "filament_weight": 3500,
+      "diameter": 2.85,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285VIOL-03500",
       "discontinued": false
     },
     {
@@ -330902,23 +332513,191 @@
       "variant_id": "78a1036a-44c2-5359-bec0-990a7384eb24",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "RPET-175WHTE-01000",
+      "discontinued": false
+    },
+    {
+      "id": "f8aea07f-8cf4-5a32-97e8-cabebde9f385",
+      "variant_id": "78a1036a-44c2-5359-bec0-990a7384eb24",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175WHTE-02300",
+      "discontinued": false
+    },
+    {
+      "id": "9383c39f-97be-559d-99f5-7da4c17b1c93",
+      "variant_id": "78a1036a-44c2-5359-bec0-990a7384eb24",
+      "filament_weight": 3500,
+      "diameter": 1.75,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175WHTE-03500",
+      "discontinued": false
+    },
+    {
+      "id": "3940c53a-c321-5a47-a28d-03c234c7406c",
+      "variant_id": "78a1036a-44c2-5359-bec0-990a7384eb24",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175WHTE-04500",
+      "discontinued": false
+    },
+    {
+      "id": "7fcde93c-2a7b-572c-84d2-c8de427ed42d",
+      "variant_id": "78a1036a-44c2-5359-bec0-990a7384eb24",
+      "filament_weight": 1000,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285WHTE-01000",
+      "discontinued": false
+    },
+    {
+      "id": "af23ae0d-e2ff-5733-8f10-1cad26e32c17",
+      "variant_id": "78a1036a-44c2-5359-bec0-990a7384eb24",
+      "filament_weight": 3500,
+      "diameter": 2.85,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285WHTE-03500",
+      "discontinued": false
+    },
+    {
+      "id": "6982c45c-1a58-5da3-90b0-a8a2221a5d55",
+      "variant_id": "78a1036a-44c2-5359-bec0-990a7384eb24",
+      "filament_weight": 4500,
+      "diameter": 2.85,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285WHTE-04500",
       "discontinued": false
     },
     {
       "id": "ffa1927d-7132-5ba2-8500-df099d7688c0",
       "variant_id": "49a9a98b-8f64-5fcb-af0a-74f6c939bb8c",
-      "filament_weight": 1000,
+      "filament_weight": 750,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "RPET-175YLLW-00750",
+      "discontinued": false
+    },
+    {
+      "id": "2aeb559f-94c7-5fc1-bff0-689c335ea507",
+      "variant_id": "49a9a98b-8f64-5fcb-af0a-74f6c939bb8c",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175YLLW-01000",
+      "discontinued": false
+    },
+    {
+      "id": "8444d13e-37d5-59f6-a79c-454b65144704",
+      "variant_id": "49a9a98b-8f64-5fcb-af0a-74f6c939bb8c",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175YLLW-02300",
+      "discontinued": false
+    },
+    {
+      "id": "ce8405af-fd0e-5a84-88b2-2fc0fe79f0e3",
+      "variant_id": "49a9a98b-8f64-5fcb-af0a-74f6c939bb8c",
+      "filament_weight": 3500,
+      "diameter": 1.75,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175YLLW-03500",
+      "discontinued": false
+    },
+    {
+      "id": "5ab29a38-f1b1-5786-9d18-de8b90afebb5",
+      "variant_id": "49a9a98b-8f64-5fcb-af0a-74f6c939bb8c",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-175YLLW-04500",
+      "discontinued": false
+    },
+    {
+      "id": "d24c70aa-473d-56e3-bb4d-c8c6150567fa",
+      "variant_id": "49a9a98b-8f64-5fcb-af0a-74f6c939bb8c",
+      "filament_weight": 750,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285YLLW-00750",
+      "discontinued": false
+    },
+    {
+      "id": "5324f714-bb1c-5ef1-a7c1-75afb63ebc4c",
+      "variant_id": "49a9a98b-8f64-5fcb-af0a-74f6c939bb8c",
+      "filament_weight": 1000,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285YLLW-01000",
+      "discontinued": false
+    },
+    {
+      "id": "62359334-ac6d-5560-b2c2-403114208021",
+      "variant_id": "49a9a98b-8f64-5fcb-af0a-74f6c939bb8c",
+      "filament_weight": 3500,
+      "diameter": 2.85,
+      "empty_spool_weight": 705,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285YLLW-03500",
+      "discontinued": false
+    },
+    {
+      "id": "eddfc766-7f0c-5268-97ac-d8663a79585a",
+      "variant_id": "49a9a98b-8f64-5fcb-af0a-74f6c939bb8c",
+      "filament_weight": 4500,
+      "diameter": 2.85,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "RPET-285YLLW-04500",
       "discontinued": false
     },
     {
@@ -331135,6 +332914,42 @@
       "spool_refill": false,
       "gtin": null,
       "article_number": "BPTG-175YLLW-01000",
+      "discontinued": false
+    },
+    {
+      "id": "0366e469-cc42-531b-bfbc-0c93621027d0",
+      "variant_id": "766bb28d-7ba4-5b19-a0d4-ab667cd51de1",
+      "filament_weight": 500,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "CFC3-175BLCK-00500",
+      "discontinued": false
+    },
+    {
+      "id": "a27a2188-0d3f-52c1-a7e1-1f3da342a0a4",
+      "variant_id": "766bb28d-7ba4-5b19-a0d4-ab667cd51de1",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "CFC3-175BLCK-01000",
+      "discontinued": false
+    },
+    {
+      "id": "bad4ab1d-5f97-5a42-b957-24cc4d5d96e3",
+      "variant_id": "766bb28d-7ba4-5b19-a0d4-ab667cd51de1",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 40,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "CFC3-175BLCK-02300",
       "discontinued": false
     },
     {
@@ -333118,6 +334933,222 @@
       "discontinued": false
     },
     {
+      "id": "4261bd5a-9bd2-5018-8835-61b268ef3476",
+      "variant_id": "dfa4bb79-ae22-5c5e-a0ef-03caa7f9eee7",
+      "filament_weight": 500,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "PGFR-175TBLK-B0500",
+      "discontinued": false
+    },
+    {
+      "id": "52776008-9f03-5f1e-9ef6-2705344720ed",
+      "variant_id": "dfa4bb79-ae22-5c5e-a0ef-03caa7f9eee7",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "PGFR-175TBLK-B1000",
+      "discontinued": false
+    },
+    {
+      "id": "abd3e739-1088-545e-8d7a-ed21225132e0",
+      "variant_id": "dc7f9cf7-6e39-50bf-b320-676df0a9d87b",
+      "filament_weight": 500,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "PGFR-175TWHT-B0500",
+      "discontinued": false
+    },
+    {
+      "id": "b885f575-c5a3-55ac-8262-81d94e84f125",
+      "variant_id": "dc7f9cf7-6e39-50bf-b320-676df0a9d87b",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "PGFR-175TWHT-B1000",
+      "discontinued": false
+    },
+    {
+      "id": "57c9a2b4-c738-589d-8f90-812862c5cc3e",
+      "variant_id": "9040a673-9721-5798-a2ba-dec465932db1",
+      "filament_weight": 750,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "RFPE-175CLEA-00750",
+      "discontinued": false
+    },
+    {
+      "id": "58839e64-04cf-52af-812c-a364ef93fce9",
+      "variant_id": "9040a673-9721-5798-a2ba-dec465932db1",
+      "filament_weight": 2000,
+      "diameter": 1.75,
+      "empty_spool_weight": 40,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "RFPE-175CLEA-02000",
+      "discontinued": false
+    },
+    {
+      "id": "f6332fa5-28f3-5dc2-988f-68711c061bcc",
+      "variant_id": "59e1d01f-95a9-5989-b69c-d2cc249ad695",
+      "filament_weight": 750,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "RFPE-175IGRY-00750",
+      "discontinued": false
+    },
+    {
+      "id": "46ecaac1-7184-5ce9-acf1-57df76c8a955",
+      "variant_id": "2dd922c7-5964-5dac-a715-764d66e065a5",
+      "filament_weight": 750,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "RFPE-175LBLU-00750",
+      "discontinued": false
+    },
+    {
+      "id": "636435f3-699c-514c-89a7-01779a0d1e4d",
+      "variant_id": "29777be2-4bb4-5b4e-9d49-63f492ef8f0c",
+      "filament_weight": 750,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "RFPE-175LGRY-00750",
+      "discontinued": false
+    },
+    {
+      "id": "731f2c03-32ed-5e33-b5a2-0dc7609dd411",
+      "variant_id": "e1da6569-aed5-58df-ad06-40a0c466bc9a",
+      "filament_weight": 750,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "RFPE-175SIBU-00750",
+      "discontinued": false
+    },
+    {
+      "id": "6fa2149d-4798-51af-bd17-b52e6d4d4741",
+      "variant_id": "ffd747ec-bc75-5a03-bf72-ffaf157a6a6e",
+      "filament_weight": 750,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "RFPE-175SIWH-00750",
+      "discontinued": false
+    },
+    {
+      "id": "b02bc4a1-6119-5e81-9b75-f5d9d7402338",
+      "variant_id": "ffd747ec-bc75-5a03-bf72-ffaf157a6a6e",
+      "filament_weight": 2000,
+      "diameter": 1.75,
+      "empty_spool_weight": 40,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "RFPE-175SIWH-02000",
+      "discontinued": false
+    },
+    {
+      "id": "cf4893db-3fd2-5c79-b888-e116bacb21cb",
+      "variant_id": "b42192bd-526d-56ee-82cd-f471d875ad73",
+      "filament_weight": 750,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "RFPE-175TBLK-00750",
+      "discontinued": false
+    },
+    {
+      "id": "fe4039e3-f974-5dec-b0a3-861b59248d82",
+      "variant_id": "b42192bd-526d-56ee-82cd-f471d875ad73",
+      "filament_weight": 2000,
+      "diameter": 1.75,
+      "empty_spool_weight": 40,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "RFPE-175TBLK-02000",
+      "discontinued": false
+    },
+    {
+      "id": "0220bd27-ba2b-506e-9382-b8670045e0f3",
+      "variant_id": "62d97b8c-9b13-5a34-82fc-00fd9514f4a0",
+      "filament_weight": 750,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "RFPE-175TGRN-00750",
+      "discontinued": false
+    },
+    {
+      "id": "d04861d5-2874-5216-b374-e5d6eea9e18e",
+      "variant_id": "83aed22f-8058-56ea-8a28-65872a543d1a",
+      "filament_weight": 750,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "RFPE-175TRRD-00750",
+      "discontinued": false
+    },
+    {
+      "id": "c0b109c7-ff24-59a9-ba33-88f3613496df",
+      "variant_id": "fef19e48-edd0-5f34-90fb-c47f1a20cf7e",
+      "filament_weight": 750,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "RFPE-175YLGN-00750",
+      "discontinued": false
+    },
+    {
+      "id": "d5448af1-5d7e-5231-a008-c9b4fe851408",
+      "variant_id": "63a70ae9-86ec-50da-b622-06f7261f40e4",
+      "filament_weight": 750,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "RFPE-175ZYLW-00750",
+      "discontinued": false
+    },
+    {
       "id": "ead174f3-1eeb-55a3-b824-2144d70f7581",
       "variant_id": "edd11c29-2c20-58d5-9527-2360b16e8fbf",
       "filament_weight": 1000,
@@ -333446,11 +335477,47 @@
       "variant_id": "21c64eeb-8b45-59dc-b3cd-893ce495699f",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175ATGY-01000",
+      "discontinued": false
+    },
+    {
+      "id": "f8482a10-9b07-51ad-9e36-8723e2f3afe9",
+      "variant_id": "21c64eeb-8b45-59dc-b3cd-893ce495699f",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175ATGY-02300",
+      "discontinued": false
+    },
+    {
+      "id": "963e5214-d49b-551f-9cf1-b818143e8781",
+      "variant_id": "21c64eeb-8b45-59dc-b3cd-893ce495699f",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175ATGY-04500",
+      "discontinued": false
+    },
+    {
+      "id": "a5c10fb4-8ac5-5dba-b0b7-2336a5c45e7e",
+      "variant_id": "21c64eeb-8b45-59dc-b3cd-893ce495699f",
+      "filament_weight": 8000,
+      "diameter": 1.75,
+      "empty_spool_weight": 1040,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175ATGY-08000",
       "discontinued": false
     },
     {
@@ -333458,11 +335525,23 @@
       "variant_id": "e7a71642-2c5d-51a1-aaa9-b3266266754f",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175BBRN-01000",
+      "discontinued": false
+    },
+    {
+      "id": "8f6dab61-3cd1-5b1a-bf3d-05165b66b5f9",
+      "variant_id": "e7a71642-2c5d-51a1-aaa9-b3266266754f",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175BBRN-02300",
       "discontinued": false
     },
     {
@@ -333470,11 +335549,23 @@
       "variant_id": "c4960c99-cb99-58e8-af1d-b8530c35332d",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175BLIL-01000",
+      "discontinued": false
+    },
+    {
+      "id": "5ba2b806-ef3d-5e3c-a4fe-937845ec7bb7",
+      "variant_id": "c4960c99-cb99-58e8-af1d-b8530c35332d",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175BLIL-02300",
       "discontinued": false
     },
     {
@@ -333482,11 +335573,35 @@
       "variant_id": "bc18cad4-28e3-51d5-b7c4-723e202718ec",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175GALU-01000",
+      "discontinued": false
+    },
+    {
+      "id": "387d9313-577e-5252-af6e-0438a6aa3498",
+      "variant_id": "bc18cad4-28e3-51d5-b7c4-723e202718ec",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "PLAE-175GALU-B1000",
+      "discontinued": false
+    },
+    {
+      "id": "ed54dc4c-e946-504c-b05c-09057dd53a40",
+      "variant_id": "bc18cad4-28e3-51d5-b7c4-723e202718ec",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175GALU-02300",
       "discontinued": false
     },
     {
@@ -333494,11 +335609,23 @@
       "variant_id": "282653b5-857e-5819-b761-dcfc09e124ae",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175HVIO-01000",
+      "discontinued": false
+    },
+    {
+      "id": "8112c92f-06ba-5470-9661-51af223f594c",
+      "variant_id": "282653b5-857e-5819-b761-dcfc09e124ae",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175HVIO-02300",
       "discontinued": false
     },
     {
@@ -333506,11 +335633,107 @@
       "variant_id": "5aae4084-3ed1-5ee9-a948-06a6f61d9e7e",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175IGRY-01000",
+      "discontinued": false
+    },
+    {
+      "id": "b08fe1bb-e4a2-51e0-8a58-5d7c73097dfc",
+      "variant_id": "5aae4084-3ed1-5ee9-a948-06a6f61d9e7e",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "PLAE-175IGRY-B1000",
+      "discontinued": false
+    },
+    {
+      "id": "c85e330a-6db5-5e3e-86a1-da8af49dda76",
+      "variant_id": "5aae4084-3ed1-5ee9-a948-06a6f61d9e7e",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175IGRY-02300",
+      "discontinued": false
+    },
+    {
+      "id": "5e8cfa29-e513-579d-a4a9-b075c768aa27",
+      "variant_id": "5aae4084-3ed1-5ee9-a948-06a6f61d9e7e",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175IGRY-04500",
+      "discontinued": false
+    },
+    {
+      "id": "c5253166-53e1-5e85-9c46-efc5fc1cd56e",
+      "variant_id": "5aae4084-3ed1-5ee9-a948-06a6f61d9e7e",
+      "filament_weight": 8000,
+      "diameter": 1.75,
+      "empty_spool_weight": 1040,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175IGRY-08000",
+      "discontinued": false
+    },
+    {
+      "id": "243a32e5-6022-5638-8d27-5b3b0299a294",
+      "variant_id": "5aae4084-3ed1-5ee9-a948-06a6f61d9e7e",
+      "filament_weight": 1000,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-285IGRY-01000",
+      "discontinued": false
+    },
+    {
+      "id": "b3f7f38e-f4c0-571e-878c-0af69d9601c4",
+      "variant_id": "5aae4084-3ed1-5ee9-a948-06a6f61d9e7e",
+      "filament_weight": 2300,
+      "diameter": 2.85,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-285IGRY-02300",
+      "discontinued": false
+    },
+    {
+      "id": "d5d09c24-5db5-528c-afb8-5e5855497b05",
+      "variant_id": "5aae4084-3ed1-5ee9-a948-06a6f61d9e7e",
+      "filament_weight": 4500,
+      "diameter": 2.85,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-285IGRY-04500",
+      "discontinued": false
+    },
+    {
+      "id": "81f351d7-5a18-5cf8-b133-bb5ec87ae1ba",
+      "variant_id": "5aae4084-3ed1-5ee9-a948-06a6f61d9e7e",
+      "filament_weight": 8000,
+      "diameter": 2.85,
+      "empty_spool_weight": 1040,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-285IGRY-08000",
       "discontinued": false
     },
     {
@@ -333518,11 +335741,23 @@
       "variant_id": "a021b30a-f5dc-502b-9169-db0f85861d4c",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175KGRY-01000",
+      "discontinued": false
+    },
+    {
+      "id": "4c73eed1-de8a-5396-b398-d6953f8c9723",
+      "variant_id": "a021b30a-f5dc-502b-9169-db0f85861d4c",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175KGRY-02300",
       "discontinued": false
     },
     {
@@ -333530,11 +335765,59 @@
       "variant_id": "419ebe3d-e576-5c92-9b60-e7811e1b8b49",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175LBLU-01000",
+      "discontinued": false
+    },
+    {
+      "id": "6de1a75c-2be5-5e49-9f0f-2a1dd13b560e",
+      "variant_id": "419ebe3d-e576-5c92-9b60-e7811e1b8b49",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "PLAE-175LBLU-B1000",
+      "discontinued": false
+    },
+    {
+      "id": "e4f9780c-c333-5622-ab75-5e82d04ebb26",
+      "variant_id": "419ebe3d-e576-5c92-9b60-e7811e1b8b49",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175LBLU-02300",
+      "discontinued": false
+    },
+    {
+      "id": "afb5a37e-51aa-5f83-bf48-108e0663edc3",
+      "variant_id": "419ebe3d-e576-5c92-9b60-e7811e1b8b49",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175LBLU-04500",
+      "discontinued": false
+    },
+    {
+      "id": "2956e3f7-b063-5351-82c1-e69e3bd4ea32",
+      "variant_id": "419ebe3d-e576-5c92-9b60-e7811e1b8b49",
+      "filament_weight": 8000,
+      "diameter": 1.75,
+      "empty_spool_weight": 1040,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175LBLU-08000",
       "discontinued": false
     },
     {
@@ -333542,11 +335825,23 @@
       "variant_id": "e97210ff-8693-5682-80b7-534000b0e664",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175LGRN-01000",
+      "discontinued": false
+    },
+    {
+      "id": "c65d3988-0d5f-5080-868e-cd54607d1997",
+      "variant_id": "e97210ff-8693-5682-80b7-534000b0e664",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175LGRN-02300",
       "discontinued": false
     },
     {
@@ -333554,11 +335849,95 @@
       "variant_id": "e218f26c-8458-55d5-bd6c-f63a4dede0a0",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175LGRY-01000",
+      "discontinued": false
+    },
+    {
+      "id": "68ebd626-73c6-57ec-bd34-39a226e06c23",
+      "variant_id": "e218f26c-8458-55d5-bd6c-f63a4dede0a0",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175LGRY-02300",
+      "discontinued": false
+    },
+    {
+      "id": "5e1fa928-d215-54e3-b75a-c23813528e70",
+      "variant_id": "e218f26c-8458-55d5-bd6c-f63a4dede0a0",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175LGRY-04500",
+      "discontinued": false
+    },
+    {
+      "id": "aa8096aa-9060-50ea-8611-2fcc5f660b2c",
+      "variant_id": "e218f26c-8458-55d5-bd6c-f63a4dede0a0",
+      "filament_weight": 8000,
+      "diameter": 1.75,
+      "empty_spool_weight": 1040,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175LGRY-08000",
+      "discontinued": false
+    },
+    {
+      "id": "8e6b53f9-c76d-5550-b2d7-af5fc74b81cf",
+      "variant_id": "e218f26c-8458-55d5-bd6c-f63a4dede0a0",
+      "filament_weight": 1000,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-285LGRY-01000",
+      "discontinued": false
+    },
+    {
+      "id": "bb9afb99-7e54-5b15-b3b5-af4aaa8866db",
+      "variant_id": "e218f26c-8458-55d5-bd6c-f63a4dede0a0",
+      "filament_weight": 2300,
+      "diameter": 2.85,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-285LGRY-02300",
+      "discontinued": false
+    },
+    {
+      "id": "c1bdd4ed-e378-5cce-ae64-143678ee4072",
+      "variant_id": "e218f26c-8458-55d5-bd6c-f63a4dede0a0",
+      "filament_weight": 4500,
+      "diameter": 2.85,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-285LGRY-04500",
+      "discontinued": false
+    },
+    {
+      "id": "622c5e4c-8780-5909-904e-5889db144273",
+      "variant_id": "e218f26c-8458-55d5-bd6c-f63a4dede0a0",
+      "filament_weight": 8000,
+      "diameter": 2.85,
+      "empty_spool_weight": 1040,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-285LGRY-08000",
       "discontinued": false
     },
     {
@@ -333566,11 +335945,23 @@
       "variant_id": "20b49cf4-315f-56b3-a7eb-6f1a4a04edba",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175LIVO-01000",
+      "discontinued": false
+    },
+    {
+      "id": "d5b8d97f-fed4-51e7-88ef-510b331e701a",
+      "variant_id": "20b49cf4-315f-56b3-a7eb-6f1a4a04edba",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175LIVO-02300",
       "discontinued": false
     },
     {
@@ -333578,11 +335969,23 @@
       "variant_id": "8e091129-6e5a-556b-aa52-95ab9b1462ab",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175LBOR-01000",
+      "discontinued": false
+    },
+    {
+      "id": "f422b8e7-109d-54e2-a2d0-0127c45927fe",
+      "variant_id": "8e091129-6e5a-556b-aa52-95ab9b1462ab",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175LBOR-02300",
       "discontinued": false
     },
     {
@@ -333590,11 +335993,23 @@
       "variant_id": "a4536507-7df6-5130-ba96-3ce3289681b4",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175LUGN-01000",
+      "discontinued": false
+    },
+    {
+      "id": "ebbec94e-dd80-5fff-b169-d429193ea799",
+      "variant_id": "a4536507-7df6-5130-ba96-3ce3289681b4",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175LUGN-02300",
       "discontinued": false
     },
     {
@@ -333602,11 +336017,359 @@
       "variant_id": "84189dc6-a767-52ff-a7e9-397059f2d972",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175LYLW-01000",
+      "discontinued": false
+    },
+    {
+      "id": "ad97617d-9d4b-5ed6-947a-3d5a7d5d39ab",
+      "variant_id": "84189dc6-a767-52ff-a7e9-397059f2d972",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175LYLW-02300",
+      "discontinued": false
+    },
+    {
+      "id": "c367bd28-598b-53c4-a40d-73b3c8d96ce6",
+      "variant_id": "b5633cbe-c4fa-5236-9af8-c7170a698526",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTAP-01000",
+      "discontinued": false
+    },
+    {
+      "id": "28ddc5e2-a309-5cb0-b30f-9b77e99a95df",
+      "variant_id": "b5633cbe-c4fa-5236-9af8-c7170a698526",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTAP-02300",
+      "discontinued": false
+    },
+    {
+      "id": "25ff3612-868a-5344-8209-535e646998f9",
+      "variant_id": "e4439368-8aad-56a4-9b1b-57a615d01587",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTBK-01000",
+      "discontinued": false
+    },
+    {
+      "id": "598b38a6-9b5f-5e1f-92a2-910d2cdc2bee",
+      "variant_id": "e4439368-8aad-56a4-9b1b-57a615d01587",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "PLAE-175MTBK-C1000",
+      "discontinued": false
+    },
+    {
+      "id": "3f6f0ca9-017c-5d64-afe3-7e553c24c365",
+      "variant_id": "e4439368-8aad-56a4-9b1b-57a615d01587",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "PLAE-175MTBK-B1000",
+      "discontinued": false
+    },
+    {
+      "id": "0abfc50b-0ac6-56d4-86cd-163f31bfdbbb",
+      "variant_id": "e4439368-8aad-56a4-9b1b-57a615d01587",
+      "filament_weight": 2000,
+      "diameter": 1.75,
+      "empty_spool_weight": 40,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "PLAE-175MTBK-C2000",
+      "discontinued": false
+    },
+    {
+      "id": "3f17f551-0d6e-558f-9792-b3a3c37ebc97",
+      "variant_id": "e4439368-8aad-56a4-9b1b-57a615d01587",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTBK-02300",
+      "discontinued": false
+    },
+    {
+      "id": "ca1bce51-12df-541e-ab7b-860ad750316d",
+      "variant_id": "e4439368-8aad-56a4-9b1b-57a615d01587",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTBK-04500",
+      "discontinued": false
+    },
+    {
+      "id": "de24f485-288e-50af-a789-9438215fbc5f",
+      "variant_id": "e4439368-8aad-56a4-9b1b-57a615d01587",
+      "filament_weight": 8000,
+      "diameter": 1.75,
+      "empty_spool_weight": 1040,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTBK-08000",
+      "discontinued": false
+    },
+    {
+      "id": "b64b2fe4-6c58-561d-8864-c842c438e72b",
+      "variant_id": "95562711-c520-5c46-b1d7-b64ec68e974b",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTLC-01000",
+      "discontinued": false
+    },
+    {
+      "id": "2ede2f4e-30aa-5174-a6b4-df18c013ffed",
+      "variant_id": "95562711-c520-5c46-b1d7-b64ec68e974b",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTLC-02300",
+      "discontinued": false
+    },
+    {
+      "id": "be47ebfe-d85f-5495-bec3-f2b39e59c6be",
+      "variant_id": "c734442c-d630-5b58-9770-7cc641efb653",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTLG-01000",
+      "discontinued": false
+    },
+    {
+      "id": "84e6c90d-127a-5bd5-a518-f056b537cd29",
+      "variant_id": "c734442c-d630-5b58-9770-7cc641efb653",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTLG-02300",
+      "discontinued": false
+    },
+    {
+      "id": "5914d247-98d2-557e-be72-c23f0423875d",
+      "variant_id": "792e80a2-2efb-55b9-af60-84a89211361f",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTMV-01000",
+      "discontinued": false
+    },
+    {
+      "id": "8c44b761-4a8b-5753-b169-264932aa038b",
+      "variant_id": "792e80a2-2efb-55b9-af60-84a89211361f",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTMV-02300",
+      "discontinued": false
+    },
+    {
+      "id": "d2fdd325-f794-5f3e-8f8f-916670173ca1",
+      "variant_id": "78a4e340-a269-5718-97af-de1d8a83fc30",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTMG-01000",
+      "discontinued": false
+    },
+    {
+      "id": "1eaeb1ff-76af-5b4f-b930-1b23ff1a121b",
+      "variant_id": "78a4e340-a269-5718-97af-de1d8a83fc30",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTMG-02300",
+      "discontinued": false
+    },
+    {
+      "id": "e8fb99cf-ced1-5331-a7a6-7ac4dcc77d58",
+      "variant_id": "7cc78dc0-bae4-5668-84ae-a4e9a575e046",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTPB-01000",
+      "discontinued": false
+    },
+    {
+      "id": "3929fa48-a2db-53c8-bb46-4e46691c6933",
+      "variant_id": "7cc78dc0-bae4-5668-84ae-a4e9a575e046",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTPB-02300",
+      "discontinued": false
+    },
+    {
+      "id": "f721b7b8-0ec8-53fe-baf4-3ded7a49810d",
+      "variant_id": "1d431800-09a3-5a94-aa76-7685e8a7a067",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTSB-01000",
+      "discontinued": false
+    },
+    {
+      "id": "2384174f-d176-5399-8e89-dab54da9858c",
+      "variant_id": "1d431800-09a3-5a94-aa76-7685e8a7a067",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTSB-02300",
+      "discontinued": false
+    },
+    {
+      "id": "36563369-9817-5f98-94b0-b7e574c28f5a",
+      "variant_id": "5bf0ec05-d7fe-5c98-8f34-427ad18d8d7b",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTVW-01000",
+      "discontinued": false
+    },
+    {
+      "id": "cd103ae4-d93f-59ff-8b2b-915566f2cf4f",
+      "variant_id": "5bf0ec05-d7fe-5c98-8f34-427ad18d8d7b",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTVW-02300",
+      "discontinued": false
+    },
+    {
+      "id": "7c4caa89-5d73-5baa-9862-2cded97f912f",
+      "variant_id": "db35c8cd-a10e-5ef7-a636-d0c650556328",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTWB-01000",
+      "discontinued": false
+    },
+    {
+      "id": "9e7fb755-a774-59d0-96b8-2501396b3bf1",
+      "variant_id": "db35c8cd-a10e-5ef7-a636-d0c650556328",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTWB-02300",
+      "discontinued": false
+    },
+    {
+      "id": "ddfd9f15-c8c8-5092-9ca3-ddcdb1e74749",
+      "variant_id": "ff972a31-61b5-53c9-b3c8-9712a7d6d263",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTWH-01000",
+      "discontinued": false
+    },
+    {
+      "id": "4e2d194d-9451-5a0a-9b70-7bfafc95e553",
+      "variant_id": "ff972a31-61b5-53c9-b3c8-9712a7d6d263",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "PLAE-175MTWH-B1000",
+      "discontinued": false
+    },
+    {
+      "id": "d78d443e-0162-5c8e-8c72-1f85b4b13318",
+      "variant_id": "ff972a31-61b5-53c9-b3c8-9712a7d6d263",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175MTWH-02300",
       "discontinued": false
     },
     {
@@ -333614,11 +336377,95 @@
       "variant_id": "21b451c5-38c6-59b5-8b39-a42f3bb03974",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175NTRL-01000",
+      "discontinued": false
+    },
+    {
+      "id": "86ce1914-bbfc-5293-9b39-2ff065a2c7e2",
+      "variant_id": "21b451c5-38c6-59b5-8b39-a42f3bb03974",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175NTRL-02300",
+      "discontinued": false
+    },
+    {
+      "id": "8f26bfbe-0e57-5411-ac9a-51f758d2955f",
+      "variant_id": "21b451c5-38c6-59b5-8b39-a42f3bb03974",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175NTRL-04500",
+      "discontinued": false
+    },
+    {
+      "id": "8b4144f4-ca9d-58f2-8848-b5ef58b515dc",
+      "variant_id": "21b451c5-38c6-59b5-8b39-a42f3bb03974",
+      "filament_weight": 8000,
+      "diameter": 1.75,
+      "empty_spool_weight": 1040,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175NTRL-08000",
+      "discontinued": false
+    },
+    {
+      "id": "4a10d0f2-60b4-5571-840c-f784c81d65d7",
+      "variant_id": "21b451c5-38c6-59b5-8b39-a42f3bb03974",
+      "filament_weight": 1000,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-285NTRL-01000",
+      "discontinued": false
+    },
+    {
+      "id": "68d83103-a31c-511f-949f-14762a1df9a6",
+      "variant_id": "21b451c5-38c6-59b5-8b39-a42f3bb03974",
+      "filament_weight": 2300,
+      "diameter": 2.85,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-285NTRL-02300",
+      "discontinued": false
+    },
+    {
+      "id": "b7464607-3721-5359-875d-6541b6057ad8",
+      "variant_id": "21b451c5-38c6-59b5-8b39-a42f3bb03974",
+      "filament_weight": 4500,
+      "diameter": 2.85,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-285NTRL-04500",
+      "discontinued": false
+    },
+    {
+      "id": "e90f8978-5f2f-5c9b-be3f-85e0f4afecf9",
+      "variant_id": "21b451c5-38c6-59b5-8b39-a42f3bb03974",
+      "filament_weight": 8000,
+      "diameter": 2.85,
+      "empty_spool_weight": 1040,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-285NTRL-08000",
       "discontinued": false
     },
     {
@@ -333626,11 +336473,23 @@
       "variant_id": "9eb91c83-bc5f-5a8f-9cbd-4c95e7a84440",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175PBRZ-01000",
+      "discontinued": false
+    },
+    {
+      "id": "dc4015c1-59a2-54f3-9bae-91347aac712d",
+      "variant_id": "9eb91c83-bc5f-5a8f-9cbd-4c95e7a84440",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175PBRZ-02300",
       "discontinued": false
     },
     {
@@ -333638,11 +336497,23 @@
       "variant_id": "96b4db02-efc9-5998-a971-c46fc5eb2502",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175PGLD-01000",
+      "discontinued": false
+    },
+    {
+      "id": "32ffd822-f410-51d7-a192-30b9648c2407",
+      "variant_id": "96b4db02-efc9-5998-a971-c46fc5eb2502",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175PGLD-02300",
       "discontinued": false
     },
     {
@@ -333650,11 +336521,23 @@
       "variant_id": "e59d1174-672e-58ce-97be-84c334800edc",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175PORA-01000",
+      "discontinued": false
+    },
+    {
+      "id": "452c74c0-675c-560b-b61d-a2f1b9dbbd9e",
+      "variant_id": "e59d1174-672e-58ce-97be-84c334800edc",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175PORA-02300",
       "discontinued": false
     },
     {
@@ -333662,11 +336545,119 @@
       "variant_id": "01e5a74a-6c13-5b9e-b4e8-d1444a9f8190",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175SIWH-01000",
+      "discontinued": false
+    },
+    {
+      "id": "0f86b73d-6427-55c4-a35a-d41cc5c36882",
+      "variant_id": "01e5a74a-6c13-5b9e-b4e8-d1444a9f8190",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "PLAE-175SIWH-C1000",
+      "discontinued": false
+    },
+    {
+      "id": "4396b40c-97a7-53fb-9045-7d77f01dbafc",
+      "variant_id": "01e5a74a-6c13-5b9e-b4e8-d1444a9f8190",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "PLAE-175SIWH-B1000",
+      "discontinued": false
+    },
+    {
+      "id": "52734fff-0e81-5e16-94a7-8d114614829b",
+      "variant_id": "01e5a74a-6c13-5b9e-b4e8-d1444a9f8190",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175SIWH-02300",
+      "discontinued": false
+    },
+    {
+      "id": "0235350c-6467-5472-9ec9-82e8a93e3c63",
+      "variant_id": "01e5a74a-6c13-5b9e-b4e8-d1444a9f8190",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175SIWH-04500",
+      "discontinued": false
+    },
+    {
+      "id": "d589d48a-63a0-5ea1-8290-b12780fb0050",
+      "variant_id": "01e5a74a-6c13-5b9e-b4e8-d1444a9f8190",
+      "filament_weight": 8000,
+      "diameter": 1.75,
+      "empty_spool_weight": 1040,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175SIWH-08000",
+      "discontinued": false
+    },
+    {
+      "id": "c7290a28-8522-5fb9-97fb-06f7de691f4c",
+      "variant_id": "01e5a74a-6c13-5b9e-b4e8-d1444a9f8190",
+      "filament_weight": 1000,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-285SIWH-01000",
+      "discontinued": false
+    },
+    {
+      "id": "dbfa2c3b-9993-5a01-8620-c553184a4c8e",
+      "variant_id": "01e5a74a-6c13-5b9e-b4e8-d1444a9f8190",
+      "filament_weight": 2300,
+      "diameter": 2.85,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-285SIWH-02300",
+      "discontinued": false
+    },
+    {
+      "id": "0e57d0a1-7db2-5b62-8900-95dee99752b8",
+      "variant_id": "01e5a74a-6c13-5b9e-b4e8-d1444a9f8190",
+      "filament_weight": 4500,
+      "diameter": 2.85,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-285SIWH-04500",
+      "discontinued": false
+    },
+    {
+      "id": "85a0d785-df43-527e-9fe0-97b1034d71ae",
+      "variant_id": "01e5a74a-6c13-5b9e-b4e8-d1444a9f8190",
+      "filament_weight": 8000,
+      "diameter": 2.85,
+      "empty_spool_weight": 1040,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-285SIWH-08000",
       "discontinued": false
     },
     {
@@ -333674,11 +336665,23 @@
       "variant_id": "d80b2348-8477-5b1c-82c1-a86ca006a97d",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175SIYL-01000",
+      "discontinued": false
+    },
+    {
+      "id": "980f2c4f-a2e0-5774-9006-023a4622874b",
+      "variant_id": "d80b2348-8477-5b1c-82c1-a86ca006a97d",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175SIYL-02300",
       "discontinued": false
     },
     {
@@ -333686,11 +336689,47 @@
       "variant_id": "1d2fc225-5515-5ffc-9677-3350e35b67ae",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175SNWH-01000",
+      "discontinued": false
+    },
+    {
+      "id": "8d60b7c3-0985-5660-8295-cac0069d5909",
+      "variant_id": "1d2fc225-5515-5ffc-9677-3350e35b67ae",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175SNWH-02300",
+      "discontinued": false
+    },
+    {
+      "id": "a3f785fe-f6c6-5b3e-83d6-88ffd8539933",
+      "variant_id": "1d2fc225-5515-5ffc-9677-3350e35b67ae",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175SNWH-04500",
+      "discontinued": false
+    },
+    {
+      "id": "b5812300-8cf2-5eb9-b364-9d994163fc2a",
+      "variant_id": "1d2fc225-5515-5ffc-9677-3350e35b67ae",
+      "filament_weight": 8000,
+      "diameter": 1.75,
+      "empty_spool_weight": 1040,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175SNWH-08000",
       "discontinued": false
     },
     {
@@ -333698,11 +336737,47 @@
       "variant_id": "8b6831c9-4d30-5aa7-82ad-a5593edb3eb4",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175SQGY-01000",
+      "discontinued": false
+    },
+    {
+      "id": "246eb9b2-0a87-54c6-b871-927f4b9d35a4",
+      "variant_id": "8b6831c9-4d30-5aa7-82ad-a5593edb3eb4",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175SQGY-02300",
+      "discontinued": false
+    },
+    {
+      "id": "14efa13c-8b0a-57d1-8f21-e51bd13210b8",
+      "variant_id": "8b6831c9-4d30-5aa7-82ad-a5593edb3eb4",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175SQGY-04500",
+      "discontinued": false
+    },
+    {
+      "id": "939f54c0-0108-5449-89b8-9faa4d6ad646",
+      "variant_id": "8b6831c9-4d30-5aa7-82ad-a5593edb3eb4",
+      "filament_weight": 8000,
+      "diameter": 1.75,
+      "empty_spool_weight": 1040,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175SQGY-08000",
       "discontinued": false
     },
     {
@@ -333710,11 +336785,131 @@
       "variant_id": "466ae6e5-b944-5a0d-9f1b-5568634d27c3",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175TBLK-01000",
+      "discontinued": false
+    },
+    {
+      "id": "09252e9b-9be4-5ede-a796-20bc4f1f87ae",
+      "variant_id": "466ae6e5-b944-5a0d-9f1b-5568634d27c3",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "PLAE-175TBLK-C1000",
+      "discontinued": false
+    },
+    {
+      "id": "db3499d9-6541-53ad-8839-796a34bafd2a",
+      "variant_id": "466ae6e5-b944-5a0d-9f1b-5568634d27c3",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "PLAE-175TBLK-B1000",
+      "discontinued": false
+    },
+    {
+      "id": "e3c6dc70-67e4-5db3-b1b1-57e1fc8f59fe",
+      "variant_id": "466ae6e5-b944-5a0d-9f1b-5568634d27c3",
+      "filament_weight": 2000,
+      "diameter": 1.75,
+      "empty_spool_weight": 40,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "PLAE-175TBLK-C2000",
+      "discontinued": false
+    },
+    {
+      "id": "f58192c5-258c-5116-896b-1bdef4743d1c",
+      "variant_id": "466ae6e5-b944-5a0d-9f1b-5568634d27c3",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175TBLK-02300",
+      "discontinued": false
+    },
+    {
+      "id": "48c1e5ea-909a-5982-acbb-0f2f564658a4",
+      "variant_id": "466ae6e5-b944-5a0d-9f1b-5568634d27c3",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175TBLK-04500",
+      "discontinued": false
+    },
+    {
+      "id": "2d54cabd-0abb-54a5-bc0f-24ee91dd7ad5",
+      "variant_id": "466ae6e5-b944-5a0d-9f1b-5568634d27c3",
+      "filament_weight": 8000,
+      "diameter": 1.75,
+      "empty_spool_weight": 1040,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175TBLK-08000",
+      "discontinued": false
+    },
+    {
+      "id": "28b6f767-d7b2-5749-aeff-47d7ae41c479",
+      "variant_id": "466ae6e5-b944-5a0d-9f1b-5568634d27c3",
+      "filament_weight": 1000,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-285TBLK-01000",
+      "discontinued": false
+    },
+    {
+      "id": "3bb10bd0-c2a1-5013-a85c-70acc7c82cb9",
+      "variant_id": "466ae6e5-b944-5a0d-9f1b-5568634d27c3",
+      "filament_weight": 2300,
+      "diameter": 2.85,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-285TBLK-02300",
+      "discontinued": false
+    },
+    {
+      "id": "b2f0cd4b-00d8-550d-898d-31ccf906dd76",
+      "variant_id": "466ae6e5-b944-5a0d-9f1b-5568634d27c3",
+      "filament_weight": 4500,
+      "diameter": 2.85,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-285TBLK-04500",
+      "discontinued": false
+    },
+    {
+      "id": "49199aa4-d0ef-5f2f-a2e4-9f5698419869",
+      "variant_id": "466ae6e5-b944-5a0d-9f1b-5568634d27c3",
+      "filament_weight": 8000,
+      "diameter": 2.85,
+      "empty_spool_weight": 1040,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-285TBLK-08000",
       "discontinued": false
     },
     {
@@ -333722,11 +336917,23 @@
       "variant_id": "60856621-de02-5dfa-a418-3b81be6a38f0",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175TGRN-01000",
+      "discontinued": false
+    },
+    {
+      "id": "0a8b1e99-7740-563e-83c8-2783f372729b",
+      "variant_id": "60856621-de02-5dfa-a418-3b81be6a38f0",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175TGRN-02300",
       "discontinued": false
     },
     {
@@ -333734,11 +336941,59 @@
       "variant_id": "5a15aef9-8f29-559a-b473-dc06da769403",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175TRRD-01000",
+      "discontinued": false
+    },
+    {
+      "id": "c653a6e1-59ab-513a-b333-751d9bc289bd",
+      "variant_id": "5a15aef9-8f29-559a-b473-dc06da769403",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "PLAE-175TRRD-B1000",
+      "discontinued": false
+    },
+    {
+      "id": "bea1af9b-9c41-51af-b06e-a83b9ea63dda",
+      "variant_id": "5a15aef9-8f29-559a-b473-dc06da769403",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175TRRD-02300",
+      "discontinued": false
+    },
+    {
+      "id": "9abfe315-4ce5-5159-96d1-8ae517d75b81",
+      "variant_id": "5a15aef9-8f29-559a-b473-dc06da769403",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175TRRD-04500",
+      "discontinued": false
+    },
+    {
+      "id": "55b67200-3f97-5d45-8760-2a3037a8ddec",
+      "variant_id": "5a15aef9-8f29-559a-b473-dc06da769403",
+      "filament_weight": 8000,
+      "diameter": 1.75,
+      "empty_spool_weight": 1040,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175TRRD-08000",
       "discontinued": false
     },
     {
@@ -333746,11 +337001,23 @@
       "variant_id": "e0f53204-e9a8-599a-8fcc-80becd4dc8ef",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175TYLW-01000",
+      "discontinued": false
+    },
+    {
+      "id": "b197a54a-c168-5261-b8c9-bc8204aef9e8",
+      "variant_id": "e0f53204-e9a8-599a-8fcc-80becd4dc8ef",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175TYLW-02300",
       "discontinued": false
     },
     {
@@ -333758,11 +337025,23 @@
       "variant_id": "e4704b8d-23c3-5ef0-ae7d-074325d4bdf9",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175TUBU-01000",
+      "discontinued": false
+    },
+    {
+      "id": "dd43b805-0872-5b1f-a61e-cc26707b1c4f",
+      "variant_id": "e4704b8d-23c3-5ef0-ae7d-074325d4bdf9",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175TUBU-02300",
       "discontinued": false
     },
     {
@@ -333770,11 +337049,59 @@
       "variant_id": "20ec86de-6429-5805-8fc8-0cf245c10141",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175UBLU-01000",
+      "discontinued": false
+    },
+    {
+      "id": "6ab97a4d-648a-5f19-8ade-d3c62767a025",
+      "variant_id": "20ec86de-6429-5805-8fc8-0cf245c10141",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 20,
+      "spool_core_diameter": null,
+      "spool_refill": true,
+      "gtin": null,
+      "article_number": "PLAE-175UBLU-B1000",
+      "discontinued": false
+    },
+    {
+      "id": "4229f2ec-0c75-5323-bc97-313f362ba84a",
+      "variant_id": "20ec86de-6429-5805-8fc8-0cf245c10141",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175UBLU-02300",
+      "discontinued": false
+    },
+    {
+      "id": "253ff6b3-036e-5eda-bdb2-05acd18df152",
+      "variant_id": "20ec86de-6429-5805-8fc8-0cf245c10141",
+      "filament_weight": 4500,
+      "diameter": 1.75,
+      "empty_spool_weight": 785,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175UBLU-04500",
+      "discontinued": false
+    },
+    {
+      "id": "d8d9e0f4-6ddb-5a1b-8d31-dc3386c52128",
+      "variant_id": "20ec86de-6429-5805-8fc8-0cf245c10141",
+      "filament_weight": 8000,
+      "diameter": 1.75,
+      "empty_spool_weight": 1040,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175UBLU-08000",
       "discontinued": false
     },
     {
@@ -333782,11 +337109,23 @@
       "variant_id": "219b5c58-be23-5d30-925f-1a9b86d87114",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175WHAL-01000",
+      "discontinued": false
+    },
+    {
+      "id": "8462e9ad-e27e-5228-ae28-00835d3b1313",
+      "variant_id": "219b5c58-be23-5d30-925f-1a9b86d87114",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175WHAL-02300",
       "discontinued": false
     },
     {
@@ -333794,11 +337133,23 @@
       "variant_id": "22ac3431-3875-5d52-968b-24087bdc3f63",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "PLAE-175YLGN-01000",
+      "discontinued": false
+    },
+    {
+      "id": "32d54a02-312a-5ab1-ad03-947ea076e2a9",
+      "variant_id": "22ac3431-3875-5d52-968b-24087bdc3f63",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "PLAE-175YLGN-02300",
       "discontinued": false
     },
     {
@@ -334102,19 +337453,31 @@
       "discontinued": false
     },
     {
-      "id": "d4e7cf1a-9976-5748-83e7-aa09879c3b98",
-      "variant_id": "a112d0c8-5e0b-5c94-bdf9-0863c5146fe3",
-      "filament_weight": 1000,
+      "id": "a5b0b56b-db12-51eb-a36c-cfdba150fcc1",
+      "variant_id": "82d9b395-3b5c-5ddc-8f61-175e85c73dc3",
+      "filament_weight": 750,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "EPLG-175GREN-00750",
       "discontinued": false
     },
     {
-      "id": "4977b3b1-a8f3-5c72-91f6-6778327ecb68",
+      "id": "1140010c-11f3-52d6-9f71-8c78f7865de2",
+      "variant_id": "82d9b395-3b5c-5ddc-8f61-175e85c73dc3",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "EPLG-175GREN-02300",
+      "discontinued": false
+    },
+    {
+      "id": "d4e7cf1a-9976-5748-83e7-aa09879c3b98",
       "variant_id": "a112d0c8-5e0b-5c94-bdf9-0863c5146fe3",
       "filament_weight": 500,
       "diameter": 1.75,
@@ -334126,7 +337489,7 @@
       "discontinued": false
     },
     {
-      "id": "291bee38-0cfa-592c-afc6-0b069f836825",
+      "id": "4977b3b1-a8f3-5c72-91f6-6778327ecb68",
       "variant_id": "a112d0c8-5e0b-5c94-bdf9-0863c5146fe3",
       "filament_weight": 2300,
       "diameter": 1.75,
@@ -334138,7 +337501,7 @@
       "discontinued": false
     },
     {
-      "id": "03b69c54-0d1a-5630-9fba-5e765e0f91be",
+      "id": "291bee38-0cfa-592c-afc6-0b069f836825",
       "variant_id": "a112d0c8-5e0b-5c94-bdf9-0863c5146fe3",
       "filament_weight": 4500,
       "diameter": 1.75,
@@ -334150,7 +337513,7 @@
       "discontinued": false
     },
     {
-      "id": "63b981c8-a3c9-5ac7-afe4-c92b9c0c3344",
+      "id": "03b69c54-0d1a-5630-9fba-5e765e0f91be",
       "variant_id": "a112d0c8-5e0b-5c94-bdf9-0863c5146fe3",
       "filament_weight": 8000,
       "diameter": 1.75,
@@ -334162,7 +337525,7 @@
       "discontinued": false
     },
     {
-      "id": "35bac0c6-f561-588b-8b83-2ff4710d366e",
+      "id": "63b981c8-a3c9-5ac7-afe4-c92b9c0c3344",
       "variant_id": "a112d0c8-5e0b-5c94-bdf9-0863c5146fe3",
       "filament_weight": 500,
       "diameter": 2.85,
@@ -334174,7 +337537,7 @@
       "discontinued": false
     },
     {
-      "id": "4ccf29c0-8f65-5bb0-955e-f584a1c1b080",
+      "id": "35bac0c6-f561-588b-8b83-2ff4710d366e",
       "variant_id": "a112d0c8-5e0b-5c94-bdf9-0863c5146fe3",
       "filament_weight": 2300,
       "diameter": 2.85,
@@ -334188,18 +337551,6 @@
     {
       "id": "18841741-ee7e-51b3-9a48-6ca4c81f0b89",
       "variant_id": "2468003b-83f5-59c7-a678-c0b30929ffbe",
-      "filament_weight": 1000,
-      "diameter": 1.75,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "9628b9ca-dc30-50b9-a839-2d2006d0cd8f",
-      "variant_id": "2468003b-83f5-59c7-a678-c0b30929ffbe",
       "filament_weight": 500,
       "diameter": 1.75,
       "empty_spool_weight": 140,
@@ -334210,7 +337561,7 @@
       "discontinued": false
     },
     {
-      "id": "b7c6d16e-48ea-53b4-b2ae-9b8c445b87c0",
+      "id": "9628b9ca-dc30-50b9-a839-2d2006d0cd8f",
       "variant_id": "2468003b-83f5-59c7-a678-c0b30929ffbe",
       "filament_weight": 2300,
       "diameter": 1.75,
@@ -334222,7 +337573,7 @@
       "discontinued": false
     },
     {
-      "id": "25ff2ad4-04ec-59db-ac56-8898dc67aea4",
+      "id": "b7c6d16e-48ea-53b4-b2ae-9b8c445b87c0",
       "variant_id": "2468003b-83f5-59c7-a678-c0b30929ffbe",
       "filament_weight": 4500,
       "diameter": 1.75,
@@ -334234,7 +337585,7 @@
       "discontinued": false
     },
     {
-      "id": "df434ec6-ae27-5ef7-bdf9-03f67818e834",
+      "id": "25ff2ad4-04ec-59db-ac56-8898dc67aea4",
       "variant_id": "2468003b-83f5-59c7-a678-c0b30929ffbe",
       "filament_weight": 8000,
       "diameter": 1.75,
@@ -334246,7 +337597,7 @@
       "discontinued": false
     },
     {
-      "id": "64b3487a-37f0-53f4-ae61-5e6b0954e819",
+      "id": "df434ec6-ae27-5ef7-bdf9-03f67818e834",
       "variant_id": "2468003b-83f5-59c7-a678-c0b30929ffbe",
       "filament_weight": 500,
       "diameter": 2.85,
@@ -334260,18 +337611,6 @@
     {
       "id": "11da6271-a860-5366-8a59-327f702ff639",
       "variant_id": "f69015e6-a92c-55b4-a494-ba8034478d23",
-      "filament_weight": 1000,
-      "diameter": 1.75,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "20fa05ec-0991-5d4b-808b-dfa66664b6a8",
-      "variant_id": "f69015e6-a92c-55b4-a494-ba8034478d23",
       "filament_weight": 500,
       "diameter": 1.75,
       "empty_spool_weight": 140,
@@ -334282,7 +337621,7 @@
       "discontinued": false
     },
     {
-      "id": "b3614e51-a0d0-52de-9966-26610b6b32f2",
+      "id": "20fa05ec-0991-5d4b-808b-dfa66664b6a8",
       "variant_id": "f69015e6-a92c-55b4-a494-ba8034478d23",
       "filament_weight": 2300,
       "diameter": 1.75,
@@ -334294,7 +337633,7 @@
       "discontinued": false
     },
     {
-      "id": "4e73997a-7b59-530a-bae0-0adfbfe74ca4",
+      "id": "b3614e51-a0d0-52de-9966-26610b6b32f2",
       "variant_id": "f69015e6-a92c-55b4-a494-ba8034478d23",
       "filament_weight": 4500,
       "diameter": 1.75,
@@ -334306,7 +337645,7 @@
       "discontinued": false
     },
     {
-      "id": "78609db2-05db-55d3-a187-2a0118a83be2",
+      "id": "4e73997a-7b59-530a-bae0-0adfbfe74ca4",
       "variant_id": "f69015e6-a92c-55b4-a494-ba8034478d23",
       "filament_weight": 8000,
       "diameter": 1.75,
@@ -334318,7 +337657,7 @@
       "discontinued": false
     },
     {
-      "id": "9b2ed972-11fb-5fb1-9a19-666c6a81dbb3",
+      "id": "78609db2-05db-55d3-a187-2a0118a83be2",
       "variant_id": "f69015e6-a92c-55b4-a494-ba8034478d23",
       "filament_weight": 500,
       "diameter": 2.85,
@@ -334330,7 +337669,7 @@
       "discontinued": false
     },
     {
-      "id": "ff30137d-54e2-53c5-9204-0c86bb115652",
+      "id": "9b2ed972-11fb-5fb1-9a19-666c6a81dbb3",
       "variant_id": "f69015e6-a92c-55b4-a494-ba8034478d23",
       "filament_weight": 2300,
       "diameter": 2.85,
@@ -334344,18 +337683,6 @@
     {
       "id": "5168832f-da43-5e1c-849d-86b84368fd51",
       "variant_id": "da1c3c22-cddf-5b06-8d2a-6440537b3d49",
-      "filament_weight": 1000,
-      "diameter": 1.75,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "93a4aba1-00d5-526c-a100-1c1175ae23e4",
-      "variant_id": "da1c3c22-cddf-5b06-8d2a-6440537b3d49",
       "filament_weight": 500,
       "diameter": 1.75,
       "empty_spool_weight": 140,
@@ -334366,7 +337693,7 @@
       "discontinued": false
     },
     {
-      "id": "743396f5-8de8-5996-94af-2c7d49656b18",
+      "id": "93a4aba1-00d5-526c-a100-1c1175ae23e4",
       "variant_id": "da1c3c22-cddf-5b06-8d2a-6440537b3d49",
       "filament_weight": 2300,
       "diameter": 1.75,
@@ -334378,7 +337705,7 @@
       "discontinued": false
     },
     {
-      "id": "9455b0a3-b834-5b98-816b-f13895c9135d",
+      "id": "743396f5-8de8-5996-94af-2c7d49656b18",
       "variant_id": "da1c3c22-cddf-5b06-8d2a-6440537b3d49",
       "filament_weight": 4500,
       "diameter": 1.75,
@@ -334390,7 +337717,7 @@
       "discontinued": false
     },
     {
-      "id": "e167b9b8-15b5-5c63-a256-efae0fd14265",
+      "id": "9455b0a3-b834-5b98-816b-f13895c9135d",
       "variant_id": "da1c3c22-cddf-5b06-8d2a-6440537b3d49",
       "filament_weight": 8000,
       "diameter": 1.75,
@@ -334402,7 +337729,7 @@
       "discontinued": false
     },
     {
-      "id": "f24dea3d-5dcd-51a2-ba09-75401c75066b",
+      "id": "e167b9b8-15b5-5c63-a256-efae0fd14265",
       "variant_id": "da1c3c22-cddf-5b06-8d2a-6440537b3d49",
       "filament_weight": 500,
       "diameter": 2.85,
@@ -334414,7 +337741,7 @@
       "discontinued": false
     },
     {
-      "id": "957f8ccb-022b-55de-9365-fc7721c971d7",
+      "id": "f24dea3d-5dcd-51a2-ba09-75401c75066b",
       "variant_id": "da1c3c22-cddf-5b06-8d2a-6440537b3d49",
       "filament_weight": 2300,
       "diameter": 2.85,
@@ -334428,18 +337755,6 @@
     {
       "id": "74a72912-18f7-59e5-92f3-5931558980ec",
       "variant_id": "dd10df64-c6fc-5b2c-a69b-04cd8377efb1",
-      "filament_weight": 1000,
-      "diameter": 1.75,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "d8a0bea8-a0f2-5c59-a3ae-b9860220ee4e",
-      "variant_id": "dd10df64-c6fc-5b2c-a69b-04cd8377efb1",
       "filament_weight": 500,
       "diameter": 1.75,
       "empty_spool_weight": 140,
@@ -334450,7 +337765,7 @@
       "discontinued": false
     },
     {
-      "id": "e82eeae0-3878-568b-ad66-27807c97e8f7",
+      "id": "d8a0bea8-a0f2-5c59-a3ae-b9860220ee4e",
       "variant_id": "dd10df64-c6fc-5b2c-a69b-04cd8377efb1",
       "filament_weight": 2300,
       "diameter": 1.75,
@@ -334462,7 +337777,7 @@
       "discontinued": false
     },
     {
-      "id": "ddd7e9a7-dda7-5ada-a3e5-0b02af9cac5a",
+      "id": "e82eeae0-3878-568b-ad66-27807c97e8f7",
       "variant_id": "dd10df64-c6fc-5b2c-a69b-04cd8377efb1",
       "filament_weight": 500,
       "diameter": 2.85,
@@ -334474,7 +337789,7 @@
       "discontinued": false
     },
     {
-      "id": "ab968697-007a-5bd4-af1e-a6f1cff45cc5",
+      "id": "ddd7e9a7-dda7-5ada-a3e5-0b02af9cac5a",
       "variant_id": "dd10df64-c6fc-5b2c-a69b-04cd8377efb1",
       "filament_weight": 2300,
       "diameter": 2.85,
@@ -334488,18 +337803,6 @@
     {
       "id": "1de2380c-b8ce-5d5f-9629-7bf0a6a788eb",
       "variant_id": "203836be-2a4d-5065-93e3-838d9760b3ce",
-      "filament_weight": 1000,
-      "diameter": 1.75,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "9bd59c59-a662-5bc9-a7f7-34cc7096388a",
-      "variant_id": "203836be-2a4d-5065-93e3-838d9760b3ce",
       "filament_weight": 500,
       "diameter": 1.75,
       "empty_spool_weight": 140,
@@ -334510,7 +337813,7 @@
       "discontinued": false
     },
     {
-      "id": "37f502cf-ea41-5306-8cda-d5403f37d09c",
+      "id": "9bd59c59-a662-5bc9-a7f7-34cc7096388a",
       "variant_id": "203836be-2a4d-5065-93e3-838d9760b3ce",
       "filament_weight": 2300,
       "diameter": 1.75,
@@ -334522,7 +337825,7 @@
       "discontinued": false
     },
     {
-      "id": "c4897992-8b67-5f78-b513-3bb39a13493a",
+      "id": "37f502cf-ea41-5306-8cda-d5403f37d09c",
       "variant_id": "203836be-2a4d-5065-93e3-838d9760b3ce",
       "filament_weight": 4500,
       "diameter": 1.75,
@@ -334534,7 +337837,7 @@
       "discontinued": false
     },
     {
-      "id": "f8e8dc93-a31f-5394-a337-830a2fa5c087",
+      "id": "c4897992-8b67-5f78-b513-3bb39a13493a",
       "variant_id": "203836be-2a4d-5065-93e3-838d9760b3ce",
       "filament_weight": 8000,
       "diameter": 1.75,
@@ -334546,7 +337849,7 @@
       "discontinued": false
     },
     {
-      "id": "e3a67113-52bb-537b-b043-25618483048d",
+      "id": "f8e8dc93-a31f-5394-a337-830a2fa5c087",
       "variant_id": "203836be-2a4d-5065-93e3-838d9760b3ce",
       "filament_weight": 2300,
       "diameter": 2.85,
@@ -334560,18 +337863,6 @@
     {
       "id": "04415ba0-6a0c-5d5d-95b3-536157e169a8",
       "variant_id": "7dcd2d5b-b23f-5bd3-9db5-0b073b828605",
-      "filament_weight": 1000,
-      "diameter": 1.75,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "aaa79b0e-e9f2-5ac2-aacb-1d95779040f7",
-      "variant_id": "7dcd2d5b-b23f-5bd3-9db5-0b073b828605",
       "filament_weight": 500,
       "diameter": 1.75,
       "empty_spool_weight": 140,
@@ -334582,7 +337873,7 @@
       "discontinued": false
     },
     {
-      "id": "99b34fa7-6580-53da-91a0-cc483ba058ee",
+      "id": "aaa79b0e-e9f2-5ac2-aacb-1d95779040f7",
       "variant_id": "7dcd2d5b-b23f-5bd3-9db5-0b073b828605",
       "filament_weight": 2300,
       "diameter": 1.75,
@@ -334594,7 +337885,7 @@
       "discontinued": false
     },
     {
-      "id": "9d036b44-775d-5b6e-8423-b96ac8205c3f",
+      "id": "99b34fa7-6580-53da-91a0-cc483ba058ee",
       "variant_id": "7dcd2d5b-b23f-5bd3-9db5-0b073b828605",
       "filament_weight": 500,
       "diameter": 2.85,
@@ -334606,7 +337897,7 @@
       "discontinued": false
     },
     {
-      "id": "6fc060ec-2fdb-5f21-9bbe-f9baa1d6d3d0",
+      "id": "9d036b44-775d-5b6e-8423-b96ac8205c3f",
       "variant_id": "7dcd2d5b-b23f-5bd3-9db5-0b073b828605",
       "filament_weight": 2300,
       "diameter": 2.85,
@@ -334620,145 +337911,313 @@
     {
       "id": "a660f7f6-6875-59ff-98c9-d1227db3fd58",
       "variant_id": "f44ee4ef-e81c-530d-9a2f-92abad9991d5",
-      "filament_weight": 1000,
+      "filament_weight": 750,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "GPLA-175APUR-00750",
+      "discontinued": false
+    },
+    {
+      "id": "3b45e36f-a8cb-570d-aa09-e86c2716e146",
+      "variant_id": "f44ee4ef-e81c-530d-9a2f-92abad9991d5",
+      "filament_weight": 750,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "GPLA-285APUR-00750",
       "discontinued": false
     },
     {
       "id": "06225fd0-1d0c-568e-a800-c8b7ab7b8daf",
       "variant_id": "52483712-2587-55dc-b011-374bce8e8b65",
-      "filament_weight": 1000,
+      "filament_weight": 750,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "GPLA-175CLYL-00750",
+      "discontinued": false
+    },
+    {
+      "id": "6319e474-76bb-5f83-8cd6-8ce112171c0d",
+      "variant_id": "52483712-2587-55dc-b011-374bce8e8b65",
+      "filament_weight": 750,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "GPLA-285CLYL-00750",
       "discontinued": false
     },
     {
       "id": "7a741b9a-8f11-5cd7-b829-8d9019a44b80",
       "variant_id": "43987415-b51e-58a4-bab3-05948227fb46",
-      "filament_weight": 1000,
+      "filament_weight": 750,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "GPLA-175CGLD-00750",
+      "discontinued": false
+    },
+    {
+      "id": "fd33a4b8-ebef-5a42-99a8-ff4c5d0d454b",
+      "variant_id": "43987415-b51e-58a4-bab3-05948227fb46",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "GPLA-175CGLD-02300",
       "discontinued": false
     },
     {
       "id": "745c3e1c-8fa5-55d5-b58e-6a060640ae95",
       "variant_id": "8211ec1b-eab8-5ddc-81b7-a40f28ebadbe",
-      "filament_weight": 1000,
+      "filament_weight": 750,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "GPLA-175EGRN-00750",
+      "discontinued": false
+    },
+    {
+      "id": "90706796-e319-5c4c-9e2d-a8537adb89cb",
+      "variant_id": "8211ec1b-eab8-5ddc-81b7-a40f28ebadbe",
+      "filament_weight": 750,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "GPLA-285EGRN-00750",
       "discontinued": false
     },
     {
       "id": "76a09276-d6af-5561-bd5c-dda7445bf7f2",
       "variant_id": "306f4737-02e4-52e9-af44-1dc26ed34b4f",
-      "filament_weight": 1000,
+      "filament_weight": 750,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "GPLA-175GBLU-00750",
+      "discontinued": false
+    },
+    {
+      "id": "c38913ee-4c51-5146-ba0c-7d4897df7220",
+      "variant_id": "306f4737-02e4-52e9-af44-1dc26ed34b4f",
+      "filament_weight": 750,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "GPLA-285GBLU-00750",
       "discontinued": false
     },
     {
       "id": "ccc79f85-b8e8-570b-b3f8-f75184c6549f",
       "variant_id": "e84d0d33-42ba-5305-99f7-7068e4bad627",
-      "filament_weight": 1000,
+      "filament_weight": 750,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "GPLA-175JBRN-00750",
+      "discontinued": false
+    },
+    {
+      "id": "3a90e822-16dc-5880-be53-8559a575888a",
+      "variant_id": "e84d0d33-42ba-5305-99f7-7068e4bad627",
+      "filament_weight": 750,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "GPLA-285JBRN-00750",
       "discontinued": false
     },
     {
       "id": "25edbabe-43eb-54cc-9d5b-024e9e289c75",
       "variant_id": "20121389-806f-5115-a71c-eee3a4ace4f7",
-      "filament_weight": 1000,
+      "filament_weight": 750,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "GPLA-175MBRN-00750",
+      "discontinued": false
+    },
+    {
+      "id": "9732416a-e332-5e35-858e-80c15abf528a",
+      "variant_id": "20121389-806f-5115-a71c-eee3a4ace4f7",
+      "filament_weight": 750,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "GPLA-285MBRN-00750",
       "discontinued": false
     },
     {
       "id": "5217df79-0a47-533a-ba6d-23463de8f36f",
       "variant_id": "c3c86e6b-d9ba-59b9-829e-ad6c2c28c93d",
-      "filament_weight": 1000,
+      "filament_weight": 750,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "GPLA-175OGRN-00750",
+      "discontinued": false
+    },
+    {
+      "id": "44ed091a-dec9-5368-b722-34b7b378967c",
+      "variant_id": "c3c86e6b-d9ba-59b9-829e-ad6c2c28c93d",
+      "filament_weight": 750,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "GPLA-285OGRN-00750",
       "discontinued": false
     },
     {
       "id": "ba163ba5-768e-5c11-96ab-ad46a37073ea",
       "variant_id": "d7eaa714-098e-53e0-beb7-314acb3ccf8b",
-      "filament_weight": 1000,
+      "filament_weight": 750,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "GPLA-175OBLU-00750",
+      "discontinued": false
+    },
+    {
+      "id": "697d96a5-ae03-5249-ba28-44b56816e652",
+      "variant_id": "d7eaa714-098e-53e0-beb7-314acb3ccf8b",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "GPLA-175OBLU-02300",
+      "discontinued": false
+    },
+    {
+      "id": "67430bbc-3c65-5f00-a0e6-bf4bb613ad7b",
+      "variant_id": "d7eaa714-098e-53e0-beb7-314acb3ccf8b",
+      "filament_weight": 750,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "GPLA-285OBLU-00750",
       "discontinued": false
     },
     {
       "id": "b80c1cd6-8767-56bc-bfab-85e91e08f907",
       "variant_id": "ec788777-ee72-57ea-beed-aefd940b20d8",
-      "filament_weight": 1000,
+      "filament_weight": 750,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "GPLA-175RRED-00750",
+      "discontinued": false
+    },
+    {
+      "id": "4a383bff-f83c-5965-8f11-1fea5a5e51a0",
+      "variant_id": "ec788777-ee72-57ea-beed-aefd940b20d8",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "GPLA-175RRED-02300",
+      "discontinued": false
+    },
+    {
+      "id": "1a5a233d-579d-55e4-8d67-88f954558a47",
+      "variant_id": "ec788777-ee72-57ea-beed-aefd940b20d8",
+      "filament_weight": 750,
+      "diameter": 2.85,
+      "empty_spool_weight": 165,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "GPLA-285RRED-00750",
       "discontinued": false
     },
     {
       "id": "c7fc5e92-9313-5825-b1cf-7d5545180c8b",
       "variant_id": "6c0da670-0cea-5090-81dd-3de350680a67",
-      "filament_weight": 1000,
+      "filament_weight": 750,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "GPLA-175SPGY-00750",
+      "discontinued": false
+    },
+    {
+      "id": "96c147ee-a549-56ca-8f0e-35a6f5cced24",
+      "variant_id": "6c0da670-0cea-5090-81dd-3de350680a67",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "GPLA-175SPGY-02300",
       "discontinued": false
     },
     {
       "id": "f4fa0276-0708-51e4-bad9-5f631dbbcb8b",
       "variant_id": "912abd2a-6388-5802-814b-fb97120f6edb",
-      "filament_weight": 1000,
+      "filament_weight": 750,
       "diameter": 1.75,
-      "empty_spool_weight": null,
+      "empty_spool_weight": 165,
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": null,
-      "article_number": null,
+      "article_number": "GPLA-175TSLV-00750",
+      "discontinued": false
+    },
+    {
+      "id": "e865404a-795d-5585-b4e5-3214dcf93f81",
+      "variant_id": "912abd2a-6388-5802-814b-fb97120f6edb",
+      "filament_weight": 2300,
+      "diameter": 1.75,
+      "empty_spool_weight": 625,
+      "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "GPLA-175TSLV-02300",
       "discontinued": false
     },
     {
