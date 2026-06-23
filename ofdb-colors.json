@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T19:15:30Z",
+  "generatedAt": "2026-06-23T15:19:21Z",
   "source": "https://github.com/OpenFilamentCollective/open-filament-database",
   "license": "MIT https://github.com/OpenFilamentCollective/open-filament-database/blob/main/LICENSE",
   "brands": [
@@ -227,6 +227,15 @@
       "logo_name": "logo.png",
       "origin": "CN",
       "source": "openprinttag"
+    },
+    {
+      "id": "f458f318-30c1-52f3-9239-61e00282f917",
+      "slug": "biqu",
+      "name": "BIQU",
+      "website": "https://biqu.equipment/",
+      "logo_name": "logo.png",
+      "origin": "CN",
+      "source": null
     },
     {
       "id": "195662cb-cea5-5dff-9919-6d9651b3eb82",
@@ -688,6 +697,15 @@
       "source": null
     },
     {
+      "id": "d654e3ba-5e3b-5177-9e5b-691100f3d9b4",
+      "slug": "kexcelled",
+      "name": "kexcelled",
+      "website": "https://www.kexcelled3d.com/",
+      "logo_name": "logo.png",
+      "origin": "Unknown",
+      "source": null
+    },
+    {
       "id": "88761006-e943-50a9-aa70-b6b772faa1ca",
       "slug": "kimya",
       "name": "Kimya",
@@ -721,6 +739,15 @@
       "website": "https://shop.lab3d.dk",
       "logo_name": "logo.png",
       "origin": "DK",
+      "source": null
+    },
+    {
+      "id": "57ff0a1a-99bc-5b4b-8bdc-e9054ade5dea",
+      "slug": "landu",
+      "name": "Landu",
+      "website": "https://landu3d.com",
+      "logo_name": "logo.png",
+      "origin": "CN",
       "source": null
     },
     {
@@ -1066,6 +1093,15 @@
       "source": "openprinttag"
     },
     {
+      "id": "7cc09303-0bbc-5db1-8c6e-cd1419cb1f01",
+      "slug": "renkforce",
+      "name": "Renkforce",
+      "website": "https://das-renkforce.de/",
+      "logo_name": "logo.png",
+      "origin": "Unknown",
+      "source": null
+    },
+    {
       "id": "50792e4c-2c6f-512a-ad5a-901fe42f112d",
       "slug": "rosa3d_filaments",
       "name": "ROSA3D Filaments",
@@ -1091,6 +1127,15 @@
       "logo_name": "logo.jpg",
       "origin": "ES",
       "source": "openprinttag"
+    },
+    {
+      "id": "1783b5e3-93ec-5bf3-ba09-17d373b61dcf",
+      "slug": "siddament",
+      "name": "Siddament",
+      "website": "https://siddament.com.au",
+      "logo_name": "logo.png",
+      "origin": "AU",
+      "source": null
     },
     {
       "id": "5f0117cd-5892-5e13-936a-8999209727cc",
@@ -2036,6 +2081,13 @@
       "brand_id": "ccff300f-245e-5d63-ab8a-6c987ab846cb",
       "slug": "tpu",
       "material": "TPU",
+      "material_class": "FFF"
+    },
+    {
+      "id": "9ee9cabd-bbc3-521d-b216-feb84a50edc2",
+      "brand_id": "f458f318-30c1-52f3-9239-61e00282f917",
+      "slug": "pla",
+      "material": "PLA",
       "material_class": "FFF"
     },
     {
@@ -3733,6 +3785,20 @@
       "material_class": "FFF"
     },
     {
+      "id": "3a4c850c-0f53-502e-b392-9206b1f859b3",
+      "brand_id": "d654e3ba-5e3b-5177-9e5b-691100f3d9b4",
+      "slug": "abs",
+      "material": "ABS",
+      "material_class": "FFF"
+    },
+    {
+      "id": "922d7487-e0d7-5aad-a29f-23a2907f533b",
+      "brand_id": "d654e3ba-5e3b-5177-9e5b-691100f3d9b4",
+      "slug": "petg",
+      "material": "PETG",
+      "material_class": "FFF"
+    },
+    {
       "id": "dce3ce7c-f57e-5cc2-92d8-3798190e1d69",
       "brand_id": "88761006-e943-50a9-aa70-b6b772faa1ca",
       "slug": "petg",
@@ -3791,6 +3857,13 @@
     {
       "id": "fec338fc-92e2-563c-9d09-5e1ce85fa610",
       "brand_id": "2802370a-f41a-54ba-91ab-60d1b1c68fb5",
+      "slug": "pla",
+      "material": "PLA",
+      "material_class": "FFF"
+    },
+    {
+      "id": "3637bacd-4a08-5d70-802f-c8b18790469d",
+      "brand_id": "57ff0a1a-99bc-5b4b-8bdc-e9054ade5dea",
       "slug": "pla",
       "material": "PLA",
       "material_class": "FFF"
@@ -4934,6 +5007,13 @@
       "brand_id": "81ab41d3-a591-5137-b760-5210e5ac2f58",
       "slug": "pla",
       "material": "PLA",
+      "material_class": "FFF"
+    },
+    {
+      "id": "264c3d08-bdc0-5bcc-ae8c-f31be0e232a6",
+      "brand_id": "7cc09303-0bbc-5db1-8c6e-cd1419cb1f01",
+      "slug": "petg",
+      "material": "PETG",
       "material_class": "FFF"
     },
     {
@@ -10051,7 +10131,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFB98",
-          "id": "GFA99",
+          "id": "GFASA",
           "profile_name": "Anycubic ASA"
         },
         "elegooslicer": {
@@ -10079,7 +10159,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "GFG99",
+          "id": "GFPETG",
           "profile_name": "Anycubic PETG"
         },
         "elegooslicer": {
@@ -10192,7 +10272,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFL95",
+          "id": "GFL99",
           "profile_name": "Anycubic PLA Matte"
         },
         "elegooslicer": {
@@ -11121,10 +11201,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFB99",
-          "id": "GFB00",
+          "id": "OGFB00",
           "profile_name": "Bambu ABS"
         },
         "elegooslicer": {
+          "generic_id": "GFB99",
+          "id": "OGFB00",
+          "profile_name": "Bambu ABS"
+        },
+        "crealityprint": {
           "generic_id": "GFB99",
           "id": "GFB00",
           "profile_name": "Bambu ABS"
@@ -11154,10 +11239,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFB99",
-          "id": "GFB50",
+          "id": "OGFB50",
           "profile_name": "Bambu ABS-GF"
         },
         "elegooslicer": {
+          "generic_id": "GFB99",
+          "id": "OGFB50",
+          "profile_name": "Bambu ABS-GF"
+        },
+        "crealityprint": {
           "generic_id": "GFB99",
           "id": "GFB50",
           "profile_name": "Bambu ABS-GF"
@@ -11220,10 +11310,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFB98",
-          "id": "GFB01",
+          "id": "OGFB01",
           "profile_name": "Bambu ASA"
         },
         "elegooslicer": {
+          "generic_id": "GFB98",
+          "id": "OGFB01",
+          "profile_name": "Bambu ASA"
+        },
+        "crealityprint": {
           "generic_id": "GFB98",
           "id": "GFB01",
           "profile_name": "Bambu ASA"
@@ -11253,12 +11348,12 @@
         },
         "orcaslicer": {
           "generic_id": "GFB98",
-          "id": "GFB51",
+          "id": "OGFB51",
           "profile_name": "Bambu ASA-CF"
         },
         "elegooslicer": {
           "generic_id": "GFB98",
-          "id": "GFB51",
+          "id": "OGFB51",
           "profile_name": "Bambu ASA-CF"
         }
       },
@@ -11318,10 +11413,14 @@
           "profile_name": "Bambu PA6-CF"
         },
         "orcaslicer": {
-          "id": "GFN05",
+          "id": "OGFN05",
           "profile_name": "Bambu PA6-CF"
         },
         "elegooslicer": {
+          "id": "OGFN05",
+          "profile_name": "Bambu PA6-CF"
+        },
+        "crealityprint": {
           "id": "GFN05",
           "profile_name": "Bambu PA6-CF"
         }
@@ -11348,10 +11447,14 @@
           "profile_name": "Bambu PA6-GF"
         },
         "orcaslicer": {
-          "id": "GFN08",
+          "id": "OGFN08",
           "profile_name": "Bambu PA6-GF"
         },
         "elegooslicer": {
+          "id": "OGFN08",
+          "profile_name": "Bambu PA6-GF"
+        },
+        "crealityprint": {
           "id": "GFN08",
           "profile_name": "Bambu PA6-GF"
         }
@@ -11378,10 +11481,14 @@
           "profile_name": "Bambu PAHT-CF"
         },
         "orcaslicer": {
-          "id": "GFN04",
+          "id": "OGFN04",
           "profile_name": "Bambu PAHT-CF"
         },
         "elegooslicer": {
+          "id": "OGFN04",
+          "profile_name": "Bambu PAHT-CF"
+        },
+        "crealityprint": {
           "id": "GFN04",
           "profile_name": "Bambu PAHT-CF"
         }
@@ -11410,10 +11517,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFC99",
-          "id": "GFC00",
+          "id": "OGFC00",
           "profile_name": "Bambu PC"
         },
         "elegooslicer": {
+          "generic_id": "GFC99",
+          "id": "OGFC00",
+          "profile_name": "Bambu PC"
+        },
+        "crealityprint": {
           "generic_id": "GFC99",
           "id": "GFC00",
           "profile_name": "Bambu PC"
@@ -11443,12 +11555,12 @@
         },
         "orcaslicer": {
           "generic_id": "GFC99",
-          "id": "GFC01",
+          "id": "OGFC01",
           "profile_name": "Bambu PC FR"
         },
         "elegooslicer": {
           "generic_id": "GFC99",
-          "id": "GFC01",
+          "id": "OGFC01",
           "profile_name": "Bambu PC FR"
         }
       },
@@ -11474,10 +11586,14 @@
           "profile_name": "Bambu PET-CF"
         },
         "orcaslicer": {
-          "id": "GFT01",
+          "id": "OGFT01",
           "profile_name": "Bambu PET-CF"
         },
         "elegooslicer": {
+          "id": "OGFT01",
+          "profile_name": "Bambu PET-CF"
+        },
+        "crealityprint": {
           "id": "GFT01",
           "profile_name": "Bambu PET-CF"
         }
@@ -11506,12 +11622,12 @@
         },
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "GFG02",
+          "id": "OGFG02",
           "profile_name": "Bambu PETG HF"
         },
         "elegooslicer": {
           "generic_id": "GFG99",
-          "id": "GFG02",
+          "id": "OGFG02",
           "profile_name": "Bambu PETG HF"
         }
       },
@@ -11539,10 +11655,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "GFG00",
+          "id": "OGFG00",
           "profile_name": "Bambu PETG Basic"
         },
         "elegooslicer": {
+          "generic_id": "GFG99",
+          "id": "OGFG00",
+          "profile_name": "Bambu PETG Basic"
+        },
+        "crealityprint": {
           "generic_id": "GFG99",
           "id": "GFG00",
           "profile_name": "Bambu PETG Basic"
@@ -11572,10 +11693,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "GFG50",
+          "id": "OGFG50",
           "profile_name": "Bambu PETG-CF"
         },
         "elegooslicer": {
+          "generic_id": "GFG99",
+          "id": "OGFG50",
+          "profile_name": "Bambu PETG-CF"
+        },
+        "crealityprint": {
           "generic_id": "GFG99",
           "id": "GFG50",
           "profile_name": "Bambu PETG-CF"
@@ -11605,10 +11731,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "GFG01",
+          "id": "OGFG01",
           "profile_name": "Bambu PETG Translucent"
         },
         "elegooslicer": {
+          "generic_id": "GFG99",
+          "id": "OGFG01",
+          "profile_name": "Bambu PETG Translucent"
+        },
+        "crealityprint": {
           "generic_id": "GFG99",
           "id": "GFG01",
           "profile_name": "Bambu PETG Translucent"
@@ -11638,10 +11769,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFA11",
+          "id": "OGFA11",
           "profile_name": "Bambu PLA Aero"
         },
         "elegooslicer": {
+          "generic_id": "GFL99",
+          "id": "OGFA11",
+          "profile_name": "Bambu PLA Aero"
+        },
+        "crealityprint": {
           "generic_id": "GFL99",
           "id": "GFA11",
           "profile_name": "Bambu PLA Aero"
@@ -11671,10 +11807,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFA00",
+          "id": "OGFA00",
           "profile_name": "Bambu PLA Basic"
         },
         "elegooslicer": {
+          "generic_id": "GFL99",
+          "id": "OGFA00",
+          "profile_name": "Bambu PLA Basic"
+        },
+        "crealityprint": {
           "generic_id": "GFL99",
           "id": "GFA00",
           "profile_name": "Bambu PLA Basic"
@@ -11721,10 +11862,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFA15",
+          "id": "OGFA15",
           "profile_name": "Bambu PLA Galaxy"
         },
         "elegooslicer": {
+          "generic_id": "GFL99",
+          "id": "OGFA15",
+          "profile_name": "Bambu PLA Galaxy"
+        },
+        "crealityprint": {
           "generic_id": "GFL99",
           "id": "GFA15",
           "profile_name": "Bambu PLA Galaxy"
@@ -11754,10 +11900,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFA12",
+          "id": "OGFA12",
           "profile_name": "Bambu PLA Glow"
         },
         "elegooslicer": {
+          "generic_id": "GFL99",
+          "id": "OGFA12",
+          "profile_name": "Bambu PLA Glow"
+        },
+        "crealityprint": {
           "generic_id": "GFL99",
           "id": "GFA12",
           "profile_name": "Bambu PLA Glow"
@@ -11787,10 +11938,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFA07",
+          "id": "OGFA07",
           "profile_name": "Bambu PLA Marble"
         },
         "elegooslicer": {
+          "generic_id": "GFL99",
+          "id": "OGFA07",
+          "profile_name": "Bambu PLA Marble"
+        },
+        "crealityprint": {
           "generic_id": "GFL99",
           "id": "GFA07",
           "profile_name": "Bambu PLA Marble"
@@ -11820,10 +11976,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFA01",
+          "id": "OGFA01",
           "profile_name": "Bambu PLA Matte"
         },
         "elegooslicer": {
+          "generic_id": "GFL99",
+          "id": "OGFA01",
+          "profile_name": "Bambu PLA Matte"
+        },
+        "crealityprint": {
           "generic_id": "GFL99",
           "id": "GFA01",
           "profile_name": "Bambu PLA Matte"
@@ -11853,10 +12014,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFA02",
+          "id": "OGFA02",
           "profile_name": "Bambu PLA Metal"
         },
         "elegooslicer": {
+          "generic_id": "GFL99",
+          "id": "OGFA02",
+          "profile_name": "Bambu PLA Metal"
+        },
+        "crealityprint": {
           "generic_id": "GFL99",
           "id": "GFA02",
           "profile_name": "Bambu PLA Metal"
@@ -11914,10 +12080,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFA50",
+          "id": "OGFA50",
           "profile_name": "Bambu PLA-CF"
         },
         "elegooslicer": {
+          "generic_id": "GFL99",
+          "id": "OGFA50",
+          "profile_name": "Bambu PLA-CF"
+        },
+        "crealityprint": {
           "generic_id": "GFL99",
           "id": "GFA50",
           "profile_name": "Bambu PLA-CF"
@@ -11975,12 +12146,12 @@
         },
         "orcaslicer": {
           "generic_id": "GFL96",
-          "id": "GFA06",
+          "id": "OGFA06",
           "profile_name": "Bambu PLA Silk+"
         },
         "elegooslicer": {
           "generic_id": "GFL96",
-          "id": "GFA06",
+          "id": "OGFA06",
           "profile_name": "Bambu PLA Silk+"
         }
       },
@@ -12049,10 +12220,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFA08",
+          "id": "OGFA08",
           "profile_name": "Bambu PLA Sparkle"
         },
         "elegooslicer": {
+          "generic_id": "GFL99",
+          "id": "OGFA08",
+          "profile_name": "Bambu PLA Sparkle"
+        },
+        "crealityprint": {
           "generic_id": "GFL99",
           "id": "GFA08",
           "profile_name": "Bambu PLA Sparkle"
@@ -12138,12 +12314,12 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFA16",
+          "id": "OGFA16",
           "profile_name": "Bambu PLA Wood"
         },
         "elegooslicer": {
           "generic_id": "GFL99",
-          "id": "GFA16",
+          "id": "OGFA16",
           "profile_name": "Bambu PLA Wood"
         }
       },
@@ -12169,11 +12345,11 @@
           "profile_name": "Bambu PPA-CF"
         },
         "orcaslicer": {
-          "id": "GFN06",
+          "id": "OGFN06",
           "profile_name": "Bambu PPA-CF"
         },
         "elegooslicer": {
-          "id": "GFN06",
+          "id": "OGFN06",
           "profile_name": "Bambu PPA-CF"
         }
       },
@@ -12233,12 +12409,12 @@
         },
         "orcaslicer": {
           "generic_id": "GFS99",
-          "id": "GFS06",
+          "id": "OGFS06",
           "profile_name": "Bambu Support for ABS"
         },
         "elegooslicer": {
           "generic_id": "GFS99",
-          "id": "GFS06",
+          "id": "OGFS06",
           "profile_name": "Bambu Support for ABS"
         }
       },
@@ -12266,10 +12442,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFS99",
-          "id": "GFS03",
+          "id": "OGFS03",
           "profile_name": "Bambu Support For PA/PET"
         },
         "elegooslicer": {
+          "generic_id": "GFS99",
+          "id": "OGFS03",
+          "profile_name": "Bambu Support For PA/PET"
+        },
+        "crealityprint": {
           "generic_id": "GFS99",
           "id": "GFS03",
           "profile_name": "Bambu Support For PA/PET"
@@ -12299,10 +12480,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFS99",
-          "id": "GFS02",
+          "id": "OGFS02",
           "profile_name": "Bambu Support For PLA"
         },
         "elegooslicer": {
+          "generic_id": "GFS99",
+          "id": "OGFS02",
+          "profile_name": "Bambu Support For PLA"
+        },
+        "crealityprint": {
           "generic_id": "GFS99",
           "id": "GFS02",
           "profile_name": "Bambu Support For PLA"
@@ -12332,10 +12518,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFS99",
-          "id": "GFS05",
+          "id": "OGFS05",
           "profile_name": "Bambu Support For PLA/PETG"
         },
         "elegooslicer": {
+          "generic_id": "GFS99",
+          "id": "OGFS05",
+          "profile_name": "Bambu Support For PLA/PETG"
+        },
+        "crealityprint": {
           "generic_id": "GFS99",
           "id": "GFS05",
           "profile_name": "Bambu Support For PLA/PETG"
@@ -12365,10 +12556,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFS99",
-          "id": "GFS04",
+          "id": "OGFS04",
           "profile_name": "Bambu PVA"
         },
         "elegooslicer": {
+          "generic_id": "GFS99",
+          "id": "OGFS04",
+          "profile_name": "Bambu PVA"
+        },
+        "crealityprint": {
           "generic_id": "GFS99",
           "id": "GFS04",
           "profile_name": "Bambu PVA"
@@ -12398,10 +12594,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFU99",
-          "id": "GFU00",
+          "id": "OGFU00",
           "profile_name": "Bambu TPU 95A HF"
         },
         "elegooslicer": {
+          "generic_id": "GFU99",
+          "id": "OGFU00",
+          "profile_name": "Bambu TPU 95A HF"
+        },
+        "crealityprint": {
           "generic_id": "GFU99",
           "id": "GFU00",
           "profile_name": "Bambu TPU 95A HF"
@@ -12455,6 +12656,23 @@
       "max_print_temperature": 240,
       "min_bed_temperature": 30,
       "max_bed_temperature": 60,
+      "discontinued": false,
+      "slicer_settings": null,
+      "data_sheet_url": null,
+      "safety_sheet_url": null
+    },
+    {
+      "id": "9e6fc089-f772-5231-a055-ee6a9be801c1",
+      "brand_id": "f458f318-30c1-52f3-9239-61e00282f917",
+      "material_id": "9ee9cabd-bbc3-521d-b216-feb84a50edc2",
+      "slug": "pla_go_blue",
+      "name": "PLA GO",
+      "density": 1.24,
+      "diameter_tolerance": 0.02,
+      "min_print_temperature": 210,
+      "max_print_temperature": 240,
+      "min_bed_temperature": 55,
+      "max_bed_temperature": 65,
       "discontinued": false,
       "slicer_settings": null,
       "data_sheet_url": null,
@@ -13894,10 +14112,10 @@
       "discontinued": false,
       "slicer_settings": {
         "prusaslicer": {
-          "profile_name": "DAS FILAMENT PETG"
+          "profile_name": "Das Filament PETG"
         },
         "superslicer": {
-          "profile_name": "DAS FILAMENT PETG"
+          "profile_name": "Das Filament PETG"
         }
       },
       "data_sheet_url": null,
@@ -14569,7 +14787,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFB99",
-          "id": "EABSB00",
+          "id": "OEABSB00",
           "profile_name": "Elegoo ABS"
         },
         "elegooslicer": {
@@ -14597,7 +14815,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFB98",
-          "id": "EASAB00",
+          "id": "OGFE06",
           "profile_name": "Elegoo ASA"
         },
         "elegooslicer": {
@@ -14624,7 +14842,7 @@
       "discontinued": false,
       "slicer_settings": {
         "orcaslicer": {
-          "id": "EPAHTB00",
+          "id": "OEPAHTB0",
           "profile_name": "Elegoo PAHT-CF"
         },
         "elegooslicer": {
@@ -14651,7 +14869,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFC99",
-          "id": "EPCB00",
+          "id": "OEPCB00",
           "profile_name": "Elegoo PC"
         },
         "elegooslicer": {
@@ -14679,7 +14897,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "EPETGB00",
+          "id": "OEPETGB0",
           "profile_name": "Elegoo PETG"
         },
         "elegooslicer": {
@@ -14707,7 +14925,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "EPETGB00",
+          "id": "OGFE03",
           "profile_name": "Elegoo PETG-CF"
         },
         "elegooslicer": {
@@ -14735,7 +14953,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "EPETGB00",
+          "id": "OEPETGB0",
           "profile_name": "Elegoo PETG-GF"
         },
         "elegooslicer": {
@@ -14763,8 +14981,8 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "EPETGPROB00",
-          "profile_name": "Elegoo PETG PRO"
+          "id": "OGFE02",
+          "profile_name": "Elegoo PETG Pro"
         },
         "elegooslicer": {
           "generic_id": "GFG99",
@@ -14794,8 +15012,8 @@
         },
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "EPETGB00",
-          "profile_name": "Elegoo RAPID PETG"
+          "id": "OGFE01",
+          "profile_name": "Elegoo Rapid PETG"
         },
         "elegooslicer": {
           "generic_id": "GFG99",
@@ -14842,7 +15060,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFL99",
+          "id": "OGFE04",
           "profile_name": "Elegoo PLA"
         },
         "elegooslicer": {
@@ -14870,7 +15088,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "EPLAB00",
+          "id": "OEPLAB00",
           "profile_name": "Elegoo PLA Basic"
         },
         "elegooslicer": {
@@ -14898,7 +15116,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "EPLAB00",
+          "id": "OEPLAB00",
           "profile_name": "Elegoo PLA-CF"
         },
         "elegooslicer": {
@@ -14926,7 +15144,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "EPLAMB00",
+          "id": "OEPLAB00",
           "profile_name": "Elegoo PLA Matte"
         },
         "elegooslicer": {
@@ -14971,7 +15189,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "EPLAB00",
+          "id": "OEPLAB00",
           "profile_name": "Elegoo PLA PRO"
         },
         "elegooslicer": {
@@ -14999,7 +15217,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "EPLAB00",
+          "id": "OEPLAB00",
           "profile_name": "Elegoo PLA Sparkle"
         },
         "elegooslicer": {
@@ -15027,7 +15245,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "EPLAB00",
+          "id": "OEPLAB00",
           "profile_name": "Elegoo PLA Wood"
         },
         "elegooslicer": {
@@ -15089,8 +15307,8 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFU99",
-          "id": "ETPUB00",
-          "profile_name": "Elegoo RAPID TPU 95A"
+          "id": "OETPUB00",
+          "profile_name": "Elegoo Rapid TPU 95A"
         },
         "elegooslicer": {
           "generic_id": "GFU99",
@@ -15117,7 +15335,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFU99",
-          "id": "ETPUB00",
+          "id": "OGFE07",
           "profile_name": "Elegoo TPU 95A"
         },
         "elegooslicer": {
@@ -16567,7 +16785,13 @@
       "min_bed_temperature": 90,
       "max_bed_temperature": 110,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "orcaslicer": {
+          "generic_id": "GFB99",
+          "id": "E3001",
+          "profile_name": "eSUN ABS+"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -16618,7 +16842,13 @@
       "min_bed_temperature": 90,
       "max_bed_temperature": 110,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "orcaslicer": {
+          "generic_id": "GFB98",
+          "id": "E4001",
+          "profile_name": "eSUN ASA+"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -16726,7 +16956,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "ESN03",
+          "id": "E2001",
           "profile_name": "eSUN PETG"
         },
         "superslicer": {
@@ -16735,6 +16965,11 @@
         "elegooslicer": {
           "generic_id": "GFG99",
           "id": "ESN03",
+          "profile_name": "eSUN PETG"
+        },
+        "crealityprint": {
+          "generic_id": "GFG99",
+          "id": "E2001",
           "profile_name": "eSUN PETG"
         }
       },
@@ -16771,7 +17006,18 @@
       "min_bed_temperature": 70,
       "max_bed_temperature": 90,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "orcaslicer": {
+          "generic_id": "GFG99",
+          "id": "E2002",
+          "profile_name": "eSUN PETG+HS"
+        },
+        "crealityprint": {
+          "generic_id": "GFG99",
+          "id": "E2002",
+          "profile_name": "eSUN PETG+HS"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -16788,7 +17034,13 @@
       "min_bed_temperature": null,
       "max_bed_temperature": null,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "orcaslicer": {
+          "generic_id": "GFG99",
+          "id": "E2003",
+          "profile_name": "eSUN PETG-Basic"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -16847,12 +17099,17 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFL03",
+          "id": "E1001",
           "profile_name": "eSUN PLA+"
         },
         "elegooslicer": {
           "generic_id": "GFL99",
-          "id": "GFL03",
+          "id": "OGFL03",
+          "profile_name": "eSUN PLA+"
+        },
+        "crealityprint": {
+          "generic_id": "GFL99",
+          "id": "E1001",
           "profile_name": "eSUN PLA+"
         }
       },
@@ -16917,7 +17174,18 @@
       "min_bed_temperature": 50,
       "max_bed_temperature": 70,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "orcaslicer": {
+          "generic_id": "GFL99",
+          "id": "E1005",
+          "profile_name": "eSUN PLA-CF"
+        },
+        "crealityprint": {
+          "generic_id": "GFL99",
+          "id": "E1005",
+          "profile_name": "eSUN PLA-CF"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -16951,7 +17219,18 @@
       "min_bed_temperature": 50,
       "max_bed_temperature": 70,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "orcaslicer": {
+          "generic_id": "GFL99",
+          "id": "E1006",
+          "profile_name": "eSUN PLA-HS"
+        },
+        "crealityprint": {
+          "generic_id": "GFL99",
+          "id": "E1006",
+          "profile_name": "eSUN PLA-HS"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -16968,7 +17247,18 @@
       "min_bed_temperature": null,
       "max_bed_temperature": null,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "orcaslicer": {
+          "generic_id": "GFL99",
+          "id": "E1004",
+          "profile_name": "eSUN PLA-Lite"
+        },
+        "crealityprint": {
+          "generic_id": "GFL99",
+          "id": "E1004",
+          "profile_name": "eSUN PLA-Lite"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -17019,7 +17309,18 @@
       "min_bed_temperature": null,
       "max_bed_temperature": null,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "orcaslicer": {
+          "generic_id": "GFL99",
+          "id": "00035",
+          "profile_name": "eSUN PLA-LW"
+        },
+        "crealityprint": {
+          "generic_id": "GFL99",
+          "id": "00035",
+          "profile_name": "eSUN PLA-LW"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -17067,12 +17368,17 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "OGFL05",
+          "id": "E1003",
           "profile_name": "eSUN PLA-Matte"
         },
         "elegooslicer": {
           "generic_id": "GFL99",
           "id": "OGFL05",
+          "profile_name": "eSUN PLA-Matte"
+        },
+        "crealityprint": {
+          "generic_id": "GFL99",
+          "id": "E1003",
           "profile_name": "eSUN PLA-Matte"
         }
       },
@@ -17126,7 +17432,18 @@
       "min_bed_temperature": 50,
       "max_bed_temperature": 70,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "orcaslicer": {
+          "generic_id": "GFL96",
+          "id": "E1002",
+          "profile_name": "eSUN PLA-Silk"
+        },
+        "crealityprint": {
+          "generic_id": "GFL96",
+          "id": "E1002",
+          "profile_name": "eSUN PLA-Silk"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -19066,7 +19383,12 @@
       "min_bed_temperature": null,
       "max_bed_temperature": null,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "orcaslicer": {
+          "id": "GFL56",
+          "profile_name": "Fiberon PA12-CF10"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -19083,7 +19405,12 @@
       "min_bed_temperature": null,
       "max_bed_temperature": null,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "orcaslicer": {
+          "id": "GFL59",
+          "profile_name": "Fiberon PA612-CF15"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -19100,7 +19427,12 @@
       "min_bed_temperature": null,
       "max_bed_temperature": null,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "orcaslicer": {
+          "id": "GFL72",
+          "profile_name": "Fiberon PA612-ESD"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -19117,7 +19449,12 @@
       "min_bed_temperature": null,
       "max_bed_temperature": null,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "orcaslicer": {
+          "id": "GFL57",
+          "profile_name": "Fiberon PA6-CF20"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -19134,7 +19471,12 @@
       "min_bed_temperature": null,
       "max_bed_temperature": null,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "orcaslicer": {
+          "id": "GFL58",
+          "profile_name": "Fiberon PA6-GF25"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -19151,7 +19493,12 @@
       "min_bed_temperature": null,
       "max_bed_temperature": null,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "orcaslicer": {
+          "id": "GFL60",
+          "profile_name": "Fiberon PET-CF17"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -19181,7 +19528,7 @@
         },
         "elegooslicer": {
           "generic_id": "GFG99",
-          "id": "GFL06",
+          "id": "OGFL06",
           "profile_name": "Fiberon PETG-ESD"
         }
       },
@@ -19201,7 +19548,13 @@
       "min_bed_temperature": null,
       "max_bed_temperature": null,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "orcaslicer": {
+          "generic_id": "GFG99",
+          "id": "GFL61",
+          "profile_name": "Fiberon PETG-rCF08"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -19235,7 +19588,13 @@
       "min_bed_temperature": null,
       "max_bed_temperature": null,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "orcaslicer": {
+          "generic_id": "GFT97",
+          "id": "GFL73",
+          "profile_name": "Fiberon PPS-GF20"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -19618,24 +19977,7 @@
       "brand_id": "81f6604e-03dc-59b3-879b-6fa1c0adb085",
       "material_id": "f4e10937-dccb-530e-94f7-d98f4fb56f33",
       "slug": "greenery_yellowish_green_shade",
-      "name": "PLA Greenery (Yellowish-Green Shade",
-      "density": 1.24,
-      "diameter_tolerance": 0.02,
-      "min_print_temperature": 190,
-      "max_print_temperature": 230,
-      "min_bed_temperature": 50,
-      "max_bed_temperature": 70,
-      "discontinued": false,
-      "slicer_settings": null,
-      "data_sheet_url": null,
-      "safety_sheet_url": null
-    },
-    {
-      "id": "073d9f25-34b4-5d80-ada4-956885d1f229",
-      "brand_id": "81f6604e-03dc-59b3-879b-6fa1c0adb085",
-      "material_id": "f4e10937-dccb-530e-94f7-d98f4fb56f33",
-      "slug": "mint_blue_delicate_combination_of_green",
-      "name": "PLA Mint Blue (Delicate Combination of Green",
+      "name": "PLA Greenery",
       "density": 1.24,
       "diameter_tolerance": 0.02,
       "min_print_temperature": 190,
@@ -20682,6 +21024,11 @@
           "generic_id": "GFB99",
           "id": "FFF02",
           "profile_name": "Flashforge ABS"
+        },
+        "crealityprint": {
+          "generic_id": "GFB99",
+          "id": "GFB99",
+          "profile_name": "Flashforge ABS"
         }
       },
       "data_sheet_url": null,
@@ -20717,7 +21064,13 @@
       "min_bed_temperature": 90,
       "max_bed_temperature": 110,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "crealityprint": {
+          "generic_id": "GFB98",
+          "id": "GFL99",
+          "profile_name": "Flashforge ASA"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -20737,12 +21090,12 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFB98",
-          "id": "GFB99",
+          "id": "GFL99",
           "profile_name": "Flashforge ASA Basic"
         },
         "elegooslicer": {
           "generic_id": "GFB98",
-          "id": "GFB99",
+          "id": "GFL99",
           "profile_name": "Flashforge ASA Basic"
         }
       },
@@ -20822,6 +21175,11 @@
         "elegooslicer": {
           "generic_id": "GFG99",
           "id": "FFF03",
+          "profile_name": "Flashforge PETG"
+        },
+        "crealityprint": {
+          "generic_id": "GFG99",
+          "id": "GFG99",
           "profile_name": "Flashforge PETG"
         }
       },
@@ -20952,6 +21310,11 @@
         "elegooslicer": {
           "generic_id": "GFL99",
           "id": "FFF01",
+          "profile_name": "Flashforge PLA"
+        },
+        "crealityprint": {
+          "generic_id": "GFL99",
+          "id": "GFL99",
           "profile_name": "Flashforge PLA"
         }
       },
@@ -23305,7 +23668,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "GFB99",
+          "id": "GFG99",
           "profile_name": "HATCHBOX PETG"
         },
         "superslicer": {
@@ -23313,7 +23676,7 @@
         },
         "elegooslicer": {
           "generic_id": "GFG99",
-          "id": "GFB99",
+          "id": "GFG99",
           "profile_name": "HATCHBOX PETG"
         }
       },
@@ -23458,7 +23821,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFL99",
+          "id": "GFB99",
           "profile_name": "HATCHBOX PLA"
         },
         "superslicer": {
@@ -25317,6 +25680,23 @@
       "safety_sheet_url": null
     },
     {
+      "id": "b1b0b28d-dbb5-502f-9b2f-886b847f4568",
+      "brand_id": "57ff0a1a-99bc-5b4b-8bdc-e9054ade5dea",
+      "material_id": "3637bacd-4a08-5d70-802f-c8b18790469d",
+      "slug": "pla_metal",
+      "name": "PLA Metal",
+      "density": 1.24,
+      "diameter_tolerance": 0.02,
+      "min_print_temperature": 190,
+      "max_print_temperature": 230,
+      "min_bed_temperature": 45,
+      "max_bed_temperature": 65,
+      "discontinued": false,
+      "slicer_settings": null,
+      "data_sheet_url": null,
+      "safety_sheet_url": null
+    },
+    {
       "id": "cde164dc-b6ad-5714-b15e-594cdcb7ee11",
       "brand_id": "157855d7-ed7f-5284-8131-0601f29884ed",
       "material_id": "f7224b65-9c01-5f7d-9d7b-2210b9b56bd0",
@@ -26500,7 +26880,7 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFNMK00",
+          "id": "OGFNMK00",
           "profile_name": "Numakers PLA+"
         },
         "elegooslicer": {
@@ -26644,7 +27024,7 @@
         },
         "elegooslicer": {
           "generic_id": "GFB98",
-          "id": "GFOT009_09",
+          "id": "GFOT009",
           "profile_name": "Overture ASA"
         }
       },
@@ -26872,10 +27252,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFL05",
+          "id": "OGFL05",
           "profile_name": "Overture Matte PLA"
         },
         "elegooslicer": {
+          "generic_id": "GFL99",
+          "id": "OGFL05",
+          "profile_name": "Overture Matte PLA"
+        },
+        "crealityprint": {
           "generic_id": "GFL99",
           "id": "GFL05",
           "profile_name": "Overture Matte PLA"
@@ -26908,13 +27293,18 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFL04",
+          "id": "OGFL04",
           "profile_name": "Overture PLA"
         },
         "superslicer": {
           "profile_name": "Overture PLA"
         },
         "elegooslicer": {
+          "generic_id": "GFL99",
+          "id": "OGFL04",
+          "profile_name": "Overture PLA"
+        },
+        "crealityprint": {
           "generic_id": "GFL99",
           "id": "GFL04",
           "profile_name": "Overture PLA"
@@ -26995,7 +27385,7 @@
         },
         "elegooslicer": {
           "generic_id": "GFL96",
-          "id": "GFOT002_01",
+          "id": "GFOT002",
           "profile_name": "Overture Silk PLA"
         }
       },
@@ -27101,7 +27491,7 @@
         },
         "elegooslicer": {
           "generic_id": "GFU99",
-          "id": "GFOT008_04",
+          "id": "GFOT008",
           "profile_name": "Overture TPU"
         }
       },
@@ -27461,7 +27851,7 @@
         },
         "elegooslicer": {
           "generic_id": "GFL96",
-          "id": "GFPM004",
+          "id": "OGFPM004",
           "profile_name": "Panchroma PLA Silk"
         }
       },
@@ -27959,10 +28349,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFB99",
-          "id": "GFB60",
+          "id": "OGFB60",
           "profile_name": "PolyLite ABS"
         },
         "elegooslicer": {
+          "generic_id": "GFB99",
+          "id": "OGFB60",
+          "profile_name": "PolyLite ABS"
+        },
+        "crealityprint": {
           "generic_id": "GFB99",
           "id": "GFB60",
           "profile_name": "PolyLite ABS"
@@ -28043,10 +28438,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFB98",
-          "id": "GFB61",
+          "id": "OGFB61",
           "profile_name": "PolyLite ASA"
         },
         "elegooslicer": {
+          "generic_id": "GFB98",
+          "id": "OGFB61",
+          "profile_name": "PolyLite ASA"
+        },
+        "crealityprint": {
           "generic_id": "GFB98",
           "id": "GFB61",
           "profile_name": "PolyLite ASA"
@@ -28110,10 +28510,15 @@
         },
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "GFG60",
+          "id": "PMPE04",
           "profile_name": "PolyLite PETG"
         },
         "elegooslicer": {
+          "generic_id": "GFG99",
+          "id": "OGFG60",
+          "profile_name": "PolyLite PETG"
+        },
+        "crealityprint": {
           "generic_id": "GFG99",
           "id": "GFG60",
           "profile_name": "PolyLite PETG"
@@ -28231,12 +28636,17 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFL00",
+          "id": "1393866034",
           "profile_name": "PolyLite PLA"
         },
         "elegooslicer": {
           "generic_id": "GFL99",
-          "id": "GFL00",
+          "id": "1393866034",
+          "profile_name": "PolyLite PLA"
+        },
+        "crealityprint": {
+          "generic_id": "GFL99",
+          "id": "1393866034",
           "profile_name": "PolyLite PLA"
         }
       },
@@ -28281,7 +28691,7 @@
         },
         "elegooslicer": {
           "generic_id": "GFL99",
-          "id": "GFPM019",
+          "id": "OGFPM019",
           "profile_name": "PolyLite PLA Pro"
         }
       },
@@ -28631,7 +29041,7 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "PMPE01",
+          "id": "GFL99",
           "profile_name": "Polymaker PETG"
         },
         "elegooslicer": {
@@ -28880,12 +29290,12 @@
       "slicer_settings": {
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFPM017",
+          "id": "PMPL02",
           "profile_name": "Polymaker HT-PLA"
         },
         "elegooslicer": {
           "generic_id": "GFL99",
-          "id": "GFPM017",
+          "id": "OGFPM017",
           "profile_name": "Polymaker HT-PLA"
         }
       },
@@ -28913,7 +29323,7 @@
         },
         "elegooslicer": {
           "generic_id": "GFL99",
-          "id": "GFPM018",
+          "id": "OGFPM018",
           "profile_name": "Polymaker HT-PLA-GF"
         }
       },
@@ -29154,7 +29564,13 @@
       "min_bed_temperature": 50,
       "max_bed_temperature": 70,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "orcaslicer": {
+          "generic_id": "GFL99",
+          "id": "GFL78",
+          "profile_name": "Polymaker PLA"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -29624,7 +30040,18 @@
       "min_bed_temperature": null,
       "max_bed_temperature": null,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "orcaslicer": {
+          "generic_id": "GFL99",
+          "id": "P1004",
+          "profile_name": "PolySonic PLA"
+        },
+        "crealityprint": {
+          "generic_id": "GFL99",
+          "id": "P1004",
+          "profile_name": "PolySonic PLA"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -29641,7 +30068,18 @@
       "min_bed_temperature": null,
       "max_bed_temperature": null,
       "discontinued": false,
-      "slicer_settings": null,
+      "slicer_settings": {
+        "orcaslicer": {
+          "generic_id": "GFL99",
+          "id": "P1002",
+          "profile_name": "PolySonic PLA Pro"
+        },
+        "crealityprint": {
+          "generic_id": "GFL99",
+          "id": "P1002",
+          "profile_name": "PolySonic PLA Pro"
+        }
+      },
       "data_sheet_url": null,
       "safety_sheet_url": null
     },
@@ -32810,6 +33248,11 @@
           "generic_id": "GFB98",
           "id": "GFB98",
           "profile_name": "Prusament ASA"
+        },
+        "crealityprint": {
+          "generic_id": "GFB98",
+          "id": "GFB98",
+          "profile_name": "Prusament ASA"
         }
       },
       "data_sheet_url": null,
@@ -32878,6 +33321,11 @@
           "generic_id": "GFC99",
           "id": "GFC99",
           "profile_name": "Prusament PC Blend"
+        },
+        "crealityprint": {
+          "generic_id": "GFC99",
+          "id": "GFL99_1",
+          "profile_name": "Prusament PC Blend"
         }
       },
       "data_sheet_url": null,
@@ -32905,6 +33353,11 @@
         "elegooslicer": {
           "generic_id": "GFC99",
           "id": "GFC98",
+          "profile_name": "Prusament PC-CF"
+        },
+        "crealityprint": {
+          "generic_id": "GFC99",
+          "id": "GFL99_1",
           "profile_name": "Prusament PC-CF"
         }
       },
@@ -33007,6 +33460,11 @@
         "elegooslicer": {
           "generic_id": "GFG99",
           "id": "GFT02",
+          "profile_name": "Prusament PETG"
+        },
+        "crealityprint": {
+          "generic_id": "GFG99",
+          "id": "GFL99_1",
           "profile_name": "Prusament PETG"
         }
       },
@@ -33131,6 +33589,11 @@
           "generic_id": "GFL99",
           "id": "GFL99",
           "profile_name": "Prusament PLA"
+        },
+        "crealityprint": {
+          "generic_id": "GFL99",
+          "id": "GFL99_1",
+          "profile_name": "Prusament PLA"
         }
       },
       "data_sheet_url": null,
@@ -33178,6 +33641,11 @@
         "elegooslicer": {
           "generic_id": "GFL99",
           "id": "GFL99",
+          "profile_name": "Prusament rPLA"
+        },
+        "crealityprint": {
+          "generic_id": "GFL99",
+          "id": "GFL99_1",
           "profile_name": "Prusament rPLA"
         }
       },
@@ -33265,6 +33733,10 @@
         },
         "elegooslicer": {
           "id": "GFS98",
+          "profile_name": "Prusament PVB"
+        },
+        "crealityprint": {
+          "id": "GFS99",
           "profile_name": "Prusament PVB"
         }
       },
@@ -34527,6 +34999,23 @@
       "max_print_temperature": 230,
       "min_bed_temperature": 50,
       "max_bed_temperature": 70,
+      "discontinued": false,
+      "slicer_settings": null,
+      "data_sheet_url": null,
+      "safety_sheet_url": null
+    },
+    {
+      "id": "0330ef95-6b14-5e60-87fe-ddd2d8fb0bc1",
+      "brand_id": "7cc09303-0bbc-5db1-8c6e-cd1419cb1f01",
+      "material_id": "264c3d08-bdc0-5bcc-ae8c-f31be0e232a6",
+      "slug": "petg",
+      "name": "PETG",
+      "density": 1.24,
+      "diameter_tolerance": 0.02,
+      "min_print_temperature": 230,
+      "max_print_temperature": 270,
+      "min_bed_temperature": null,
+      "max_bed_temperature": null,
       "discontinued": false,
       "slicer_settings": null,
       "data_sheet_url": null,
@@ -39164,12 +39653,12 @@
         },
         "orcaslicer": {
           "generic_id": "GFG99",
-          "id": "GFSNL08",
+          "id": "GFL99",
           "profile_name": "SUNLU PETG"
         },
         "elegooslicer": {
           "generic_id": "GFG99",
-          "id": "GFSNL08",
+          "id": "GFL99",
           "profile_name": "SUNLU PETG"
         }
       },
@@ -39405,12 +39894,12 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFSNL03",
+          "id": "OGFSNL03",
           "profile_name": "SUNLU PLA+"
         },
         "elegooslicer": {
           "generic_id": "GFL99",
-          "id": "GFSNL03",
+          "id": "OGFSNL03",
           "profile_name": "SUNLU PLA+"
         }
       },
@@ -39441,12 +39930,12 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFSNL04",
+          "id": "OGFSNL04",
           "profile_name": "SUNLU PLA+ 2.0"
         },
         "elegooslicer": {
           "generic_id": "GFL99",
-          "id": "GFSNL04",
+          "id": "OGFSNL04",
           "profile_name": "SUNLU PLA+ 2.0"
         }
       },
@@ -39542,12 +40031,12 @@
         },
         "orcaslicer": {
           "generic_id": "GFL99",
-          "id": "GFSNL02",
+          "id": "OGFSNL02",
           "profile_name": "SUNLU PLA Matte"
         },
         "elegooslicer": {
           "generic_id": "GFL99",
-          "id": "GFSNL02",
+          "id": "OGFSNL02",
           "profile_name": "SUNLU PLA Matte"
         }
       },
@@ -39694,12 +40183,12 @@
         },
         "orcaslicer": {
           "generic_id": "GFL96",
-          "id": "GFSNL05",
+          "id": "OGFSNL05",
           "profile_name": "SUNLU Silk PLA+"
         },
         "elegooslicer": {
           "generic_id": "GFL96",
-          "id": "GFSNL05",
+          "id": "OGFSNL05",
           "profile_name": "SUNLU Silk PLA+"
         }
       },
@@ -65880,6 +66369,19 @@
       "pantone": null
     },
     {
+      "id": "67fb6816-99cb-5445-9434-da2811608819",
+      "filament_id": "7c9eef7e-ab6b-5d52-92c4-16b43843e570",
+      "slug": "black",
+      "name": "Black",
+      "color_hex": "#484A49",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
       "id": "4a58758b-7b59-5b3b-aaf9-f101ff0e255c",
       "filament_id": "7c9eef7e-ab6b-5d52-92c4-16b43843e570",
       "slug": "red",
@@ -65904,6 +66406,19 @@
       "traits": {
         "matte": true
       },
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "f026ec5f-6e2f-5b51-97bf-b2a2016d1e44",
+      "filament_id": "7c9eef7e-ab6b-5d52-92c4-16b43843e570",
+      "slug": "white",
+      "name": "White",
+      "color_hex": "#F1F0ED",
+      "hex_variants": null,
+      "traits": null,
       "discontinued": false,
       "ral": null,
       "ncs": null,
@@ -75933,7 +76448,7 @@
       "color_hex": "#000000",
       "hex_variants": null,
       "traits": null,
-      "discontinued": false,
+      "discontinued": true,
       "ral": null,
       "ncs": null,
       "pantone": null
@@ -76121,6 +76636,19 @@
       "pantone": null
     },
     {
+      "id": "07dcddfd-a1fc-5fde-87e4-77759ab6aca1",
+      "filament_id": "dcedc4ef-0ced-5e53-a1d6-dce99dcd8791",
+      "slug": "dark_beige",
+      "name": "Dark Beige",
+      "color_hex": "#DBC8B6",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
       "id": "cacd79ed-808a-5615-96a8-8fda8ddbe864",
       "filament_id": "dcedc4ef-0ced-5e53-a1d6-dce99dcd8791",
       "slug": "dark_brown",
@@ -76160,6 +76688,58 @@
       "pantone": null
     },
     {
+      "id": "5d53f3c0-bdd9-5ada-9119-37a689ea867e",
+      "filament_id": "dcedc4ef-0ced-5e53-a1d6-dce99dcd8791",
+      "slug": "misty_blue",
+      "name": "Misty Blue",
+      "color_hex": "#688197",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "68e63899-f5df-5392-9525-86dc18025a1c",
+      "filament_id": "dcedc4ef-0ced-5e53-a1d6-dce99dcd8791",
+      "slug": "navy_blue",
+      "name": "Navy Blue",
+      "color_hex": "#0086D6",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "c95d4132-cff5-52b2-9685-0a8adc0e21ca",
+      "filament_id": "dcedc4ef-0ced-5e53-a1d6-dce99dcd8791",
+      "slug": "orange",
+      "name": "Orange",
+      "color_hex": "#FF671F",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "c3fb5dab-10d7-5606-9542-77f50514fd56",
+      "filament_id": "dcedc4ef-0ced-5e53-a1d6-dce99dcd8791",
+      "slug": "pine_green",
+      "name": "Pine Green",
+      "color_hex": "#034638",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
       "id": "bb6ca029-4f48-5c72-89dc-d0bef078ad3f",
       "filament_id": "dcedc4ef-0ced-5e53-a1d6-dce99dcd8791",
       "slug": "purple",
@@ -76168,6 +76748,19 @@
       "hex_variants": null,
       "traits": null,
       "discontinued": true,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "fdc40100-6b53-5f7f-95ba-1d0cb2679944",
+      "filament_id": "dcedc4ef-0ced-5e53-a1d6-dce99dcd8791",
+      "slug": "red",
+      "name": "Red",
+      "color_hex": "#D6001C",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
       "ral": null,
       "ncs": null,
       "pantone": null
@@ -79395,6 +79988,58 @@
       "slug": "for_ams_red",
       "name": "for AMS Red",
       "color_hex": "#DF3303",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "d0de3471-e6ed-5e15-aa37-0983025f647c",
+      "filament_id": "9e6fc089-f772-5231-a055-ee6a9be801c1",
+      "slug": "black",
+      "name": "Black",
+      "color_hex": "#000000",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "aab49999-4d3d-5d2f-85da-5f00e26ae0de",
+      "filament_id": "9e6fc089-f772-5231-a055-ee6a9be801c1",
+      "slug": "blue",
+      "name": "Blue",
+      "color_hex": "#061DCB",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "81bff8d0-0442-5a50-bd0f-d647414d9e7d",
+      "filament_id": "9e6fc089-f772-5231-a055-ee6a9be801c1",
+      "slug": "gray",
+      "name": "Gray",
+      "color_hex": "#6B6B6B",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "64e5258c-84d9-5958-8720-d26b2abd86ba",
+      "filament_id": "9e6fc089-f772-5231-a055-ee6a9be801c1",
+      "slug": "white",
+      "name": "White",
+      "color_hex": "#FFFFFF",
       "hex_variants": null,
       "traits": null,
       "discontinued": false,
@@ -87287,6 +87932,19 @@
       "slug": "red",
       "name": "Red",
       "color_hex": "#C01616",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "8f1fc2b3-fc1f-5cbe-b515-1c1d96857ebd",
+      "filament_id": "1f2280b4-6c65-5855-8252-775d34f75e5c",
+      "slug": "translucent_light_pink",
+      "name": "Translucent Light Pink",
+      "color_hex": "#FFDDEE",
       "hex_variants": null,
       "traits": null,
       "discontinued": false,
@@ -120461,21 +121119,8 @@
       "id": "5a4bdced-57cc-5107-a8ab-e3911a1a5d2f",
       "filament_id": "1fb968b3-4d1f-542d-a28e-7439cbf4284a",
       "slug": "yoda_green_pla_2",
-      "name": "Yoda Green) PLA 2",
+      "name": "Yoda Green",
       "color_hex": "#BBDB4B",
-      "hex_variants": null,
-      "traits": null,
-      "discontinued": false,
-      "ral": null,
-      "ncs": null,
-      "pantone": null
-    },
-    {
-      "id": "23c395d7-3761-5820-ad12-84634abd2e75",
-      "filament_id": "073d9f25-34b4-5d80-ada4-956885d1f229",
-      "slug": "blue_and_a_hint_of_white_pla_2",
-      "name": "Blue and a hint of White) PLA 2",
-      "color_hex": "#C6F3FD",
       "hex_variants": null,
       "traits": null,
       "discontinued": false,
@@ -120489,6 +121134,19 @@
       "slug": "black_2",
       "name": "Black 2",
       "color_hex": "#545252",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "52aa5585-c911-58b3-9fda-dcd827c79ac0",
+      "filament_id": "865bc1ab-6fe2-5e87-b66a-bce78c6bb8b0",
+      "slug": "blue_mint",
+      "name": "Blue Mint",
+      "color_hex": "#C6F3FD",
       "hex_variants": null,
       "traits": null,
       "discontinued": false,
@@ -151180,11 +151838,50 @@
       "pantone": null
     },
     {
+      "id": "3a8b2753-61cd-57b8-a1fb-78058ad4aaa5",
+      "filament_id": "c283f82d-41c4-5ef5-983b-0fe7b11d5874",
+      "slug": "green",
+      "name": "Green",
+      "color_hex": "#1FD44C",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
       "id": "3353f18d-191f-5f85-afd8-8048bc0ea563",
       "filament_id": "c283f82d-41c4-5ef5-983b-0fe7b11d5874",
       "slug": "lemon_yellow",
       "name": "Lemon Yellow",
       "color_hex": "#f7ef4f",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "ca626c78-ee52-515d-a254-fd325a952110",
+      "filament_id": "c283f82d-41c4-5ef5-983b-0fe7b11d5874",
+      "slug": "mint_green",
+      "name": "Mint Green",
+      "color_hex": "#22F4D3",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "3264b1df-0a6b-5b18-b9a2-5bfde01f3db8",
+      "filament_id": "c283f82d-41c4-5ef5-983b-0fe7b11d5874",
+      "slug": "orange",
+      "name": "Orange",
+      "color_hex": "#FF8F41",
       "hex_variants": null,
       "traits": null,
       "discontinued": false,
@@ -151250,6 +151947,19 @@
       "slug": "white",
       "name": "White",
       "color_hex": "#ffffff",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "68334b98-ae04-5e49-81ff-b2fd8b21ba48",
+      "filament_id": "c283f82d-41c4-5ef5-983b-0fe7b11d5874",
+      "slug": "yellow",
+      "name": "Yellow",
+      "color_hex": "#FED600",
       "hex_variants": null,
       "traits": null,
       "discontinued": false,
@@ -155058,6 +155768,19 @@
       "slug": "white",
       "name": "White",
       "color_hex": "#dedede",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "ec4c7c1b-16f3-5122-925f-de86557c8c19",
+      "filament_id": "b1b0b28d-dbb5-502f-9b2f-886b847f4568",
+      "slug": "aurora_green",
+      "name": "Aurora Green",
+      "color_hex": "#3A8D88",
       "hex_variants": null,
       "traits": null,
       "discontinued": false,
@@ -181607,6 +182330,19 @@
       "pantone": null
     },
     {
+      "id": "efcb4947-5fb7-527d-9f20-16369027953a",
+      "filament_id": "11f38fcc-6b20-55cf-9732-31f9cdc231a1",
+      "slug": "sunshine_yellow",
+      "name": "Sunshine Yellow",
+      "color_hex": "#F9DA07",
+      "hex_variants": null,
+      "traits": null,
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
       "id": "b4a7d111-417e-5ba0-81e3-50f65e068bba",
       "filament_id": "11f38fcc-6b20-55cf-9732-31f9cdc231a1",
       "slug": "wood_brown",
@@ -183782,6 +184518,19 @@
         "glitter": true,
         "industrially_compostable": true
       },
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "4318549f-6a54-5f3f-bbea-34644d846c77",
+      "filament_id": "2ed3394e-3905-5161-a603-6d0d1ed6bf63",
+      "slug": "starlight_midnight",
+      "name": "Starlight Midnight",
+      "color_hex": "#475A64",
+      "hex_variants": null,
+      "traits": null,
       "discontinued": false,
       "ral": null,
       "ncs": null,
@@ -208709,6 +209458,19 @@
         "recycled": true,
         "industrially_compostable": true
       },
+      "discontinued": false,
+      "ral": null,
+      "ncs": null,
+      "pantone": null
+    },
+    {
+      "id": "5f278190-5462-5ae6-ab85-9be17ee676d8",
+      "filament_id": "0330ef95-6b14-5e60-87fe-ddd2d8fb0bc1",
+      "slug": "clear",
+      "name": "Clear",
+      "color_hex": "#FFFFFF",
+      "hex_variants": null,
+      "traits": null,
       "discontinued": false,
       "ral": null,
       "ncs": null,
@@ -234769,24 +235531,11 @@
       "filament_id": "a1071886-f16a-5c75-9087-3552e6f38dff",
       "slug": "olive_green",
       "name": "Olive Green",
-      "color_hex": "#BAB86C",
+      "color_hex": "#808000",
       "hex_variants": null,
       "traits": {
         "industrially_compostable": true
       },
-      "discontinued": false,
-      "ral": null,
-      "ncs": null,
-      "pantone": null
-    },
-    {
-      "id": "34b2d05d-2080-5800-bb84-8bc684b504db",
-      "filament_id": "a1071886-f16a-5c75-9087-3552e6f38dff",
-      "slug": "oliver_green",
-      "name": "Oliver Green",
-      "color_hex": "#617943",
-      "hex_variants": null,
-      "traits": null,
       "discontinued": false,
       "ral": null,
       "ncs": null,
@@ -235588,20 +236337,7 @@
       "filament_id": "5047327d-55ae-5182-a166-cc272cbe38c1",
       "slug": "olive_green",
       "name": "Olive Green",
-      "color_hex": "#2BB7E1",
-      "hex_variants": null,
-      "traits": null,
-      "discontinued": false,
-      "ral": null,
-      "ncs": null,
-      "pantone": null
-    },
-    {
-      "id": "c4731157-551e-5fbf-8ef9-25b466ee23ac",
-      "filament_id": "5047327d-55ae-5182-a166-cc272cbe38c1",
-      "slug": "oliver_green",
-      "name": "Oliver Green",
-      "color_hex": "#2BB7E1",
+      "color_hex": "#808000",
       "hex_variants": null,
       "traits": null,
       "discontinued": false,
@@ -235697,8 +236433,8 @@
       "id": "691ba73a-1952-53cc-a72b-2babff4b10d1",
       "filament_id": "5047327d-55ae-5182-a166-cc272cbe38c1",
       "slug": "roasted_chesnut",
-      "name": "Roasted Chesnut",
-      "color_hex": "#9D8C7C",
+      "name": "Roasted Chestnut",
+      "color_hex": "#3E2B2E",
       "hex_variants": null,
       "traits": null,
       "discontinued": false,
@@ -269517,6 +270253,18 @@
       "discontinued": false
     },
     {
+      "id": "4ca2aac0-651c-55cd-acf8-2c7e504cec39",
+      "variant_id": "67fb6816-99cb-5445-9434-da2811608819",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": null,
+      "spool_core_diameter": 100,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": null,
+      "discontinued": false
+    },
+    {
       "id": "ba0b7aa4-772b-59eb-9112-c63d2c72683e",
       "variant_id": "4a58758b-7b59-5b3b-aaf9-f101ff0e255c",
       "filament_weight": 1000,
@@ -269538,6 +270286,18 @@
       "spool_refill": false,
       "gtin": null,
       "article_number": "hygrb-102",
+      "discontinued": false
+    },
+    {
+      "id": "b8251b72-1315-58fc-8959-4bc61308f104",
+      "variant_id": "f026ec5f-6e2f-5b51-97bf-b2a2016d1e44",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": null,
+      "spool_core_diameter": 100,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": null,
       "discontinued": false
     },
     {
@@ -278058,7 +278818,7 @@
       "spool_refill": false,
       "gtin": "6975337038269",
       "article_number": null,
-      "discontinued": false
+      "discontinued": true
     },
     {
       "id": "8bdba729-af8c-5404-9892-88026ebd6cdd",
@@ -278070,7 +278830,7 @@
       "spool_refill": true,
       "gtin": "6975337038269",
       "article_number": null,
-      "discontinued": false
+      "discontinued": true
     },
     {
       "id": "57565812-55a5-5761-9057-6c0a9af186f3",
@@ -278094,7 +278854,7 @@
       "spool_refill": true,
       "gtin": null,
       "article_number": null,
-      "discontinued": false
+      "discontinued": true
     },
     {
       "id": "f9e3075f-38ac-50ae-82da-655b4c1aa04a",
@@ -278106,7 +278866,7 @@
       "spool_refill": true,
       "gtin": null,
       "article_number": null,
-      "discontinued": false
+      "discontinued": true
     },
     {
       "id": "33250970-8b86-56bc-b8bf-ad96834be042",
@@ -278130,7 +278890,7 @@
       "spool_refill": false,
       "gtin": "6975337038214",
       "article_number": null,
-      "discontinued": false
+      "discontinued": true
     },
     {
       "id": "e8c7ef9c-51af-54f0-bf2f-6074cc48ef97",
@@ -278142,7 +278902,7 @@
       "spool_refill": true,
       "gtin": "6975337038214",
       "article_number": null,
-      "discontinued": false
+      "discontinued": true
     },
     {
       "id": "b91aff85-9577-5775-97f5-b7b719ea1bf4",
@@ -278154,7 +278914,7 @@
       "spool_refill": true,
       "gtin": null,
       "article_number": null,
-      "discontinued": false
+      "discontinued": true
     },
     {
       "id": "d119868a-5ed1-55e5-93ca-124c501bb868",
@@ -278166,7 +278926,7 @@
       "spool_refill": true,
       "gtin": null,
       "article_number": null,
-      "discontinued": false
+      "discontinued": true
     },
     {
       "id": "40bcef7e-2efe-5f8b-971a-68c7535d62cd",
@@ -278178,7 +278938,7 @@
       "spool_refill": true,
       "gtin": null,
       "article_number": null,
-      "discontinued": false
+      "discontinued": true
     },
     {
       "id": "dc6116dc-174a-59a3-b706-008adee7cfa3",
@@ -278190,7 +278950,7 @@
       "spool_refill": true,
       "gtin": null,
       "article_number": null,
-      "discontinued": false
+      "discontinued": true
     },
     {
       "id": "d7f0454c-64f9-55fd-908b-f7aecd804a24",
@@ -278202,7 +278962,7 @@
       "spool_refill": true,
       "gtin": null,
       "article_number": null,
-      "discontinued": false
+      "discontinued": true
     },
     {
       "id": "a3c96574-e145-55db-aa54-5cfd89c5d7f2",
@@ -278214,7 +278974,7 @@
       "spool_refill": false,
       "gtin": "6975337038245",
       "article_number": null,
-      "discontinued": false
+      "discontinued": true
     },
     {
       "id": "e0397c43-a97b-5e38-8988-7acaabb5fe4e",
@@ -278226,7 +278986,7 @@
       "spool_refill": true,
       "gtin": "6975337038245",
       "article_number": null,
-      "discontinued": false
+      "discontinued": true
     },
     {
       "id": "6d59a61c-eab4-51ec-b8f0-cdf8300078c1",
@@ -278250,7 +279010,7 @@
       "spool_refill": true,
       "gtin": "6975337038207",
       "article_number": null,
-      "discontinued": false
+      "discontinued": true
     },
     {
       "id": "d20efcbd-b024-50a3-9e87-30cd520c8b98",
@@ -278274,7 +279034,7 @@
       "spool_refill": true,
       "gtin": "6975337038238",
       "article_number": null,
-      "discontinued": false
+      "discontinued": true
     },
     {
       "id": "2523c3d3-2f83-52be-adbf-e8d180067ba7",
@@ -278291,6 +279051,30 @@
     {
       "id": "329b0d68-7183-567b-a4ea-ae2e05e394b8",
       "variant_id": "48ce736e-7421-5679-b01d-75d8e5057419",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 250,
+      "spool_core_diameter": 100,
+      "spool_refill": true,
+      "gtin": "6937285509888",
+      "article_number": null,
+      "discontinued": false
+    },
+    {
+      "id": "8c334e7f-30cc-57ef-aa13-8bc6a0f64910",
+      "variant_id": "48ce736e-7421-5679-b01d-75d8e5057419",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 250,
+      "spool_core_diameter": 100,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": null,
+      "discontinued": false
+    },
+    {
+      "id": "5d5e3880-b492-5fbf-9ac0-a8888affb26e",
+      "variant_id": "07dcddfd-a1fc-5fde-87e4-77759ab6aca1",
       "filament_weight": 1000,
       "diameter": 1.75,
       "empty_spool_weight": 250,
@@ -278337,6 +279121,54 @@
       "discontinued": false
     },
     {
+      "id": "58cce788-ad66-5427-81b9-37ae9a9ea038",
+      "variant_id": "5d53f3c0-bdd9-5ada-9119-37a689ea867e",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 250,
+      "spool_core_diameter": 100,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": null,
+      "discontinued": false
+    },
+    {
+      "id": "3b92882e-7a53-5c81-a0b9-367ad2bda28f",
+      "variant_id": "68e63899-f5df-5392-9525-86dc18025a1c",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 250,
+      "spool_core_diameter": 100,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": null,
+      "discontinued": false
+    },
+    {
+      "id": "6b1a96e6-166e-569d-9a9f-44e15771b3d5",
+      "variant_id": "c95d4132-cff5-52b2-9685-0a8adc0e21ca",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 250,
+      "spool_core_diameter": 100,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": null,
+      "discontinued": false
+    },
+    {
+      "id": "ea4ff96b-72df-520e-a5ed-709b499174fb",
+      "variant_id": "c3fb5dab-10d7-5606-9542-77f50514fd56",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 250,
+      "spool_core_diameter": 100,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": null,
+      "discontinued": false
+    },
+    {
       "id": "d101059e-da52-5efa-96d3-c26ee36bc38b",
       "variant_id": "bb6ca029-4f48-5c72-89dc-d0bef078ad3f",
       "filament_weight": 1000,
@@ -278345,6 +279177,18 @@
       "spool_core_diameter": null,
       "spool_refill": false,
       "gtin": "6975337032830",
+      "article_number": null,
+      "discontinued": false
+    },
+    {
+      "id": "f42bdf63-5b5c-54d2-93c9-5980ac178c90",
+      "variant_id": "fdc40100-6b53-5f7f-95ba-1d0cb2679944",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 250,
+      "spool_core_diameter": 100,
+      "spool_refill": false,
+      "gtin": null,
       "article_number": null,
       "discontinued": false
     },
@@ -281679,6 +282523,54 @@
       "diameter": 1.75,
       "empty_spool_weight": null,
       "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": null,
+      "discontinued": false
+    },
+    {
+      "id": "c829f7c5-d334-5ab0-ac74-9ebf956d376a",
+      "variant_id": "d0de3471-e6ed-5e15-aa37-0983025f647c",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 250,
+      "spool_core_diameter": 100,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": null,
+      "discontinued": false
+    },
+    {
+      "id": "ed6d1670-e38e-5d19-90f9-569c5bea35d1",
+      "variant_id": "aab49999-4d3d-5d2f-85da-5f00e26ae0de",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 250,
+      "spool_core_diameter": 100,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": null,
+      "discontinued": false
+    },
+    {
+      "id": "43419ccc-c51e-5174-b6ae-ff4cef5e1bc2",
+      "variant_id": "81bff8d0-0442-5a50-bd0f-d647414d9e7d",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 250,
+      "spool_core_diameter": 100,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": null,
+      "discontinued": false
+    },
+    {
+      "id": "9b315bcf-dee7-5094-865d-77e5c01a75c4",
+      "variant_id": "64e5258c-84d9-5958-8720-d26b2abd86ba",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 250,
+      "spool_core_diameter": 100,
       "spool_refill": false,
       "gtin": null,
       "article_number": null,
@@ -287751,6 +288643,18 @@
       "diameter": 1.75,
       "empty_spool_weight": null,
       "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": null,
+      "discontinued": false
+    },
+    {
+      "id": "0dcf4cd5-3674-5955-a5e0-7d88b4429228",
+      "variant_id": "8f1fc2b3-fc1f-5cbe-b515-1c1d96857ebd",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 250,
+      "spool_core_diameter": 100,
       "spool_refill": false,
       "gtin": null,
       "article_number": null,
@@ -318141,8 +319045,8 @@
       "discontinued": false
     },
     {
-      "id": "77fe1277-19eb-58ec-ba8a-36a512a09cb3",
-      "variant_id": "23c395d7-3761-5820-ad12-84634abd2e75",
+      "id": "8fbe43ca-961d-5394-84d7-8e81121cfcc2",
+      "variant_id": "2f3a91f3-4da0-5a34-9e11-5b3653ed7c1b",
       "filament_weight": 1000,
       "diameter": 1.75,
       "empty_spool_weight": null,
@@ -318153,12 +319057,12 @@
       "discontinued": false
     },
     {
-      "id": "8fbe43ca-961d-5394-84d7-8e81121cfcc2",
-      "variant_id": "2f3a91f3-4da0-5a34-9e11-5b3653ed7c1b",
+      "id": "ee1c8060-1392-5029-b107-3aa4129b8c70",
+      "variant_id": "52aa5585-c911-58b3-9fda-dcd827c79ac0",
       "filament_weight": 1000,
       "diameter": 1.75,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
+      "empty_spool_weight": 250,
+      "spool_core_diameter": 100,
       "spool_refill": false,
       "gtin": null,
       "article_number": null,
@@ -351513,6 +352417,18 @@
       "discontinued": false
     },
     {
+      "id": "0e79b162-12c5-55ed-993e-10579671c9d9",
+      "variant_id": "3a8b2753-61cd-57b8-a1fb-78058ad4aaa5",
+      "filament_weight": 1100,
+      "diameter": 1.75,
+      "empty_spool_weight": 126,
+      "spool_core_diameter": 56,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "03560313A",
+      "discontinued": false
+    },
+    {
       "id": "e58e91e6-b917-5f67-91dd-c6d27aa7eada",
       "variant_id": "3353f18d-191f-5f85-afd8-8048bc0ea563",
       "filament_weight": 1100,
@@ -351522,6 +352438,30 @@
       "spool_refill": false,
       "gtin": null,
       "article_number": null,
+      "discontinued": false
+    },
+    {
+      "id": "b6d6856a-54a3-53f7-a248-f1ae71a813c4",
+      "variant_id": "ca626c78-ee52-515d-a254-fd325a952110",
+      "filament_weight": 1100,
+      "diameter": 1.75,
+      "empty_spool_weight": 126,
+      "spool_core_diameter": 56,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "03860319A",
+      "discontinued": false
+    },
+    {
+      "id": "b252c4de-7496-5cc9-8dad-24e48f2c464f",
+      "variant_id": "3264b1df-0a6b-5b18-b9a2-5bfde01f3db8",
+      "filament_weight": 1100,
+      "diameter": 1.75,
+      "empty_spool_weight": 126,
+      "spool_core_diameter": 56,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "03860212A",
       "discontinued": false
     },
     {
@@ -351582,6 +352522,18 @@
       "spool_refill": false,
       "gtin": null,
       "article_number": null,
+      "discontinued": false
+    },
+    {
+      "id": "cb1789f3-aef3-5060-816d-c09907c3bc5f",
+      "variant_id": "68334b98-ae04-5e49-81ff-b2fd8b21ba48",
+      "filament_weight": 1100,
+      "diameter": 1.75,
+      "empty_spool_weight": 126,
+      "spool_core_diameter": 56,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "03660313A",
       "discontinued": false
     },
     {
@@ -354582,6 +355534,18 @@
       "spool_refill": false,
       "gtin": "5744006030924",
       "article_number": "Silk-White-01",
+      "discontinued": false
+    },
+    {
+      "id": "3056f749-0ebf-5f2e-a1d8-bcbac4a6c222",
+      "variant_id": "ec4c7c1b-16f3-5122-925f-de86557c8c19",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 189,
+      "spool_core_diameter": 54,
+      "spool_refill": false,
+      "gtin": "6979801400507",
+      "article_number": "PLAMI175AG1",
       "discontinued": false
     },
     {
@@ -402633,6 +403597,18 @@
       "discontinued": false
     },
     {
+      "id": "09dc8a9d-9003-517f-ae2a-e732243a7b9d",
+      "variant_id": "efcb4947-5fb7-527d-9f20-16369027953a",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 145,
+      "spool_core_diameter": 100,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": null,
+      "discontinued": false
+    },
+    {
       "id": "babb3ccc-673e-5c3a-8c41-1316c1236e01",
       "variant_id": "b4a7d111-417e-5ba0-81e3-50f65e068bba",
       "filament_weight": 1000,
@@ -404475,6 +405451,18 @@
       "diameter": 1.75,
       "empty_spool_weight": null,
       "spool_core_diameter": null,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": null,
+      "discontinued": false
+    },
+    {
+      "id": "1a6d8ec1-1288-5bb7-8ce6-96eb11586d6c",
+      "variant_id": "4318549f-6a54-5f3f-bbea-34644d846c77",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 145,
+      "spool_core_diameter": 100,
       "spool_refill": false,
       "gtin": null,
       "article_number": null,
@@ -427602,6 +428590,18 @@
       "spool_refill": false,
       "gtin": null,
       "article_number": null,
+      "discontinued": false
+    },
+    {
+      "id": "87b0a5dd-8990-5f87-8b15-0852b3f0957e",
+      "variant_id": "5f278190-5462-5ae6-ab85-9be17ee676d8",
+      "filament_weight": 1000,
+      "diameter": 1.75,
+      "empty_spool_weight": 126,
+      "spool_core_diameter": 56,
+      "spool_refill": false,
+      "gtin": null,
+      "article_number": "1528322",
       "discontinued": false
     },
     {
@@ -474813,150 +475813,6 @@
       "discontinued": false
     },
     {
-      "id": "53d52abf-a79b-5797-bbb8-8f1551ce4708",
-      "variant_id": "34b2d05d-2080-5800-bb84-8bc684b504db",
-      "filament_weight": 250,
-      "diameter": 1.75,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "86a109b5-89c3-57ae-b1e8-94f33d65fcf6",
-      "variant_id": "34b2d05d-2080-5800-bb84-8bc684b504db",
-      "filament_weight": 500,
-      "diameter": 1.75,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "7395491d-90d7-57b6-ba93-bd6b01869d22",
-      "variant_id": "34b2d05d-2080-5800-bb84-8bc684b504db",
-      "filament_weight": 1000,
-      "diameter": 1.75,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "3b8cb6dc-5afe-573d-977f-adbe5ba4fa97",
-      "variant_id": "34b2d05d-2080-5800-bb84-8bc684b504db",
-      "filament_weight": 2000,
-      "diameter": 1.75,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "8011f947-869d-5bfc-bd1a-b4400e0a6f7f",
-      "variant_id": "34b2d05d-2080-5800-bb84-8bc684b504db",
-      "filament_weight": 3000,
-      "diameter": 1.75,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "bf1c07cd-424a-5b9e-8188-5082db35b476",
-      "variant_id": "34b2d05d-2080-5800-bb84-8bc684b504db",
-      "filament_weight": 5000,
-      "diameter": 2.85,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "a0a04b3d-e4ca-5072-ba97-0c606a5f63a2",
-      "variant_id": "34b2d05d-2080-5800-bb84-8bc684b504db",
-      "filament_weight": 250,
-      "diameter": 2.85,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "e39f1dd9-1b83-506c-a148-ed82ea850d75",
-      "variant_id": "34b2d05d-2080-5800-bb84-8bc684b504db",
-      "filament_weight": 500,
-      "diameter": 2.85,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "167f56a5-23f7-583b-bc46-910c1ce950bb",
-      "variant_id": "34b2d05d-2080-5800-bb84-8bc684b504db",
-      "filament_weight": 1000,
-      "diameter": 2.85,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "3114eb4d-d007-5e41-9e99-8bc9c3543475",
-      "variant_id": "34b2d05d-2080-5800-bb84-8bc684b504db",
-      "filament_weight": 2000,
-      "diameter": 2.85,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "1229af9f-8785-5ddf-abd5-0adb7a7e53ac",
-      "variant_id": "34b2d05d-2080-5800-bb84-8bc684b504db",
-      "filament_weight": 3000,
-      "diameter": 2.85,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "3eaf4ccf-b863-5221-bafa-2adaf2c836f6",
-      "variant_id": "34b2d05d-2080-5800-bb84-8bc684b504db",
-      "filament_weight": 5000,
-      "diameter": 2.85,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
       "id": "047d0a66-384f-59b1-b5a1-f3a66bc0fd01",
       "variant_id": "5a6ab116-88c1-5ca5-8426-13a3842c8a21",
       "filament_weight": 1000,
@@ -479531,150 +480387,6 @@
     {
       "id": "1cc81187-bf79-5724-b892-94e02994db3f",
       "variant_id": "0359904b-798a-5010-b149-1056646990cf",
-      "filament_weight": 5000,
-      "diameter": 2.85,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "ef5c13ed-71ec-58a4-8386-c17cdeb8c0f7",
-      "variant_id": "c4731157-551e-5fbf-8ef9-25b466ee23ac",
-      "filament_weight": 250,
-      "diameter": 1.75,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "33279ea1-e899-5342-b837-fa0dc64d0b23",
-      "variant_id": "c4731157-551e-5fbf-8ef9-25b466ee23ac",
-      "filament_weight": 500,
-      "diameter": 1.75,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "d956f794-8f3f-504c-9ee0-6ac11a8fc218",
-      "variant_id": "c4731157-551e-5fbf-8ef9-25b466ee23ac",
-      "filament_weight": 1000,
-      "diameter": 1.75,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "569c7bf3-cffe-57b9-80e1-c3d5223c3247",
-      "variant_id": "c4731157-551e-5fbf-8ef9-25b466ee23ac",
-      "filament_weight": 2000,
-      "diameter": 1.75,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "6ab197a0-eceb-5bcb-b3db-c83b3495bb74",
-      "variant_id": "c4731157-551e-5fbf-8ef9-25b466ee23ac",
-      "filament_weight": 3000,
-      "diameter": 1.75,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "12f87774-1322-5018-9b04-305141994466",
-      "variant_id": "c4731157-551e-5fbf-8ef9-25b466ee23ac",
-      "filament_weight": 5000,
-      "diameter": 1.75,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "039800df-ba7a-5fdc-8d1a-563f3b31680c",
-      "variant_id": "c4731157-551e-5fbf-8ef9-25b466ee23ac",
-      "filament_weight": 250,
-      "diameter": 2.85,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "2f1dc39e-bc8b-587a-8047-68f65622c240",
-      "variant_id": "c4731157-551e-5fbf-8ef9-25b466ee23ac",
-      "filament_weight": 500,
-      "diameter": 2.85,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "c3f5f9d4-9ea5-5168-b0fd-39cf9326b23c",
-      "variant_id": "c4731157-551e-5fbf-8ef9-25b466ee23ac",
-      "filament_weight": 1000,
-      "diameter": 2.85,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "8fcce900-2fe8-5c14-b0a4-e1cbd0e7222b",
-      "variant_id": "c4731157-551e-5fbf-8ef9-25b466ee23ac",
-      "filament_weight": 2000,
-      "diameter": 2.85,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "c0d1f39e-f3fc-5968-912c-db9457aa409d",
-      "variant_id": "c4731157-551e-5fbf-8ef9-25b466ee23ac",
-      "filament_weight": 3000,
-      "diameter": 2.85,
-      "empty_spool_weight": null,
-      "spool_core_diameter": null,
-      "spool_refill": false,
-      "gtin": null,
-      "article_number": null,
-      "discontinued": false
-    },
-    {
-      "id": "39969a3a-2906-5708-ab7c-a2fe6a6b0cab",
-      "variant_id": "c4731157-551e-5fbf-8ef9-25b466ee23ac",
       "filament_weight": 5000,
       "diameter": 2.85,
       "empty_spool_weight": null,
