@@ -1,6 +1,6 @@
 # README
 
-Utility scripts for SpoolFlux development.
+Asset builders and update scripts for SpoolFlux filament data.
 
 ---
 
@@ -22,6 +22,98 @@ python3 build-ofdb-colors.py /path/to/open-filament-database
 |--------|---------|-------------|
 | `-o`, `--output <path>` | `ofdb-colors.json` | Output file path |
 | `--pretty` | off | Pretty-print JSON (larger, easier to inspect) |
+
+---
+
+## build-orca-filaments.py
+
+Builds individual OrcaSlicer filament preset `.json` files from a **locally cloned** Open Filament Database repository. Each active OFDB `filament.json` becomes one importable Orca filament preset; color variants and spool sizes are intentionally ignored.
+
+**Requirements:** Python 3.10+, no external packages.
+
+```bash
+python3 build-orca-filaments.py /path/to/open-filament-database
+
+# Only one manufacturer
+python3 build-orca-filaments.py /path/to/open-filament-database --brand Polymaker
+
+# Write 10 random presets for inspection
+python3 build-orca-filaments.py /path/to/open-filament-database --debug --seed 42
+
+# Restrict imported profiles to an OrcaSlicer printer profile
+python3 build-orca-filaments.py /path/to/open-filament-database --compatible-printer "Snapmaker U1 (0.4 nozzle)"
+
+# Also create one importable OrcaSlicer filament bundle
+python3 build-orca-filaments.py /path/to/open-filament-database --bundle "Filament presets.orca_filament"
+```
+
+| Option | Default | Description |
+|--------|---------|-------------|
+| `-o`, `--output-dir <path>` | `orca-filaments` | Output directory for OrcaSlicer preset JSON files |
+| `--bundle <path>` | `<output-dir>/<output-dir-name>.orca_filament` | Package generated JSON files into one importable `.orca_filament` file |
+| `--no-bundle` | off | Only write individual JSON files |
+| `-b`, `--brand <name>` | all brands | Only convert this manufacturer name or OFDB brand slug |
+| `--debug` | off | Convert only 10 random filaments after filtering |
+| `--seed <number>` | random | Deterministic random sample for `--debug` |
+| `--pretty` | off | Pretty-print JSON with two spaces instead of Orca-style tabs |
+| `--compatible-printer <name>` | none | Add a compatible OrcaSlicer printer name; repeat for multiple printers |
+| `--orca-version <version>` | `2.3.2.60` | Version string written to importable OrcaSlicer preset JSON files |
+
+Import the generated `.orca_filament` bundle in OrcaSlicer via **File → Import → Import Configs...**.
+
+---
+
+## update-orca-filaments.sh
+
+Convenience wrapper that **clones or updates** the OFDB repo and then runs `build-orca-filaments.py`.
+
+```bash
+# Clone/update + build all Orca filament presets
+./update-orca-filaments.sh
+
+# Only one manufacturer, with 10 random files for inspection
+./update-orca-filaments.sh --brand Bambu --debug --seed 7
+
+# Interactive multi-select for brands and materials
+./update-orca-filaments.sh --interactive
+
+# Non-interactive multi-select
+./update-orca-filaments.sh --brands bambu_lab rosa3d_filaments --materials PLA PETG
+
+# Custom output directory
+./update-orca-filaments.sh --brand "Bambu Lab" --output-dir orca-bambu
+
+# Bind presets to a printer profile known to OrcaSlicer
+./update-orca-filaments.sh --compatible-printer "Snapmaker U1 (0.4 nozzle)"
+
+# Create one importable bundle like OrcaSlicer's export does
+./update-orca-filaments.sh --brand Bambu --bundle "Bambu filament presets.orca_filament"
+
+# Only write individual JSON files, without a bundle
+./update-orca-filaments.sh --brand Bambu --no-bundle
+
+# Use an existing local clone without pulling
+./update-orca-filaments.sh --repo /tmp/open-filament-database --no-update
+```
+
+| Option | Default | Description |
+|--------|---------|-------------|
+| `--output-dir <path>` | `orca-filaments` | Output directory for OrcaSlicer preset JSON files |
+| `--bundle <path>` | `<output-dir>/<output-dir-name>.orca_filament` | Package generated JSON files into one importable `.orca_filament` file |
+| `--no-bundle` | off | Only write individual JSON files |
+| `--brand <name>` | all brands | Only convert this manufacturer name or OFDB brand slug |
+| `--brands <names...>` | all brands | Only convert these manufacturer names or OFDB brand slugs |
+| `--materials <names...>` | all materials | Only convert these OFDB material folders, e.g. `PLA PETG ABS` |
+| `--interactive` | off | Select brands and materials with terminal checkbox lists |
+| `--debug` | off | Convert only 10 random filaments after filtering |
+| `--seed <number>` | random | Deterministic random sample for `--debug` |
+| `--pretty` | off | Pretty-print JSON with two spaces |
+| `--compatible-printer <name>` | none | Add a compatible OrcaSlicer printer name; repeat for multiple printers |
+| `--orca-version <version>` | `2.3.2.60` | Version string written to preset JSON files |
+| `--repo <path>` | `/tmp/open-filament-database` | Path to local OFDB clone |
+| `--no-update` | off | Skip `git pull` if repo already exists |
+
+Interactive mode uses the cursor keys to move, Space to toggle a checkbox, `a` to select all, `n` to select none, and Enter to confirm.
 
 ---
 

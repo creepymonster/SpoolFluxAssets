@@ -195,3 +195,6 @@ profile_default/
 .spyproject
 
 site/
+
+# Generated OrcaSlicer filament presets
+orca-filaments/
