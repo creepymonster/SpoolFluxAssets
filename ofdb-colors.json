@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T12:01:27Z",
+  "generatedAt": "2026-09-26T15:13:28Z",
   "source": "https://github.com/OpenFilamentCollective/open-filament-database",
   "license": "MIT https://github.com/OpenFilamentCollective/open-filament-database/blob/main/LICENSE",
   "brands": [
@@ -9,6 +9,7 @@
       "name": "123-3D",
       "website": "https://www.123-3d.nl/3D-filament-p20.html",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "NL",
       "source": null
     },
@@ -18,6 +19,7 @@
       "name": "22 Network",
       "website": "https://22-network.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": null
     },
@@ -27,6 +29,7 @@
       "name": "3D-basics",
       "website": "https://3dbasics.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "AT",
       "source": "openprinttag"
     },
@@ -36,6 +39,7 @@
       "name": "3D Fuel",
       "website": "https://3dfuel.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -45,6 +49,7 @@
       "name": "3D Prima Basic",
       "website": "https://www.3dprima.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "Unknown",
       "source": null
     },
@@ -54,6 +59,7 @@
       "name": "3D Printing Canada",
       "website": "https://3dprintingcanada.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CA",
       "source": null
     },
@@ -63,6 +69,7 @@
       "name": "3DEA",
       "website": "https://www.3dea.co.nz/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "NZ",
       "source": null
     },
@@ -72,6 +79,7 @@
       "name": "3DE",
       "website": "https://3deksperten.dk/",
       "logo_name": "logo.jpg",
+      "has_logo": true,
       "origin": "DK",
       "source": null
     },
@@ -81,6 +89,7 @@
       "name": "3DFOX",
       "website": "https://www.3dfoxshop.cz/fox-refill/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CZ",
       "source": null
     },
@@ -90,6 +99,7 @@
       "name": "3DHoJor",
       "website": "https://3dhojor.com",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "Unknown",
       "source": null
     },
@@ -99,6 +109,7 @@
       "name": "3DJAKE",
       "website": "https://3djake.com",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "CZ",
       "source": "openprinttag"
     },
@@ -108,6 +119,7 @@
       "name": "3DO",
       "website": "https://3do.dk/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "EU",
       "source": null
     },
@@ -117,6 +129,7 @@
       "name": "3DPower",
       "website": "https://3dpower.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "PL",
       "source": "openprinttag"
     },
@@ -126,6 +139,7 @@
       "name": "3DXTech",
       "website": "https://3dxtech.com",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -135,6 +149,7 @@
       "name": "4D-Lab",
       "website": "https://4dlab.co/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CO",
       "source": null
     },
@@ -144,6 +159,7 @@
       "name": "Aceaddity",
       "website": "https://aceaddity.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -153,6 +169,7 @@
       "name": "Add-North",
       "website": "https://addnorth.com/",
       "logo_name": "logo.jpg",
+      "has_logo": true,
       "origin": "SE",
       "source": "openprinttag"
     },
@@ -162,6 +179,7 @@
       "name": "Altana",
       "website": "https://altana.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "DE",
       "source": "openprinttag"
     },
@@ -171,6 +189,7 @@
       "name": "Alzament",
       "website": "https://alzament.com",
       "logo_name": "logo.jpg",
+      "has_logo": true,
       "origin": "CZ",
       "source": "openprinttag"
     },
@@ -180,6 +199,7 @@
       "name": "AmazonBasics",
       "website": "https://amazonbasics.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -189,6 +209,7 @@
       "name": "Ambrosia",
       "website": "https://west3d.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": null
     },
@@ -198,6 +219,7 @@
       "name": "AmeLeis",
       "website": "https://www.amazon.com/s",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "Unknown",
       "source": "All data from Amazon. I could not find additional data"
     },
@@ -207,6 +229,7 @@
       "name": "American Filament",
       "website": "https://americanfilament.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -216,6 +239,7 @@
       "name": "Amolen",
       "website": "https://amolen.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -225,6 +249,7 @@
       "name": "Anycubic",
       "website": "https://www.anycubic.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -234,6 +259,7 @@
       "name": "Arianeplast",
       "website": "https://arianeplast.com",
       "logo_name": "logo.jpg",
+      "has_logo": true,
       "origin": "FR",
       "source": "openprinttag"
     },
@@ -243,6 +269,7 @@
       "name": "Artillery",
       "website": "https://artillery3d.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": "3D Filament Profiles"
     },
@@ -252,6 +279,7 @@
       "name": "ATARAXIA ART",
       "website": "https://ataraxiaart.com",
       "logo_name": "logo.jpg",
+      "has_logo": true,
       "origin": "CH",
       "source": "openprinttag"
     },
@@ -261,6 +289,7 @@
       "name": "Atomic Filament",
       "website": "https://atomicfilament.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -270,6 +299,7 @@
       "name": "AURAPOL",
       "website": "https://aurapol.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CZ",
       "source": "openprinttag"
     },
@@ -279,6 +309,7 @@
       "name": "AzureFilm",
       "website": "https://www.azurefilm.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "SL",
       "source": null
     },
@@ -288,6 +319,7 @@
       "name": "Bambu Lab",
       "website": "bambulab.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": "openprinttag"
     },
@@ -297,6 +329,7 @@
       "name": "BIQU",
       "website": "https://biqu.equipment/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -306,6 +339,7 @@
       "name": "Buddy3D",
       "website": "https://buddy3d.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CZ",
       "source": "openprinttag"
     },
@@ -315,6 +349,7 @@
       "name": "BuildVolume",
       "website": "https://www.buildvolume.co.za/buildvolume-filament",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "ZA",
       "source": null
     },
@@ -324,6 +359,7 @@
       "name": "C-tech",
       "website": "https://www.c-tech.info/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "Unknown",
       "source": null
     },
@@ -333,6 +369,7 @@
       "name": "CC3D",
       "website": "https://cc3d.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CH",
       "source": "openprinttag"
     },
@@ -342,6 +379,7 @@
       "name": "CHCKX",
       "website": "https://chckx3d.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": null
     },
@@ -351,6 +389,7 @@
       "name": "Clas Ohlson",
       "website": "https://www.clasohlson.com/",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "SE",
       "source": null
     },
@@ -360,6 +399,7 @@
       "name": "COEX 3D",
       "website": "https://coex3d.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -369,6 +409,7 @@
       "name": "colorFabb",
       "website": "https://colorfabb.com",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "NL",
       "source": "openprinttag"
     },
@@ -378,6 +419,7 @@
       "name": "Cookiecad",
       "website": "https://cookiecad.com",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -387,6 +429,7 @@
       "name": "Copymaster",
       "website": "https://copymaster3d.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "Unknown",
       "source": null
     },
@@ -396,6 +439,7 @@
       "name": "Creality",
       "website": "https://www.creality.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": "openprinttag"
     },
@@ -405,6 +449,7 @@
       "name": "Dancyn 3D Prints",
       "website": "https://www.dancyn3dprints.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": null
     },
@@ -414,6 +459,7 @@
       "name": "Das Filament",
       "website": "https://dasfilament.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "DE",
       "source": "openprinttag"
     },
@@ -423,6 +469,7 @@
       "name": "Devil Design",
       "website": "https://devildesign.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "PL",
       "source": "openprinttag"
     },
@@ -432,6 +479,7 @@
       "name": "Dremel",
       "website": "https://dremel.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -441,6 +489,7 @@
       "name": "DuramiC 3D",
       "website": "https://duramic3d.com/collections/all",
       "logo_name": "logo.jpg",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -450,6 +499,7 @@
       "name": "EasyPrint",
       "website": "https://primacreator.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "SW",
       "source": null
     },
@@ -459,6 +509,7 @@
       "name": "EconoFil",
       "website": "https://econofil.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CA",
       "source": "openprinttag"
     },
@@ -468,6 +519,7 @@
       "name": "ELEGOO",
       "website": "https://elegoo.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": "openprinttag"
     },
@@ -477,6 +529,7 @@
       "name": "Eolas Prints",
       "website": "https://eolasprints.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "ES",
       "source": "openprinttag"
     },
@@ -486,6 +539,7 @@
       "name": "EPAX",
       "website": "https://epax.com",
       "logo_name": "logo.jpg",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -495,6 +549,7 @@
       "name": "Eryone",
       "website": "https://eryone3d.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": "openprinttag"
     },
@@ -504,6 +559,7 @@
       "name": "eSUN 3D",
       "website": "https://esun3d.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": "openprinttag"
     },
@@ -513,6 +569,7 @@
       "name": "EUMAKERS",
       "website": "https://eumakers.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "IT",
       "source": "openprinttag"
     },
@@ -522,6 +579,7 @@
       "name": "extrudr",
       "website": "https://extrudr.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "AT",
       "source": "openprinttag"
     },
@@ -531,6 +589,7 @@
       "name": "Fiberlogy",
       "website": "https://fiberlogy.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "PL",
       "source": "openprinttag"
     },
@@ -540,6 +599,7 @@
       "name": "Fiberon",
       "website": "https://fiberon.polymaker.com/",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -549,6 +609,7 @@
       "name": "FiberThree",
       "website": "https://fiberthree.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "DE",
       "source": "openprinttag"
     },
@@ -558,6 +619,7 @@
       "name": "FilaCube",
       "website": "https://filacube.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -567,6 +629,7 @@
       "name": "Filamentive",
       "website": "https://filamentive.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "GB",
       "source": "openprinttag"
     },
@@ -576,6 +639,7 @@
       "name": "FilamentPM",
       "website": "https://filamentpm.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CZ",
       "source": "openprinttag"
     },
@@ -585,6 +649,7 @@
       "name": "Filamentree",
       "website": "https://filamentree.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "SK",
       "source": "openprinttag"
     },
@@ -594,6 +659,7 @@
       "name": "Filamentworld",
       "website": "https://filamentworld.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "DE",
       "source": "openprinttag"
     },
@@ -603,6 +669,7 @@
       "name": "Filatech",
       "website": "https://filatech.com",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "AE",
       "source": "openprinttag"
     },
@@ -612,6 +679,7 @@
       "name": "Filkemp",
       "website": "https://filkemp.com",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "PT",
       "source": "openprinttag"
     },
@@ -621,6 +689,7 @@
       "name": "Fillamentum",
       "website": "fillamentum.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CZ",
       "source": null
     },
@@ -630,6 +699,7 @@
       "name": "FLASHFORGE",
       "website": "https://www.flashforge.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "Unknown",
       "source": "openprinttag"
     },
@@ -639,6 +709,7 @@
       "name": "Floreon3D",
       "website": "https://floreon3d.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "GB",
       "source": "openprinttag"
     },
@@ -648,6 +719,7 @@
       "name": "FormFutura",
       "website": "https://formfutura.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "NL",
       "source": "openprinttag"
     },
@@ -657,6 +729,7 @@
       "name": "Forward AM",
       "website": "https://forwardam.com",
       "logo_name": "logo.jpg",
+      "has_logo": true,
       "origin": "DE",
       "source": "openprinttag"
     },
@@ -666,6 +739,7 @@
       "name": "Francofil",
       "website": "https://francofil.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "FR",
       "source": "openprinttag"
     },
@@ -675,6 +749,7 @@
       "name": "Fremover",
       "website": "https://fremover.net/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "Unknown",
       "source": null
     },
@@ -684,6 +759,7 @@
       "name": "Geeetech",
       "website": "https://geeetech.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CH",
       "source": "openprinttag"
     },
@@ -693,6 +769,7 @@
       "name": "GIANTARM",
       "website": "http://www.giantarm.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -702,6 +779,7 @@
       "name": "Gizmo Dorks",
       "website": "https://gizmodorks.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -711,6 +789,7 @@
       "name": "GST3D",
       "website": "https://gst3d.eu/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "ES",
       "source": null
     },
@@ -720,6 +799,7 @@
       "name": "Hatchbox",
       "website": "hatchbox3d.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": "openprinttag"
     },
@@ -729,6 +809,7 @@
       "name": "Henkel",
       "website": "https://henkel.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "DE",
       "source": "openprinttag"
     },
@@ -738,6 +819,7 @@
       "name": "Hobby Lobby",
       "website": "https://www.hobbylobby.com/search?query=filament",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "Unknown",
       "source": null
     },
@@ -747,6 +829,7 @@
       "name": "iBOSS 3D",
       "website": "https://www.iboss-3d.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -756,6 +839,7 @@
       "name": "IC3D",
       "website": "https://ic3d.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -765,6 +849,7 @@
       "name": "IEMAI",
       "website": "https://www.iemai3d.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -774,6 +859,7 @@
       "name": "igus",
       "website": "https://igus.com",
       "logo_name": "logo.jpg",
+      "has_logo": true,
       "origin": "DE",
       "source": "openprinttag"
     },
@@ -783,6 +869,7 @@
       "name": "IIID MAX",
       "website": "https://iiidmax.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -792,6 +879,7 @@
       "name": "Inland",
       "website": "https://www.microcenter.com/search/search_results.aspx?fq=category:Filaments+%26+Resins|754,brand:Inland,Diameter:1.75mm&rpp=96&sortby=pricelow&myStore=true",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -801,6 +889,7 @@
       "name": "Inslogic",
       "website": "https://www.inslogic3d.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -810,6 +899,7 @@
       "name": "iSangHu",
       "website": "https://www.isanghu3d.com/",
       "logo_name": "logo.jpg",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -819,6 +909,7 @@
       "name": "iSANMATE",
       "website": "https://isanmate.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CH",
       "source": "openprinttag"
     },
@@ -828,6 +919,7 @@
       "name": "JAYO",
       "website": "https://jayo3d.com/",
       "logo_name": "logo.jpg",
+      "has_logo": true,
       "origin": "HK",
       "source": "openprinttag"
     },
@@ -837,6 +929,7 @@
       "name": "Jessie",
       "website": "https://www.printedsolid.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": null
     },
@@ -846,6 +939,7 @@
       "name": "kexcelled",
       "website": "https://www.kexcelled3d.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -855,6 +949,7 @@
       "name": "Kimya",
       "website": "https://kimya.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "ES",
       "source": "openprinttag"
     },
@@ -864,6 +959,7 @@
       "name": "Kingroon",
       "website": "https://kingroon.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CH",
       "source": "openprinttag"
     },
@@ -873,6 +969,7 @@
       "name": "KiwiFil",
       "website": "https://kiwifil.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "NZ",
       "source": "openprinttag"
     },
@@ -882,6 +979,7 @@
       "name": "L3D",
       "website": "https://shop.lab3d.dk",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "DK",
       "source": null
     },
@@ -891,6 +989,7 @@
       "name": "Landu",
       "website": "https://landu3d.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -900,6 +999,7 @@
       "name": "LayerWorks Solutions",
       "website": "https://layerworkssolutions.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "LayerWorks Solutions"
     },
@@ -909,6 +1009,7 @@
       "name": "LDO",
       "website": "ldomotion.com",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -918,6 +1019,7 @@
       "name": "Liqcreate",
       "website": "https://liqcreate.com",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "NL",
       "source": "openprinttag"
     },
@@ -927,6 +1029,7 @@
       "name": "LOCYFENS",
       "website": "https://locyfens.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CH",
       "source": "openprinttag"
     },
@@ -936,6 +1039,7 @@
       "name": "lostboyslab",
       "website": "https://www.lostboyslab.com",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "SE",
       "source": null
     },
@@ -945,6 +1049,7 @@
       "name": "LOVOON",
       "website": "https://lovoon3d.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "Unknown",
       "source": null
     },
@@ -954,6 +1059,7 @@
       "name": "MarsWork",
       "website": "https://www.marswork3d.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "Unknown",
       "source": null
     },
@@ -963,6 +1069,7 @@
       "name": "Matter3D Inc",
       "website": "https://matter3dinc.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CA",
       "source": "openprinttag"
     },
@@ -972,6 +1079,7 @@
       "name": "MatterHackers",
       "website": "https://matterhackers.com",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -981,6 +1089,7 @@
       "name": "Mika3D",
       "website": "https://themika3d.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "Unknown",
       "source": null
     },
@@ -990,6 +1099,7 @@
       "name": "Mosaic",
       "website": "https://mosaic.com",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "CA",
       "source": "openprinttag"
     },
@@ -999,6 +1109,7 @@
       "name": "Nebula",
       "website": "https://nebulafilaments.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "PL",
       "source": null
     },
@@ -1008,6 +1119,7 @@
       "name": "NinjaTek",
       "website": "https://ninjatek.com",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -1017,6 +1129,7 @@
       "name": "Nobufil",
       "website": "https://nobufil.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "AT",
       "source": "openprinttag"
     },
@@ -1026,6 +1139,7 @@
       "name": "Numakers",
       "website": "https://numakers.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": null
     },
@@ -1035,6 +1149,7 @@
       "name": "Overture",
       "website": "https://overture3d.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -1044,6 +1159,7 @@
       "name": "OVV3D",
       "website": "https://ovv3d.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CH",
       "source": "openprinttag"
     },
@@ -1053,6 +1169,7 @@
       "name": "Panchroma",
       "website": "https://polymaker.com/panchroma/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -1062,6 +1179,7 @@
       "name": "Paramount 3D",
       "website": "https://paramount3d.com",
       "logo_name": "logo.jpg",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -1071,6 +1189,7 @@
       "name": "Patron EG",
       "website": "https://patron-3d.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "EG",
       "source": null
     },
@@ -1080,6 +1199,7 @@
       "name": "Phrozen",
       "website": "https://phrozen.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "TW",
       "source": "openprinttag"
     },
@@ -1089,6 +1209,7 @@
       "name": "Polar Filament",
       "website": "https://polarfilament.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -1098,6 +1219,7 @@
       "name": "PolyFlex",
       "website": "https://polymaker.com/",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -1107,6 +1229,7 @@
       "name": "PolyLite",
       "website": "https://polymaker.com/",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -1116,6 +1239,7 @@
       "name": "Polymaker",
       "website": "https://polymaker.com/",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "CN",
       "source": "openprinttag"
     },
@@ -1125,6 +1249,7 @@
       "name": "PolyMax",
       "website": "https://polymaker.com/",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -1134,6 +1259,7 @@
       "name": "PolyMide",
       "website": "https://polymaker.com/",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -1143,6 +1269,7 @@
       "name": "PolySonic",
       "website": "https://polymaker.com/",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -1152,6 +1279,7 @@
       "name": "Precision 3D Filament",
       "website": "https://precision3dfilament.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -1161,6 +1289,7 @@
       "name": "PrimaCreator",
       "website": "https://primacreator.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "SE",
       "source": "openprinttag"
     },
@@ -1170,6 +1299,7 @@
       "name": "PrimaSelect",
       "website": "https://primacreator.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "SW",
       "source": null
     },
@@ -1179,6 +1309,7 @@
       "name": "PrimaValue",
       "website": "https://primacreator.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "SW",
       "source": null
     },
@@ -1188,6 +1319,7 @@
       "name": "Print With Smile",
       "website": "https://printwithsmile.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CZ",
       "source": "openprinttag"
     },
@@ -1197,6 +1329,7 @@
       "name": "PrintedSolid",
       "website": "https://printedsolid.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -1206,6 +1339,7 @@
       "name": "Professional LAB",
       "website": "https://print-imagine.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "PL",
       "source": null
     },
@@ -1215,6 +1349,7 @@
       "name": "Prografen",
       "website": "https://prografen.com/",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "PL",
       "source": null
     },
@@ -1224,6 +1359,7 @@
       "name": "Proteor Print",
       "website": "https://www.proteordigital.com/category/all-products",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": null
     },
@@ -1233,6 +1369,7 @@
       "name": "Protopasta",
       "website": "https://protopasta.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -1242,6 +1379,7 @@
       "name": "Prusament",
       "website": "https://prusament.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CZ",
       "source": "openprinttag"
     },
@@ -1251,6 +1389,7 @@
       "name": "Push Plastic",
       "website": "https://pushplastic.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -1260,6 +1399,7 @@
       "name": "QIDI Tech",
       "website": "qidi3d.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -1269,6 +1409,7 @@
       "name": "Recreus",
       "website": "https://recreus.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "ES",
       "source": "openprinttag"
     },
@@ -1278,6 +1419,7 @@
       "name": "RecyclingFabrik",
       "website": "https://recyclingfabrik.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "DE",
       "source": "openprinttag"
     },
@@ -1287,6 +1429,7 @@
       "name": "Renkforce",
       "website": "https://das-renkforce.de/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "Unknown",
       "source": null
     },
@@ -1296,6 +1439,7 @@
       "name": "ROSA3D Filaments",
       "website": "https://rosa3d.pl",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "PL",
       "source": "Rosa3d.pl"
     },
@@ -1305,6 +1449,7 @@
       "name": "SainSmart",
       "website": "https://sainsmart.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -1314,6 +1459,7 @@
       "name": "Sakata 3D",
       "website": "https://sakata3d.com",
       "logo_name": "logo.jpg",
+      "has_logo": true,
       "origin": "ES",
       "source": "openprinttag"
     },
@@ -1323,6 +1469,7 @@
       "name": "Siddament",
       "website": "https://siddament.com.au",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "AU",
       "source": null
     },
@@ -1332,6 +1479,7 @@
       "name": "Siraya Tech",
       "website": "https://sirayatech.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "TW",
       "source": "openprinttag"
     },
@@ -1341,6 +1489,7 @@
       "name": "Slic3D",
       "website": "https://www.jaycar.co.nz/3d-printing/filament-3d-printing/3d-printer-filament/c/10AC?brand=SLIC3D",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "NZ",
       "source": null
     },
@@ -1350,6 +1499,7 @@
       "name": "SMART MATERIALS 3D",
       "website": "https://smartmaterials3d.com",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "ES",
       "source": "openprinttag"
     },
@@ -1359,6 +1509,7 @@
       "name": "SmartPrint",
       "website": "https://print-imagine.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "PL",
       "source": null
     },
@@ -1368,6 +1519,7 @@
       "name": "Snapmaker",
       "website": "https://snapmaker.com/",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -1377,6 +1529,7 @@
       "name": "SOVB 3D",
       "website": "https://sovb3d.com",
       "logo_name": "logo.jpg",
+      "has_logo": true,
       "origin": "FR",
       "source": "openprinttag"
     },
@@ -1386,6 +1539,7 @@
       "name": "Spectrum",
       "website": "https://spectrumfilaments.com/en/brand/spectrum-filaments-en/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "PL",
       "source": "openprinttag"
     },
@@ -1395,6 +1549,7 @@
       "name": "StrongHero3D",
       "website": "https://www.stronghero3d.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -1404,6 +1559,7 @@
       "name": "SUNLU",
       "website": "https://sunlu.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": "openprinttag"
     },
@@ -1413,6 +1569,7 @@
       "name": "TECBEARS",
       "website": "https://www.facebook.com/tecbears/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": "openprinttag"
     },
@@ -1422,6 +1579,7 @@
       "name": "Tectonic 3D",
       "website": "https://tectonic3d.com",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "NL",
       "source": "openprinttag"
     },
@@ -1431,6 +1589,7 @@
       "name": "TEQStone",
       "website": "https://www.amazon.com/stores/TEQStone/page/DD82ACF5-A630-47C4-9E2A-D3A68656737F",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -1440,6 +1599,7 @@
       "name": "The Filament",
       "website": "https://spectrumfilaments.com/en/brand/the-filament-en/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "PL",
       "source": null
     },
@@ -1449,6 +1609,7 @@
       "name": "TINMORRY",
       "website": "https://tinmorry.com",
       "logo_name": "logo.jpg",
+      "has_logo": true,
       "origin": "CH",
       "source": "openprinttag"
     },
@@ -1458,6 +1619,7 @@
       "name": "UniTak3D",
       "website": "https://www.amazon.com/stores/UniTak3D/page/4A9530C3-3F06-4FDD-ABA3-574C0C85C832",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -1467,6 +1629,7 @@
       "name": "VANYO",
       "website": "https://vanyofilament.com/",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "CN",
       "source": "Manufacturer website"
     },
@@ -1476,6 +1639,7 @@
       "name": "Verbatim",
       "website": "https://verbatim.com",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "DE",
       "source": "openprinttag"
     },
@@ -1485,6 +1649,7 @@
       "name": "Voxel PLA",
       "website": "https://voxelpla.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     },
@@ -1494,6 +1659,7 @@
       "name": "Voxelab",
       "website": "https://www.voxelab3dp.com",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "Unknown",
       "source": null
     },
@@ -1503,6 +1669,7 @@
       "name": "Würth",
       "website": "https://eshop.wuerth.de/",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "DE",
       "source": null
     },
@@ -1512,6 +1679,7 @@
       "name": "Winkle",
       "website": "https://winkle.com",
       "logo_name": "logo.svg",
+      "has_logo": true,
       "origin": "ES",
       "source": "openprinttag"
     },
@@ -1521,6 +1689,7 @@
       "name": "XZN",
       "website": "https://www.amazon.com/stores/XZN/page/3F9EF060-E315-4821-8C7E-04F10395D221",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -1530,6 +1699,7 @@
       "name": "YooPai",
       "website": "https://www.yoopai.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "US",
       "source": null
     },
@@ -1539,6 +1709,7 @@
       "name": "ZIRO 3D",
       "website": "https://ziro3d.com/",
       "logo_name": "logo.png",
+      "has_logo": true,
       "origin": "CN",
       "source": null
     },
@@ -1548,6 +1719,7 @@
       "name": "Zyltech",
       "website": "https://zyltech.com",
       "logo_name": "logo.jpg",
+      "has_logo": true,
       "origin": "US",
       "source": "openprinttag"
     }

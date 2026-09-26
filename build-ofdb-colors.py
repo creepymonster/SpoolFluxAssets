@@ -91,15 +91,15 @@ def _logo_converter() -> str:
 
 def _copy_logo(
     brand_dir: Path, brand_id: str, logo_name: object, logos_dir: Path, converter: str
-) -> None:
+) -> bool:
     """Convert a brand logo to PNG using the deterministic brand UUID as its filename."""
     if not isinstance(logo_name, str) or not logo_name:
-        return
+        return False
 
     source = brand_dir / logo_name
     if not source.is_file() or not source.suffix:
         print(f"Warning: logo not copied for '{brand_dir.name}': '{logo_name}'", file=sys.stderr)
-        return
+        return False
 
     logos_dir.mkdir(parents=True, exist_ok=True)
     destination = logos_dir / f"{brand_id}.png"
@@ -116,6 +116,8 @@ def _copy_logo(
     if result.returncode:
         message = result.stderr.strip() or result.stdout.strip()
         print(f"Warning: logo not converted for '{brand_dir.name}': {message}", file=sys.stderr)
+        return False
+    return True
 
 
 # ── Crawler ───────────────────────────────────────────────────────────────────
@@ -147,6 +149,7 @@ def crawl(repo_root: Path, logos_dir: Path, converter: str) -> dict:
         brand_json = _load(brand_dir / "brand.json") or {}
         brand_id = _uid(f"brand:{brand_slug}")
         logo_name = brand_json.get("logo")
+        has_logo = _copy_logo(brand_dir, brand_id, logo_name, logos_dir, converter)
 
         brands.append({
             "id":        brand_id,
@@ -154,10 +157,10 @@ def crawl(repo_root: Path, logos_dir: Path, converter: str) -> dict:
             "name":      brand_json.get("name", brand_slug),
             "website":   brand_json.get("website"),
             "logo_name": logo_name,
+            "has_logo":  has_logo,
             "origin":    brand_json.get("origin"),
             "source":    brand_json.get("source"),
         })
-        _copy_logo(brand_dir, brand_id, logo_name, logos_dir, converter)
 
         material_dirs = sorted(p for p in brand_dir.iterdir() if p.is_dir())
 
