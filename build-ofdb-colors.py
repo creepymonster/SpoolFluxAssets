@@ -27,6 +27,7 @@ When distributing the generated file include its copyright notice:
 import argparse
 import json
 import shutil
+import subprocess
 import sys
 import uuid
 from datetime import datetime, timezone
@@ -80,24 +81,46 @@ def _norm_hex(value: str | list | None) -> str | list[str] | None:
     return None
 
 
-def _copy_logo(brand_dir: Path, brand_id: str, logo_name: object, logos_dir: Path) -> None:
-    """Copy a brand logo using the deterministic brand UUID as its filename."""
+def _logo_converter() -> str:
+    """Return an available image converter that can create PNG files."""
+    for command in ("sips", "magick", "convert"):
+        if shutil.which(command):
+            return command
+    sys.exit("Error: PNG logo conversion requires sips or ImageMagick (magick/convert)")
+
+
+def _copy_logo(
+    brand_dir: Path, brand_id: str, logo_name: object, logos_dir: Path, converter: str
+) -> None:
+    """Convert a brand logo to PNG using the deterministic brand UUID as its filename."""
     if not isinstance(logo_name, str) or not logo_name:
         return
 
     source = brand_dir / logo_name
-    extension = source.suffix
-    if not source.is_file() or not extension:
+    if not source.is_file() or not source.suffix:
         print(f"Warning: logo not copied for '{brand_dir.name}': '{logo_name}'", file=sys.stderr)
         return
 
     logos_dir.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(source, logos_dir / f"{brand_id}{extension}")
+    destination = logos_dir / f"{brand_id}.png"
+    for previous_logo in logos_dir.glob(f"{brand_id}.*"):
+        if previous_logo != destination and previous_logo.is_file():
+            previous_logo.unlink()
+
+    if converter == "sips":
+        command = [converter, "-s", "format", "png", str(source), "--out", str(destination)]
+    else:
+        command = [converter, str(source), str(destination)]
+
+    result = subprocess.run(command, capture_output=True, text=True)
+    if result.returncode:
+        message = result.stderr.strip() or result.stdout.strip()
+        print(f"Warning: logo not converted for '{brand_dir.name}': {message}", file=sys.stderr)
 
 
 # ── Crawler ───────────────────────────────────────────────────────────────────
 
-def crawl(repo_root: Path, logos_dir: Path) -> dict:
+def crawl(repo_root: Path, logos_dir: Path, converter: str) -> dict:
     """
     Walk <repo_root>/data/ and build the all.json-compatible dictionary.
 
@@ -134,7 +157,7 @@ def crawl(repo_root: Path, logos_dir: Path) -> dict:
             "origin":    brand_json.get("origin"),
             "source":    brand_json.get("source"),
         })
-        _copy_logo(brand_dir, brand_id, logo_name, logos_dir)
+        _copy_logo(brand_dir, brand_id, logo_name, logos_dir, converter)
 
         material_dirs = sorted(p for p in brand_dir.iterdir() if p.is_dir())
 
@@ -283,7 +306,7 @@ def main() -> None:
         "--logos-dir",
         type=Path,
         default=Path("logos"),
-        help="Directory for copied brand logos (default: logos)",
+        help="Directory for PNG-converted brand logos (default: logos)",
     )
     parser.add_argument(
         "--pretty",
@@ -297,7 +320,7 @@ def main() -> None:
         sys.exit(f"Error: '{args.repo}' is not a directory")
 
     print(f"Crawling '{args.repo}' ...")
-    db = crawl(args.repo, args.logos_dir)
+    db = crawl(args.repo, args.logos_dir, _logo_converter())
 
     print("Result:")
     _stats(db)

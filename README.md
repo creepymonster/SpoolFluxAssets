@@ -12,7 +12,7 @@ The output format mirrors the official `all.json` release (flat `brands` / `mate
 
 UUIDs are deterministic (uuid5, path-based), so the same repo content always produces the same IDs across runs.
 
-**Requirements:** Python 3.10+, no external packages.
+**Requirements:** Python 3.10+ and a PNG converter: macOS includes `sips`; on other systems install ImageMagick (`magick` or `convert`). No Python packages are required.
 
 ```bash
 python3 build-ofdb-colors.py /path/to/open-filament-database
@@ -21,7 +21,7 @@ python3 build-ofdb-colors.py /path/to/open-filament-database
 | Option | Default | Description |
 |--------|---------|-------------|
 | `-o`, `--output <path>` | `ofdb-colors.json` | Output file path |
-| `--logos-dir <path>` | `logos` | Directory for copied brand logos, named `<brand-uuid>.<extension>` |
+| `--logos-dir <path>` | `logos` | Directory for converted brand logos, named `<brand-uuid>.png` |
 | `--pretty` | off | Pretty-print JSON (larger, easier to inspect) |
 
 ---
@@ -145,7 +145,7 @@ Convenience wrapper that **clones or updates** the OFDB repo and then runs `buil
 | Option | Default | Description |
 |--------|---------|-------------|
 | `--output <path>` | `ofdb-colors.json` | Output file path |
-| `--logos-dir <path>` | `logos` | Directory for copied brand logos, named `<brand-uuid>.<extension>` |
+| `--logos-dir <path>` | `logos` | Directory for converted brand logos, named `<brand-uuid>.png` |
 | `--repo <path>` | `/tmp/open-filament-database` | Path to local OFDB clone |
 | `--pretty` | off | Pretty-print JSON output |
 | `--no-update` | off | Skip `git pull` if repo already exists |

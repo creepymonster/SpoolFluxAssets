@@ -15,7 +15,7 @@
 #   --pretty          Pretty-print the output JSON
 #   --output <path>   Output file path (default: ofdb-colors.json)
 #   --logos-dir <path>
-#                     Directory for copied brand logos (default: logos)
+#                     Directory for PNG-converted brand logos (default: logos)
 #   --repo   <path>   Path to the local OFDB clone
 #                     (default: /tmp/open-filament-database)
 #   --no-update       Skip git pull if the repo already exists
