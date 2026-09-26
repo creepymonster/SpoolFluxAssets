@@ -21,6 +21,7 @@ python3 build-ofdb-colors.py /path/to/open-filament-database
 | Option | Default | Description |
 |--------|---------|-------------|
 | `-o`, `--output <path>` | `ofdb-colors.json` | Output file path |
+| `--logos-dir <path>` | `logos` | Directory for copied brand logos, named `<brand-uuid>.<extension>` |
 | `--pretty` | off | Pretty-print JSON (larger, easier to inspect) |
 
 ---
@@ -128,6 +129,9 @@ Convenience wrapper that **clones or updates** the OFDB repo and then runs `buil
 # Custom output path
 ./update-ofdb-colors.sh --output SpoolFlux/Resources/ofdb-colors.json
 
+# Copy brand logos to a custom asset directory
+./update-ofdb-colors.sh --logos-dir SpoolFlux/Resources/logos
+
 # Pretty-printed (for manual inspection)
 ./update-ofdb-colors.sh --pretty
 
@@ -141,6 +145,7 @@ Convenience wrapper that **clones or updates** the OFDB repo and then runs `buil
 | Option | Default | Description |
 |--------|---------|-------------|
 | `--output <path>` | `ofdb-colors.json` | Output file path |
+| `--logos-dir <path>` | `logos` | Directory for copied brand logos, named `<brand-uuid>.<extension>` |
 | `--repo <path>` | `/tmp/open-filament-database` | Path to local OFDB clone |
 | `--pretty` | off | Pretty-print JSON output |
 | `--no-update` | off | Skip `git pull` if repo already exists |

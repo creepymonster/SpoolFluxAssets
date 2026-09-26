@@ -26,6 +26,7 @@ When distributing the generated file include its copyright notice:
 
 import argparse
 import json
+import shutil
 import sys
 import uuid
 from datetime import datetime, timezone
@@ -79,9 +80,24 @@ def _norm_hex(value: str | list | None) -> str | list[str] | None:
     return None
 
 
+def _copy_logo(brand_dir: Path, brand_id: str, logo_name: object, logos_dir: Path) -> None:
+    """Copy a brand logo using the deterministic brand UUID as its filename."""
+    if not isinstance(logo_name, str) or not logo_name:
+        return
+
+    source = brand_dir / logo_name
+    extension = source.suffix
+    if not source.is_file() or not extension:
+        print(f"Warning: logo not copied for '{brand_dir.name}': '{logo_name}'", file=sys.stderr)
+        return
+
+    logos_dir.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(source, logos_dir / f"{brand_id}{extension}")
+
+
 # ── Crawler ───────────────────────────────────────────────────────────────────
 
-def crawl(repo_root: Path) -> dict:
+def crawl(repo_root: Path, logos_dir: Path) -> dict:
     """
     Walk <repo_root>/data/ and build the all.json-compatible dictionary.
 
@@ -107,16 +123,18 @@ def crawl(repo_root: Path) -> dict:
         # ── brand ──────────────────────────────────────────────────────────
         brand_json = _load(brand_dir / "brand.json") or {}
         brand_id = _uid(f"brand:{brand_slug}")
+        logo_name = brand_json.get("logo")
 
         brands.append({
             "id":        brand_id,
             "slug":      brand_slug,
             "name":      brand_json.get("name", brand_slug),
             "website":   brand_json.get("website"),
-            "logo_name": brand_json.get("logo"),
+            "logo_name": logo_name,
             "origin":    brand_json.get("origin"),
             "source":    brand_json.get("source"),
         })
+        _copy_logo(brand_dir, brand_id, logo_name, logos_dir)
 
         material_dirs = sorted(p for p in brand_dir.iterdir() if p.is_dir())
 
@@ -262,6 +280,12 @@ def main() -> None:
         help="Output file path (default: ofdb-colors.json)",
     )
     parser.add_argument(
+        "--logos-dir",
+        type=Path,
+        default=Path("logos"),
+        help="Directory for copied brand logos (default: logos)",
+    )
+    parser.add_argument(
         "--pretty",
         action="store_true",
         default=False,
@@ -273,7 +297,7 @@ def main() -> None:
         sys.exit(f"Error: '{args.repo}' is not a directory")
 
     print(f"Crawling '{args.repo}' ...")
-    db = crawl(args.repo)
+    db = crawl(args.repo, args.logos_dir)
 
     print("Result:")
     _stats(db)
